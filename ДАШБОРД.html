@@ -1,0 +1,407 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Роботакси Яндекса — система маркетинга пилота</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500;700&family=Onest:wght@500;700&display=swap">
+<style>
+/* Токены — те же, что в ЛЕНДИНГ/tokens.css. Скопированы, чтобы файл
+   открывался сам по себе, без соседних файлов. */
+:root{
+  --color-bg:#0B1618; --color-surface:#142225; --color-line:#24383B;
+  --color-line-strong:#557B7E; --color-text:#E7F1F0; --color-text-dim:#A0B6B7;
+  --color-accent:#35D6C4; --color-accent-hi:#5CE3D4; --color-on-accent:#05201E;
+  --color-glow:rgba(53,214,196,.22);
+  --font-display:"Onest","Golos Text",system-ui,sans-serif;
+  --font-text:"Golos Text","Onest",system-ui,sans-serif;
+  --text-hero:clamp(2.25rem,6.2vw,4.25rem);
+  --text-title:clamp(1.75rem,3.4vw,2.5rem);
+  --text-lead:clamp(1.125rem,1.5vw,1.375rem);
+  --text-body:1.0625rem; --text-small:1rem;
+  --line-tight:1.08; --line-base:1.55;
+  --tracking-tight:-.02em;
+  --space-1:4px;--space-2:8px;--space-3:12px;--space-4:16px;--space-6:24px;
+  --space-8:32px;--space-12:48px;--space-16:64px;--space-24:96px;
+  --radius-s:8px; --radius-card:20px; --radius-round:999px;
+  --shadow-soft:0 2px 24px rgba(0,0,0,.35);
+  --shadow-glow:0 0 0 1px var(--color-glow),0 8px 40px -12px var(--color-glow);
+  --motion-fast:170ms; --motion-ease:cubic-bezier(.2,.6,.3,1);
+  --page-max:1180px; --page-pad:clamp(var(--space-4),4vw,var(--space-16));
+}
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{
+  margin:0; background:var(--color-bg); color:var(--color-text);
+  font:var(--weight-regular,400) var(--text-body)/var(--line-base) var(--font-text);
+  -webkit-font-smoothing:antialiased; overflow-x:hidden;
+}
+.обёртка{max-width:var(--page-max);margin:0 auto;padding:0 var(--page-pad)}
+h1,h2,h3{font-family:var(--font-display);line-height:var(--line-tight);margin:0}
+h1{font-size:var(--text-hero);letter-spacing:var(--tracking-tight);font-weight:700}
+h2{font-size:var(--text-title);letter-spacing:var(--tracking-tight);font-weight:700}
+h3{font-size:1.1875rem;font-weight:500}
+p{margin:0}
+a{color:var(--color-accent)}
+
+/* ── Обложка ───────────────────────────────────────────────────────── */
+.обложка{
+  padding:clamp(var(--space-16),9vw,var(--space-24)) 0 var(--space-16);
+  border-bottom:1px solid var(--color-line);
+  background:
+    radial-gradient(120% 80% at 50% -10%, var(--color-glow), transparent 62%);
+}
+.бейдж{
+  display:inline-flex;align-items:center;gap:var(--space-2);
+  padding:var(--space-2) var(--space-4);border-radius:var(--radius-round);
+  border:1px solid var(--color-line-strong);color:var(--color-accent);
+  font-size:var(--text-small);font-weight:500;margin-bottom:var(--space-6);
+}
+.бейдж::before{
+  content:"";width:7px;height:7px;border-radius:50%;
+  background:var(--color-accent);box-shadow:0 0 0 4px var(--color-glow);
+}
+.обложка p.лид{
+  font-size:var(--text-lead);color:var(--color-text-dim);
+  max-width:52ch;margin-top:var(--space-6);
+}
+
+/* ── Секции ────────────────────────────────────────────────────────── */
+section{padding:var(--space-24) 0;border-bottom:1px solid var(--color-line)}
+section:last-of-type{border-bottom:0}
+.над{
+  font-size:var(--text-small);letter-spacing:.08em;text-transform:uppercase;
+  color:var(--color-accent);font-weight:500;margin-bottom:var(--space-3);
+}
+.подзаг{color:var(--color-text-dim);max-width:62ch;margin-top:var(--space-4)}
+
+/* ── Сетки ─────────────────────────────────────────────────────────── */
+.сетка{display:grid;gap:var(--space-4);margin-top:var(--space-12)}
+.к2{grid-template-columns:repeat(auto-fit,minmax(min(100%,280px),1fr))}
+.к3{grid-template-columns:repeat(auto-fit,minmax(min(100%,240px),1fr))}
+.к4{grid-template-columns:repeat(auto-fit,minmax(min(100%,168px),1fr))}
+
+.карточка{
+  background:var(--color-surface);border:1px solid var(--color-line);
+  border-radius:var(--radius-card);padding:var(--space-6);
+  box-shadow:var(--shadow-soft);
+}
+
+/* ── Плитка с числом ───────────────────────────────────────────────── */
+.плитка .число{
+  font-family:var(--font-display);font-weight:700;
+  font-size:clamp(2rem,4.4vw,2.75rem);line-height:1;
+  color:var(--color-accent);letter-spacing:var(--tracking-tight);
+  font-variant-numeric:tabular-nums;
+}
+.плитка .подпись{
+  margin-top:var(--space-3);color:var(--color-text-dim);
+  font-size:var(--text-small);
+}
+
+/* ── Критерий ──────────────────────────────────────────────────────── */
+.критерий{
+  border-left:3px solid var(--color-accent);
+  padding:var(--space-4) 0 var(--space-4) var(--space-6);
+  margin-top:var(--space-8);
+}
+.критерий q{
+  font-family:var(--font-display);font-size:var(--text-lead);
+  font-weight:500;font-style:normal;display:block;
+}
+.критерий cite{
+  display:block;margin-top:var(--space-3);color:var(--color-text-dim);
+  font-size:var(--text-small);font-style:normal;
+}
+
+/* ── Шаги цикла ────────────────────────────────────────────────────── */
+.шаг{position:relative;padding-top:var(--space-8)}
+.шаг .н{
+  position:absolute;top:0;left:0;
+  font-family:var(--font-display);font-weight:700;font-size:var(--text-small);
+  width:26px;height:26px;border-radius:50%;
+  display:grid;place-items:center;
+  background:var(--color-accent);color:var(--color-on-accent);
+}
+.шаг h3{margin-bottom:var(--space-2)}
+.шаг p{color:var(--color-text-dim);font-size:var(--text-small)}
+code{
+  font-family:ui-monospace,SFMono-Regular,Menlo,monospace;
+  font-size:.9375em;background:rgba(53,214,196,.09);
+  color:var(--color-accent-hi);padding:2px 6px;border-radius:var(--radius-s);
+}
+
+/* ── Список отказов ────────────────────────────────────────────────── */
+.отказ h3{color:var(--color-text);margin-bottom:var(--space-3)}
+.отказ p{color:var(--color-text-dim);font-size:var(--text-small)}
+.отказ .метка{
+  display:inline-block;margin-bottom:var(--space-3);
+  font-size:.875rem;font-weight:500;letter-spacing:.04em;
+  color:var(--color-on-accent);background:var(--color-accent);
+  padding:2px 10px;border-radius:var(--radius-round);
+}
+
+/* ── Статусные списки ──────────────────────────────────────────────── */
+.список{list-style:none;padding:0;margin:var(--space-4) 0 0}
+.список li{
+  padding:var(--space-3) 0;border-bottom:1px solid var(--color-line);
+  font-size:var(--text-small);display:flex;gap:var(--space-3);
+  align-items:flex-start;
+}
+.список li:last-child{border-bottom:0}
+.список .знак{flex:none;width:1.2em;color:var(--color-accent);font-weight:700}
+.список.ждём .знак{color:var(--color-text-dim)}
+.список strong{font-weight:500}
+.список span.тихо{color:var(--color-text-dim)}
+
+/* ── Таблица дат ───────────────────────────────────────────────────── */
+.прокрутка{overflow-x:auto;margin-top:var(--space-8);
+  border:1px solid var(--color-line);border-radius:var(--radius-card)}
+table{border-collapse:collapse;width:100%;min-width:520px;font-size:var(--text-small)}
+th,td{padding:var(--space-4) var(--space-6);text-align:left;
+  border-bottom:1px solid var(--color-line)}
+th{font-family:var(--font-display);font-weight:500;color:var(--color-accent);
+  white-space:nowrap}
+tbody tr:last-child td{border-bottom:0}
+td:first-child{white-space:nowrap;font-weight:500}
+td.тихо{color:var(--color-text-dim)}
+
+/* ── Подвал ────────────────────────────────────────────────────────── */
+footer{padding:var(--space-16) 0;color:var(--color-text-dim);font-size:var(--text-small)}
+footer p+p{margin-top:var(--space-3)}
+
+@media (prefers-reduced-motion:no-preference){
+  .карточка{transition:border-color var(--motion-fast) var(--motion-ease)}
+  .карточка:hover{border-color:var(--color-line-strong)}
+}
+</style>
+</head>
+<body>
+
+<header class="обложка">
+  <div class="обёртка">
+    <span class="бейдж">Состояние на 1 августа 2026</span>
+    <h1>Система маркетинга<br>пилота роботакси</h1>
+    <p class="лид">Одна папка, в которой лежат правила бренда, проверенные факты
+      со ссылками на первоисточники, готовые материалы и инструменты, чтобы
+      пересобрать их самому — без разработчика.</p>
+  </div>
+</header>
+
+<section>
+  <div class="обёртка">
+    <p class="над">Приёмочный критерий</p>
+    <h2>Система сдана не тогда, когда материалы готовы</h2>
+    <div class="критерий">
+      <q>Чтобы я мог менять вообще все кампании в моменте.</q>
+      <cite>Виктор, маркетинг-лид пилота, встреча 29 июля</cite>
+    </div>
+    <p class="подзаг">Значит, проверяется не папка с файлами, а цикл: вы меняете
+      вводную и получаете пересобранный набор материалов сами. Ниже — этот цикл
+      и то, что уже лежит внутри.</p>
+
+    <div class="сетка к3">
+      <div class="карточка шаг">
+        <span class="н">1</span>
+        <h3>Меняете вводную</h3>
+        <p>Цифра, цена, механика, тэглайн. Для страницы — файл
+          <code>ЛЕНДИНГ/данные.yaml</code>, руками, без запуска чего-либо.
+          Для баннеров — фразой обычными словами.</p>
+      </div>
+      <div class="карточка шаг">
+        <span class="н">2</span>
+        <h3>Одна команда</h3>
+        <p><code>bash ЛЕНДИНГ/build.sh</code> — девять блоков страницы
+          пересобираются из одного источника значений. Для баннеров —
+          «пересобери сет»: система сама найдёт макеты на старом оффере.</p>
+      </div>
+      <div class="карточка шаг">
+        <span class="н">3</span>
+        <h3>Отчёт, а не тишина</h3>
+        <p>Система называет, что именно осталось несогласованным и почему это
+          нельзя публиковать. Не «готово», а «готово, кроме вот этого».</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="обёртка">
+    <p class="над">Что внутри</p>
+    <h2>Цифры, которые можно проверить</h2>
+    <div class="сетка к4">
+      <div class="карточка плитка"><div class="число">70</div>
+        <div class="подпись">готовых материалов: аудитория, УТП, рынок, реклама,
+          аналитика, контент</div></div>
+      <div class="карточка плитка"><div class="число">49</div>
+        <div class="подпись">карточек фактов, у каждой ссылка на первоисточник
+          и срок годности</div></div>
+      <div class="карточка плитка"><div class="число">19</div>
+        <div class="подпись">навыков — от разбора аудитории до вычитки текста
+          от следов ИИ</div></div>
+      <div class="карточка плитка"><div class="число">5</div>
+        <div class="подпись">агентов: исследователь, автор, критик, аналитик,
+          оркестратор</div></div>
+      <div class="карточка плитка"><div class="число">9</div>
+        <div class="подпись">блоков лендинга, каждый правится отдельно</div></div>
+      <div class="карточка плитка"><div class="число">193</div>
+        <div class="подпись">изображения: макеты, генерации, референсы,
+          контактные листы</div></div>
+      <div class="карточка плитка"><div class="число">7</div>
+        <div class="подпись">презентаций <code>.pptx</code> плюс столько же
+          в PDF</div></div>
+      <div class="карточка плитка"><div class="число">0</div>
+        <div class="подпись">просроченных фактов и битых ссылок из 260
+          документов</div></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="обёртка">
+    <p class="над">Как это работает</p>
+    <h2>Порядок жёсткий: факты → текст → проверка</h2>
+    <p class="подзаг">Текст, написанный до фактов, потом не дополняется цифрами —
+      он переписывается целиком, потому что цифра меняет саму мысль. Поэтому
+      порядок нельзя развернуть, а проверку нельзя пропустить.</p>
+    <div class="сетка к3">
+      <div class="карточка">
+        <h3>Факты</h3>
+        <p class="подзаг" style="margin-top:var(--space-3)">Исследователь приносит
+          карточку: одно проверяемое утверждение, ссылка на первоисточник, снимок
+          страницы и дата, после которой факт надо перепроверить.</p>
+      </div>
+      <div class="карточка">
+        <h3>Текст</h3>
+        <p class="подзаг" style="margin-top:var(--space-3)">Автор пишет только
+          по карточкам. В интернет он не ходит — инструментов нет намеренно.
+          Нет карточки — в тексте появляется метка, а не правдоподобное число.</p>
+      </div>
+      <div class="карточка">
+        <h3>Проверка</h3>
+        <p class="подзаг" style="margin-top:var(--space-3)">Критик читает готовое
+          свежим взглядом и возвращает список находок. Права править ему не выданы:
+          критик, который правит сам, начинает защищать свою правку.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="обёртка">
+    <p class="над">Главное для защиты</p>
+    <h2>Чего система не выпустит, даже если попросить</h2>
+    <p class="подзаг">Отказ — это не сбой. Он означает, что в материале появилось
+      бы утверждение, за которое отвечает рекламодатель.</p>
+    <div class="сетка к2">
+      <div class="карточка отказ">
+        <span class="метка">Правовое</span>
+        <h3>«Без водителя»</h3>
+        <p>На пилоте в салоне находится испытатель — это ВАТС 1 категории.
+          Формулировка не выпускается ни прямо, ни синонимами: «за рулём никого»,
+          «едет сама», «пустой салон». Смысл сохраняется разрешёнными заменами.</p>
+      </div>
+      <div class="карточка отказ">
+        <span class="метка">Требование заказчика</span>
+        <h3>Противопоставление такси с водителем</h3>
+        <p>Ни «человеческий фактор», ни «не придётся терпеть разговоры».
+          Пишем, что даёт сервис, а не чего лишён конкурент. Косвенное
+          противопоставление ловится отдельно — оно проскакивает чаще прямого.</p>
+      </div>
+      <div class="карточка отказ">
+        <span class="метка">Достоверность</span>
+        <h3>Цифра без источника</h3>
+        <p>Либо карточка со ссылкой, либо видимая метка
+          <code>[ПРОВЕРИТЬ]</code> прямо в тексте. Выдуманное число в
+          опубликованном материале выглядит ровно как факт.</p>
+      </div>
+      <div class="карточка отказ">
+        <span class="метка">NDA</span>
+        <h3>Закрытые данные</h3>
+        <p>Себестоимость поездки, целевые CSAT и NPS, эластичность скидок,
+          данные аналитики Go — уходят под плейсхолдер. Перед отправкой во
+          внешние модели материал обезличивается, иначе скрипт останавливается.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="обёртка">
+    <p class="над">Честный срез</p>
+    <h2>Что готово, что в работе, что нужно от вас</h2>
+    <div class="сетка к3">
+      <div class="карточка">
+        <h3>Готово</h3>
+        <ul class="список">
+          <li><span class="знак">✓</span><span>Аудитория 30–45 и УТП обоих сегментов на реальном профиле</span></li>
+          <li><span class="знак">✓</span><span>Дизастр-чек рынка и правовая рамка</span></li>
+          <li><span class="знак">✓</span><span>Рекламная стратегия: сообщения, макеты, расписание, бюджет</span></li>
+          <li><span class="знак">✓</span><span>Схема замера воронки и события лендинга</span></li>
+          <li><span class="знак">✓</span><span>Лендинг на девяти блоках, пересобирается одной командой</span></li>
+          <li><span class="знак">✓</span><span>Реестр креативов: что живёт на площадках и на каком оффере</span></li>
+        </ul>
+      </div>
+      <div class="карточка">
+        <h3>В работе, к 10 августа</h3>
+        <ul class="список ждём">
+          <li><span class="знак">→</span><span>Отчёт по аудитории 18–29 <span class="тихо">— 3 августа</span></span></li>
+          <li><span class="знак">→</span><span>Заготовки 18–29 под новое обещание сегмента <span class="тихо">— 3 августа</span></span></li>
+          <li><span class="знак">→</span><span>Материалы стадии «Лояльность» <span class="тихо">— 5 августа</span></span></li>
+          <li><span class="знак">→</span><span>Сценарии видео под вашу съёмку <span class="тихо">— 7 августа</span></span></li>
+          <li><span class="знак">→</span><span>Визуалы стадии «Открытость» <span class="тихо">— 7 августа</span></span></li>
+        </ul>
+      </div>
+      <div class="карточка">
+        <h3>Ждём от вас</h3>
+        <ul class="список ждём">
+          <li><span class="знак">?</span><span><strong>Режим ЭПР: ПП 309 или ПП 2495.</strong> <span class="тихо">Блокирует географию: по ПП 309 пассажирская зона Москвы — Ясенево и Сколково, северо-востока там нет</span></span></li>
+          <li><span class="знак">?</span><span>Механика входа: 15 минут бесплатно или промо-код 300 ₽</span></li>
+          <li><span class="знак">?</span><span>Один тариф или два — «Чилл» и «Сити»</span></li>
+          <li><span class="знак">?</span><span>Что из интеграций уже работает: Лавка, Маркет, Алиса</span></li>
+          <li><span class="знак">?</span><span>Фото флота от дизайнеров и тексты лендинга</span></li>
+        </ul>
+      </div>
+    </div>
+    <p class="подзаг" style="margin-top:var(--space-8)">Пока вопрос открыт, материал
+      собирается и помечается — публикация блокируется. Сейчас в профиле проекта
+      восемь таких меток.</p>
+  </div>
+</section>
+
+<section>
+  <div class="обёртка">
+    <p class="над">График</p>
+    <h2>До защиты 15 августа</h2>
+    <div class="прокрутка">
+      <table>
+        <thead><tr><th>Дата</th><th>Что показываем</th><th>Что нужно от вас</th></tr></thead>
+        <tbody>
+          <tr><td>1 августа</td><td>Система целиком: живая пересборка страницы и баннера под новую вводную</td><td class="тихо">ничего, это демо</td></tr>
+          <tr><td>3 августа</td><td>Аудитория 18–29, заготовки под новое обещание</td><td>ответ по ЭПР</td></tr>
+          <tr><td>5 августа</td><td>Контент-план до производимых единиц, стадия «Лояльность»</td><td>тексты и структура лендинга</td></tr>
+          <tr><td>7 августа</td><td>Сборка под вашу защиту, лендинг с вашими материалами</td><td>фото флота от дизайнеров</td></tr>
+          <tr><td>10 августа</td><td>Сдача системы</td><td class="тихо">—</td></tr>
+          <tr><td>15 августа</td><td class="тихо">Ваша защита go/no-go</td><td class="тихо">—</td></tr>
+          <tr><td>сентябрь</td><td class="тихо">Старт пилота, месяц «Новизна»</td><td class="тихо">—</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="обёртка">
+    <p>Собрано из состояния проекта на 1 августа 2026. Цифры взяты из папки,
+      а не из памяти: материалы, карточки фактов, навыки и агенты пересчитаны
+      скриптом при сборке этой страницы.</p>
+    <p>Подробности — <code>СТАРТ.md</code> (с чего начать),
+      <code>ПРИЁМКА-01-АВГУСТА.md</code> (что обещали и что есть),
+      <code>ЧТО-НУЖНО-ОТ-ЗАКАЗЧИКА.md</code> (открытые вопросы полностью).</p>
+  </div>
+</footer>
+
+</body>
+</html>
