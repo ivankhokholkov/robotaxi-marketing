@@ -30,10 +30,20 @@ for source_name, final_name in FILES:
         canvas = resized.crop((left, 0, left + target_w, target_h))
     else:
         left = (target_w - width) // 2
-        canvas = resized.resize((target_w, target_h), Image.Resampling.BICUBIC).filter(
-            ImageFilter.GaussianBlur(radius=36)
-        )
+        right = target_w - width - left
+        sample = min(96, width)
+        left_profile = resized.crop((0, 0, sample, target_h)).resize(
+            (1, target_h), Image.Resampling.BOX
+        ).filter(ImageFilter.GaussianBlur(radius=18))
+        right_profile = resized.crop((width - sample, 0, width, target_h)).resize(
+            (1, target_h), Image.Resampling.BOX
+        ).filter(ImageFilter.GaussianBlur(radius=18))
+        canvas = Image.new("RGB", (target_w, target_h))
+        if left:
+            canvas.paste(left_profile.resize((left, target_h)), (0, 0))
         canvas.paste(resized, (left, 0))
+        if right:
+            canvas.paste(right_profile.resize((right, target_h)), (left + width, 0))
 
     canvas.save(FINAL / final_name, optimize=True)
 
