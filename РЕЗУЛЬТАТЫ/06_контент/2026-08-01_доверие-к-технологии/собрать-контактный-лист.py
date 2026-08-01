@@ -6,7 +6,7 @@ from PIL import Image, ImageDraw
 ROOT = Path(__file__).resolve().parent
 FINAL = ROOT / "04_FINAL"
 FILES = [
-    FINAL / "01_доверие-начинается_1080x1350-v2.png",
+    FINAL / "01_доверие-начинается_1080x1350.png",
     FINAL / "02_камеры-лидары-радары_1080x1350.png",
     FINAL / "03_город-в-поле-зрения_1080x1350.png",
     FINAL / "04_технология-понятнее_1080x1350.png",

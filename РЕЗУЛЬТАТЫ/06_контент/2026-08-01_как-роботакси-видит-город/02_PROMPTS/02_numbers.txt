@@ -1,0 +1,17 @@
+Use case: infographic-diagram.
+Asset type: finished vertical 4:5 Russian editorial carousel card, card 2 of 6, same series as the approved cover.
+
+Continue the exact Editorial Explainer system from Image 4. Make an original factual composition: three stacked number modules with different scales, a clean macro of the real roof sensor module crossing the bottom edge, one narrow photo strip of the vehicle, a thin black divider and a tiny red registration square. Alternate sulfur yellow, warm white and matte black. Flat editorial print logic, no UI cards.
+
+Exact text, verbatim:
+"2/6"
+"9 КАМЕР"
+"4 ЛИДАРА"
+"6 РАДАРОВ"
+"СЕНСОРЫ СОБИРАЮТ ДАННЫЕ ОБ ОКРУЖАЮЩЕЙ СРЕДЕ"
+
+The three numbers are enormous and immediately readable. The explanatory sentence is smaller but clearly readable. No other editorial words.
+
+Preserve the supplied roof module: low wide white housing, black front fascia, short dark lidar tower. If the fascia wordmark is readable, it must show red "Я", separate multicolored fingerprint/globe symbol, then "Автономный транспорт". Do not invent sensor shapes or additional counts.
+
+Avoid: Telegram UI, copied source layout, fake dashboard, charts, HUD, map, coordinates, invented numbers, tiny filler text, rounded web cards, watermark.

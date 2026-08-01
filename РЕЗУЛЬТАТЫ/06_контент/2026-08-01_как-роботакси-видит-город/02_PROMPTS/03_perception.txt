@@ -1,0 +1,15 @@
+Use case: scientific-educational.
+Asset type: finished vertical 4:5 Russian editorial carousel card, card 3 of 6, same series.
+
+Continue the exact grid, margins, type, page-index position and palette from the approved cover. Create a calm object-led card: cool-gray background, huge black condensed headline at top, precise studio macro of the supplied roof sensor module in the center, restrained exploded layers of camera/lidar/radar components around it as simple physical objects, not a fantasy mechanism. A sulfur-yellow caption band anchors the bottom. Add one thin vertical rule and one small red square. 5 meaningful layers, generous negative space.
+
+Exact text, verbatim:
+"3/6"
+"ВОСПРИЯТИЕ"
+"СИСТЕМА СОБИРАЕТ ДАННЫЕ И ПЕРЕДАЁТ ИХ В ВЫЧИСЛИТЕЛЬ"
+
+No other editorial words. Keep the caption readable and the object more important than decoration.
+
+Preserve the exact roof-module silhouette and the black fascia. If the fascia wordmark is readable, it must show red "Я", separate multicolored fingerprint/globe symbol, then "Автономный транспорт".
+
+Avoid: sci-fi HUD, target rings, radar screens, labels, pseudo-data, random antennas, Telegram UI, copied source layout, Kinetic Moscow diagonal, tiny decorative text, watermark.

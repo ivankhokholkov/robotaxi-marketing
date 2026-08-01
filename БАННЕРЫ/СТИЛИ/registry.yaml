@@ -2,6 +2,31 @@
 стиль_по_умолчанию: kinetic-moscow
 
 styles:
+  editorial-explainer:
+    название: "Editorial Explainer — факт за фактом"
+    статус: draft
+    назначение:
+      - educational social carousels
+      - product explainers
+      - FAQ and trust content
+    guide: "БАННЕРЫ/СТИЛИ/editorial-explainer.md"
+    contact_sheet: ""
+    examples: ""
+    prompt_preamble: >-
+      Use the supplied Editorial Explainer references only for modular hierarchy
+      and editorial rhythm. Create an original Robotaxi Moscow educational carousel;
+      do not reproduce any source layout.
+    обязательные_признаки:
+      - one thesis and one visual object per card
+      - oversized condensed Cyrillic plus short readable body copy
+      - alternating sulfur-yellow cool-gray warm-white and black fields
+      - fixed N/6 index and strict modular grid
+      - factual image number object or diagram
+    запрещено:
+      - copying Telegram UI channel headers or source layouts
+      - fake UI HUD dashboards and invented data
+      - tiny decorative body copy
+      - Kinetic Moscow red-diagonal composition inside the same series
   kinetic-moscow:
     название: "Kinetic Moscow — Москва видит больше"
     статус: approved

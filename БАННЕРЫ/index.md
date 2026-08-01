@@ -67,6 +67,7 @@
 ## СТИЛИ
 
 - [[README]] — Реестр визуальных стилей
+- [[editorial-explainer]] — Editorial Explainer — факт за фактом
 - [[ШАБЛОН-НОВОГО-СТИЛЯ]] — Шаблон нового style pack
 
 ## —

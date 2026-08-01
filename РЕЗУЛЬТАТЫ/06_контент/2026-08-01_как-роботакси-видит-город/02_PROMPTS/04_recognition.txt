@@ -1,0 +1,15 @@
+Use case: scientific-educational.
+Asset type: finished vertical 4:5 Russian editorial carousel card, card 4 of 6, same series.
+
+Continue the approved Editorial Explainer system. Make a split editorial composition, not a screen: upper warm-white text field, lower realistic Moscow street scene with the exact robotaxi in side motion, and a narrow cool-gray vertical strip. Across only one small part of the street, normal photography transitions into a clean monochrome point-cloud silhouette of buildings, trees and road users. No boxes, labels or targeting marks. Use one sulfur-yellow underline and a tiny red square.
+
+Exact text, verbatim:
+"4/6"
+"РАСПОЗНАВАНИЕ"
+"СИСТЕМА ФОРМИРУЕТ КАРТИНУ. НЕЙРОСЕТЬ РАСПОЗНАЁТ ОБЪЕКТЫ"
+
+No other editorial words.
+
+Vehicle lock: exact white fastback sedan, real proportions, exact livery, compact roof module and fender sensors. Door and visible roof fascia must keep red "Я", separate multicolored fingerprint/globe symbol, then "Автономный транспорт". No manufacturer badge, plate or people in either front seat. Modern ZILART-like Moscow street, car on the roadway.
+
+Avoid: HUD, bounding boxes, fake computer-vision labels, dashboard, map, metro, copied source layout, Telegram UI, racing, purple neon, watermark.

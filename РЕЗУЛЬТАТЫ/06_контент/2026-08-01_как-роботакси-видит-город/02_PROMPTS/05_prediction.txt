@@ -1,0 +1,15 @@
+Use case: scientific-educational.
+Asset type: finished vertical 4:5 Russian editorial carousel card, card 5 of 6, same series.
+
+Continue the exact approved series. Use a matte-black upper field with large warm-white typography and a sulfur-yellow lower field containing the exact robotaxi moving calmly along a real Moscow embankment. Add two or three restrained translucent gray planes in the roadway direction to communicate forecasting and planning without becoming an interface. Include a small roof-sensor macro at one edge, one thin rule and one tiny red square. No curved cards.
+
+Exact text, verbatim:
+"5/6"
+"ПРОГНОЗ И ПЛАН"
+"СИСТЕМА РАССЧИТЫВАЕТ ДВИЖЕНИЕ УЧАСТНИКОВ И ОПРЕДЕЛЯЕТ ДАЛЬНЕЙШИЕ ДЕЙСТВИЯ"
+
+No other editorial words. Keep the body copy large enough to read at phone size.
+
+Vehicle lock: exact white fastback sedan and real red/yellow/lime/green polygon livery. Door and visible roof fascia must keep red "Я", separate multicolored fingerprint/globe symbol, then "Автономный транспорт". No manufacturer badge, readable plate or person in either front seat.
+
+Avoid: route map, arrows with numbers, traffic UI, HUD, navigation, speed, racing, copied source layout, Telegram UI, Kinetic Moscow red diagonal, watermark.

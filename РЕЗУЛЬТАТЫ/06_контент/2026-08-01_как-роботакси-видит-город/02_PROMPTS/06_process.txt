@@ -1,0 +1,16 @@
+Use case: infographic-diagram.
+Asset type: finished vertical 4:5 Russian editorial carousel card, card 6 of 6, closing card of the same series.
+
+Continue the exact approved Editorial Explainer system and resolve the story. Create a strict six-step typographic process as broad horizontal bands, not UI cards: alternating warm white, cool gray, sulfur yellow and matte black. A large front crop of the exact robotaxi occupies the lower-right and overlaps only the edges of two bands without covering letters. Add a precise roof sensor macro, a thin vertical rule and one tiny red square. The page should feel like high-end product journalism and a designed final spread.
+
+Exact text, verbatim:
+"6/6"
+"ОТ ДАННЫХ
+К ДВИЖЕНИЮ"
+"ВОСПРИЯТИЕ → ВИЗУАЛИЗАЦИЯ → ЛОКАЛИЗАЦИЯ → ПРОГНОЗ → ПЛАНИРОВАНИЕ → УПРАВЛЕНИЕ"
+
+No other editorial words. Every process word must be fully legible in the stated order.
+
+Vehicle lock: exact white fastback sedan, exact grille, headlights, wheels, roof module, fender sensors and separate red/yellow/lime/green livery polygons. Visible door and roof fascia preserve red "Я", separate multicolored fingerprint/globe symbol, then "Автономный транспорт". No manufacturer badge, readable plate or people in front seats.
+
+Avoid: UI flowchart boxes, dashboard, HUD, map, metro, copied source layout, Telegram UI, Kinetic Moscow diagonal, tiny filler text, watermark.

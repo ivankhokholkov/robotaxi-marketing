@@ -1,0 +1,18 @@
+Use case: ads-marketing.
+Asset type: finished vertical 4:5 Russian editorial carousel card, card 1 of 6.
+
+Image 1 is a contact sheet of editorial product carousels. Use only its modular hierarchy, contrast and rhythm; do not copy a source layout, Telegram interface, channel header or product UI. Image 2 is the authoritative robotaxi turnaround. Image 3 is the real side-view photo and overrides generated discrepancies. Image 4 is the exact roof-module identity.
+
+Create an original high-end editorial explainer cover for Robotaxi Moscow. Strict flat modular grid, no rounded UI cards. Sulfur-yellow field across the upper left, cool light-gray architectural field on the right, matte-black lower band, warm-white breathing space. Use 5–6 meaningful layers: oversized condensed Cyrillic headline; exact robotaxi in front-three-quarter view; a cropped macro of the roof sensor module; one thin vertical rule; a small red square accent; a restrained monochrome relief of Moscow architecture. Adult product journalism, not an automotive ad poster.
+
+Exact text, verbatim:
+"1/6"
+"КАК РОБОТАКСИ
+ВИДИТ ГОРОД?"
+"6 КАРТОЧЕК О СИСТЕМЕ ВОСПРИЯТИЯ"
+
+Set the headline in black on sulfur yellow. Put the secondary line in warm white on the black lower band. No other editorial words.
+
+Vehicle lock: exact white fastback sedan, narrow swept headlights, dark multi-spoke wheels, compact low wide white roof module with black fascia and short dark lidar tower, separate red/yellow/lime/green polygon livery with white gaps. On the visible door and roof fascia preserve the exact sequence: red circle with white Cyrillic "Я", separate small multicolored fingerprint/globe symbol, then "Автономный транспорт". No manufacturer badge or readable plate. No person or silhouette in either front seat.
+
+Avoid: copying Yandex carousel compositions, Telegram UI, website layout, HUD, dashboard, maps, metro, fake data, Kinetic Moscow red diagonal, torn paper, grunge, glassmorphism, purple neon, watermark.
