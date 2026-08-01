@@ -1,0 +1,337 @@
+{"kind":"deck","id":"pr/v2qbt6","name":"Deck"}
+{"kind":"layout","layoutId":"9ecd7359-040a-4658-ba9a-7b39fcdc3986","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"3bf26aaa-c9cf-4585-9c11-faf5756c92d1","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/ae2s9c","slide":1,"title":"ВНУТРЕННЯЯ ЗАЩИТА · 31.07.2026","textShapes":5}
+{"kind":"shape","id":"sh/94r2ps36","slide":1,"name":"red-structure","bbox":[555,0,170,720]}
+{"kind":"textbox","id":"sh/729knilg","slide":1,"name":"kicker","text":"ВНУТРЕННЯЯ ЗАЩИТА · 31.07.2026","textPreview":"ВНУТРЕННЯЯ ЗАЩИТА · 31.07.2026","textChars":30,"textLines":1,"bbox":[72,58,400,18]}
+{"kind":"shape","id":"sh/kzy1s32p","slide":1,"name":"rule","bbox":[72,89,52,5]}
+{"kind":"textbox","id":"sh/l072l83a","slide":1,"name":"opening","text":"Пилот стартует в сентябре.\nМаркетинг решает принятие, не охват","textPreview":"Пилот стартует в сентябре. | Маркетинг решает принятие, не охват","textChars":62,"textLines":2,"bbox":[72,126,520,170]}
+{"kind":"textbox","id":"sh/ydgjqtkj","slide":1,"name":"subtitle","text":"Сентябрь — ноябрь 2026\nТри стадии · один критерий: первая поездка","textPreview":"Сентябрь — ноябрь 2026 | Три стадии · один критерий: первая поездка","textChars":65,"textLines":2,"bbox":[72,340,440,52]}
+{"kind":"textbox","id":"sh/zypkjyl4","slide":1,"name":"source","text":"Стратегия пилота 2026 · пресс-релиз Яндекса 10.07.2026","textPreview":"Стратегия пилота 2026 · пресс-релиз Яндекса 10.07.2026","textChars":54,"textLines":1,"bbox":[72,678,1060,18]}
+{"kind":"textbox","id":"sh/4v2l472t","slide":1,"name":"page","text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[1160,672,46,24]}
+{"kind":"image","id":"im/be54rut4","slide":1,"name":"","alt":"Real approved robotaxi: front three-quarter","bbox":[500,144,760,428]}
+{"kind":"notes","id":"nt/ae2s9c","slide":1,"text":"[Sources]\n- Стратегия пилота 2026; пресс-релиз Яндекса 10.07.2026\n- Visual: Реальное фото утверждённого автомобиля из brand/автомобиль/реальные-фото"}
+{"kind":"slide","id":"sl/sotkl8","slide":2,"title":"ВНУТРЕННЯЯ ЗАЩИТА · УСЛОВИЯ ПИЛОТА","textShapes":12}
+{"kind":"shape","id":"sh/3a5wr69s","slide":2,"name":"ivory-panel","bbox":[0,0,740,720]}
+{"kind":"shape","id":"sh/obexkbax","slide":2,"name":"red-divider","bbox":[680,0,88,720]}
+{"kind":"textbox","id":"sh/qdwfmls3","slide":2,"name":"eyebrow","text":"ВНУТРЕННЯЯ ЗАЩИТА · УСЛОВИЯ ПИЛОТА","textPreview":"ВНУТРЕННЯЯ ЗАЩИТА · УСЛОВИЯ ПИЛОТА","textChars":34,"textLines":1,"bbox":[72,40,720,18]}
+{"kind":"shape","id":"sh/bepwvq9o","slide":2,"name":"rule","bbox":[72,73,42,4]}
+{"kind":"textbox","id":"sh/cfyxoba9","slide":2,"name":"title","text":"Ограничения пилота не прячем, а делаем частью сообщения","textPreview":"Ограничения пилота не прячем, а делаем частью сообщения","textChars":55,"textLines":1,"bbox":[72,100,590,98]}
+{"kind":"shape","id":"sh/dg7exgru","slide":2,"name":"dot","bbox":[72,248,9,9]}
+{"kind":"textbox","id":"sh/yhgfqlsf","slide":2,"name":"bullet-label","text":"В салоне — водитель-испытатель","textPreview":"В салоне — водитель-испытатель","textChars":30,"textLines":1,"bbox":[94,235,498,21]}
+{"kind":"textbox","id":"sh/zipwzq9k","slide":2,"name":"bullet-body","text":"Требование действующего режима.","textPreview":"Требование действующего режима.","textChars":31,"textLines":1,"bbox":[94,262,498,44]}
+{"kind":"shape","id":"sh/fylw3qhw","slide":2,"name":"dot","bbox":[72,358,9,9]}
+{"kind":"textbox","id":"sh/excfulgb","slide":2,"name":"bullet-label","text":"100 автомобилей в 2–3 районах","textPreview":"100 автомобилей в 2–3 районах","textChars":29,"textLines":1,"bbox":[94,345,498,21]}
+{"kind":"textbox","id":"sh/103e50zm","slide":2,"name":"bullet-body","text":"Массовый охват физически не обслужить.","textPreview":"Массовый охват физически не обслужить.","textChars":38,"textLines":1,"bbox":[94,372,498,44]}
+{"kind":"shape","id":"sh/gzuxwvyh","slide":2,"name":"dot","bbox":[72,468,9,9]}
+{"kind":"textbox","id":"sh/ru1wz6hk","slide":2,"name":"bullet-label","text":"Подача дольше обычного такси","textPreview":"Подача дольше обычного такси","textChars":28,"textLines":1,"bbox":[94,455,498,21]}
+{"kind":"textbox","id":"sh/6tsfqlgz","slide":2,"name":"bullet-body","text":"Ожидание нужно объяснять до заказа.","textPreview":"Ожидание нужно объяснять до заказа.","textChars":35,"textLines":1,"bbox":[94,482,498,44]}
+{"kind":"shape","id":"sh/tw3e1gzq","slide":2,"name":"dot","bbox":[72,578,9,9]}
+{"kind":"textbox","id":"sh/svuxsby5","slide":2,"name":"bullet-label","text":"Полная автономность — с 2027 года","textPreview":"Полная автономность — с 2027 года","textChars":33,"textLines":1,"bbox":[94,565,498,21]}
+{"kind":"textbox","id":"sh/bq5gbah4","slide":2,"name":"bullet-body","text":"Не обещаем её в коммуникации пилота.","textPreview":"Не обещаем её в коммуникации пилота.","textChars":36,"textLines":1,"bbox":[94,592,498,44]}
+{"kind":"textbox","id":"sh/qpwf25gj","slide":2,"name":"source","text":"Стратегия пилота 2026 · Яндекс, 10.07.2026 · Интерфакс, 12.11.2025","textPreview":"Стратегия пилота 2026 · Яндекс, 10.07.2026 · Интерфакс, 12.11.2025","textChars":66,"textLines":1,"bbox":[72,678,1060,18]}
+{"kind":"textbox","id":"sh/ml0za90r","slide":2,"name":"page","text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[1160,672,46,24]}
+{"kind":"image","id":"im/gvq1czmp","slide":2,"name":"","alt":"Real approved robotaxi: front side","bbox":[785,104,438,492]}
+{"kind":"notes","id":"nt/sotkl8","slide":2,"text":"[Sources]\n- Стратегия пилота 2026; пресс-релиз Яндекса 10.07.2026; Интерфакс, 12.11.2025\n- Visual: Реальное фото утверждённого автомобиля из brand/автомобиль/реальные-фото"}
+{"kind":"slide","id":"sl/nt028p","slide":3,"title":"ВНУТРЕННЯЯ ЗАЩИТА · АУДИТОРИЯ","textShapes":10}
+{"kind":"shape","id":"sh/mp872tsb","slide":3,"name":"black-field","bbox":[0,0,646,720]}
+{"kind":"shape","id":"sh/9szqxorm","slide":3,"name":"division","bbox":[598,0,82,720]}
+{"kind":"textbox","id":"sh/orqp4ja1","slide":3,"name":"eyebrow","text":"ВНУТРЕННЯЯ ЗАЩИТА · АУДИТОРИЯ","textPreview":"ВНУТРЕННЯЯ ЗАЩИТА · АУДИТОРИЯ","textChars":29,"textLines":1,"bbox":[72,40,720,18]}
+{"kind":"shape","id":"sh/zmhore9k","slide":3,"name":"rule","bbox":[72,73,42,4]}
+{"kind":"textbox","id":"sh/el87y9sz","slide":3,"name":"title","text":"46 / 54 — это две кампании, а не одна","textPreview":"46 / 54 — это две кампании, а не одна","textChars":37,"textLines":1,"bbox":[72,100,530,98]}
+{"kind":"textbox","id":"sh/1oz6torq","slide":3,"name":"46","text":"46%","textPreview":"46%","textChars":3,"textLines":1,"bbox":[74,272,270,80]}
+{"kind":"textbox","id":"sh/0nqp0ja5","slide":3,"name":"46-label","text":"готовы попробовать","textPreview":"готовы попробовать","textChars":18,"textLines":1,"bbox":[76,362,270,28]}
+{"kind":"textbox","id":"sh/rixonuto","slide":3,"name":"54","text":"54%","textPreview":"54%","textChars":3,"textLines":1,"bbox":[746,272,270,80]}
+{"kind":"textbox","id":"sh/qho7u9s3","slide":3,"name":"54-label","text":"пока не готовы","textPreview":"пока не готовы","textChars":14,"textLines":1,"bbox":[748,362,270,28]}
+{"kind":"textbox","id":"sh/o7epw361","slide":3,"name":"left-claim","text":"Энтузиастам — импульс первой поездки.\nСкептикам — понятное объяснение и контроль.","textPreview":"Энтузиастам — импульс первой поездки. | Скептикам — понятное объяснение и контроль.","textChars":81,"textLines":2,"bbox":[74,495,490,60]}
+{"kind":"textbox","id":"sh/p8nqp8nm","slide":3,"name":"right-claim","text":"Одно сообщение не работает\nни на одну из групп.","textPreview":"Одно сообщение не работает | ни на одну из групп.","textChars":47,"textLines":2,"bbox":[746,495,360,60]}
+{"kind":"textbox","id":"sh/25c7utov","slide":3,"name":"source","text":"Стратегия пилота 2026, раздел «Аудитория»","textPreview":"Стратегия пилота 2026, раздел «Аудитория»","textChars":41,"textLines":1,"bbox":[72,678,1060,18]}
+{"kind":"textbox","id":"sh/36l8ny5g","slide":3,"name":"page","text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[1160,672,46,24]}
+{"kind":"notes","id":"nt/nt028p","slide":3,"text":"[Sources]\n- Стратегия пилота 2026, раздел «Аудитория». "}
+{"kind":"slide","id":"sl/08vau4","slide":4,"title":"ВНУТРЕННЯЯ ЗАЩИТА · БАРЬЕРЫ","textShapes":13}
+{"kind":"textbox","id":"sh/2lcredk3","slide":4,"name":"eyebrow","text":"ВНУТРЕННЯЯ ЗАЩИТА · БАРЬЕРЫ","textPreview":"ВНУТРЕННЯЯ ЗАЩИТА · БАРЬЕРЫ","textChars":27,"textLines":1,"bbox":[72,40,720,18]}
+{"kind":"shape","id":"sh/po3a9sje","slide":4,"name":"rule","bbox":[72,73,42,4]}
+{"kind":"textbox","id":"sh/onu9gn2t","slide":4,"name":"title","text":"Скептиков держат два барьера — и оба не про цену","textPreview":"Скептиков держат два барьера — и оба не про цену","textChars":48,"textLines":1,"bbox":[72,100,900,98]}
+{"kind":"textbox","id":"sh/ba5sb21k","slide":4,"name":"b-0","text":"Технические сбои","textPreview":"Технические сбои","textChars":16,"textLines":1,"bbox":[72,245,360,28]}
+{"kind":"shape","id":"sh/qpcrix0z","slide":4,"name":"track-0","bbox":[450,250,560,18]}
+{"kind":"shape","id":"sh/dcnadsjq","slide":4,"name":"fill-0","bbox":[450,250,460,18]}
+{"kind":"textbox","id":"sh/cbe9k7i5","slide":4,"name":"val-0","text":"46%","textPreview":"46%","textChars":3,"textLines":1,"bbox":[1030,243,76,32]}
+{"kind":"textbox","id":"sh/re18zy1g","slide":4,"name":"b-1","text":"Нет человеческого контроля","textPreview":"Нет человеческого контроля","textChars":26,"textLines":1,"bbox":[72,318,360,28]}
+{"kind":"shape","id":"sh/6tsr6tkv","slide":4,"name":"track-1","bbox":[450,323,560,18]}
+{"kind":"shape","id":"sh/ofilcbmd","slide":4,"name":"fill-1","bbox":[450,323,320,18]}
+{"kind":"textbox","id":"sh/9gb2lw3y","slide":4,"name":"val-1","text":"32%","textPreview":"32%","textChars":3,"textLines":1,"bbox":[1030,316,76,32]}
+{"kind":"textbox","id":"sh/md03a147","slide":4,"name":"b-2","text":"Безопасность","textPreview":"Безопасность","textChars":12,"textLines":1,"bbox":[72,391,360,28]}
+{"kind":"shape","id":"sh/ne9kj6ls","slide":4,"name":"track-2","bbox":[450,396,560,18]}
+{"kind":"shape","id":"sh/wj2lgbmp","slide":4,"name":"fill-2","bbox":[450,396,270,18]}
+{"kind":"textbox","id":"sh/x4b2pg3u","slide":4,"name":"val-2","text":"27%","textPreview":"27%","textChars":3,"textLines":1,"bbox":[1030,389,76,32]}
+{"kind":"textbox","id":"sh/ahk3e14j","slide":4,"name":"b-3","text":"Цена","textPreview":"Цена","textChars":4,"textLines":1,"bbox":[72,464,360,28]}
+{"kind":"shape","id":"sh/bitkn6l4","slide":4,"name":"track-3","bbox":[450,469,560,18]}
+{"kind":"shape","id":"sh/cny147m5","slide":4,"name":"fill-3","bbox":[450,469,240,18]}
+{"kind":"textbox","id":"sh/dor2dc3q","slide":4,"name":"val-3","text":"24%","textPreview":"24%","textChars":3,"textLines":1,"bbox":[1030,462,76,32]}
+{"kind":"shape","id":"sh/t4jih8fe","slide":4,"name":"bottom-rule","bbox":[72,570,1040,1]}
+{"kind":"textbox","id":"sh/s3q183e9","slide":4,"name":"caveat","text":"Внешний замер — ориентир приоритетов, а не точные доли: n=1221, нерепрезентативная выборка.","textPreview":"Внешний замер — ориентир приоритетов, а не точные доли: n=1221, нерепрезентативная выборка.","textChars":91,"textLines":1,"bbox":[72,590,1000,32]}
+{"kind":"textbox","id":"sh/r2h0fyxo","slide":4,"name":"source","text":"Ситидрайв и A2:Research, 12.02.2026, n=1221 · статус PLAUSIBLE","textPreview":"Ситидрайв и A2:Research, 12.02.2026, n=1221 · статус PLAUSIBLE","textChars":62,"textLines":1,"bbox":[72,678,1060,18]}
+{"kind":"textbox","id":"sh/6h8j6tw3","slide":4,"name":"page","text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[1160,672,46,24]}
+{"kind":"notes","id":"nt/08vau4","slide":4,"text":"[Sources]\n- Стратегия пилота 2026; CNews / Ситидрайв и A2:Research, 12.02.2026, n=1221. Нерепрезентативная выборка; статус PLAUSIBLE."}
+{"kind":"slide","id":"sl/fazl9s","slide":5,"title":"ВНУТРЕННЯЯ ЗАЩИТА · ПЕРВЫЙ ОПЫТ","textShapes":13}
+{"kind":"shape","id":"sh/b69wfq9o","slide":5,"name":"ivory-half","bbox":[0,0,610,720]}
+{"kind":"shape","id":"sh/crixova9","slide":5,"name":"diagonal","bbox":[560,0,82,720]}
+{"kind":"textbox","id":"sh/xsbeh0ru","slide":5,"name":"eyebrow","text":"ВНУТРЕННЯЯ ЗАЩИТА · ПЕРВЫЙ ОПЫТ","textPreview":"ВНУТРЕННЯЯ ЗАЩИТА · ПЕРВЫЙ ОПЫТ","textChars":31,"textLines":1,"bbox":[72,40,720,18]}
+{"kind":"shape","id":"sh/210fils7","slide":5,"name":"rule","bbox":[72,73,42,4]}
+{"kind":"textbox","id":"sh/n29wbq9s","slide":5,"name":"title","text":"Первый опыт меняет отношение сильнее аргумента в баннере","textPreview":"Первый опыт меняет отношение сильнее аргумента в баннере","textChars":56,"textLines":1,"bbox":[72,100,500,98]}
+{"kind":"shape","id":"sh/o3ixkbad","slide":5,"name":"bar","bbox":[690,209.8,58,307.2]}
+{"kind":"textbox","id":"sh/p4redgry","slide":5,"name":"bar-value","text":"96%","textPreview":"96%","textChars":3,"textLines":1,"bbox":[682,529,78,32]}
+{"kind":"textbox","id":"sh/exgve1sb","slide":5,"name":"bar-label","text":"после опыта","textPreview":"после опыта","textChars":11,"textLines":1,"bbox":[647,566,144,42]}
+{"kind":"shape","id":"sh/fypw769g","slide":5,"name":"bar","bbox":[820,318.6,58,198.4]}
+{"kind":"textbox","id":"sh/ja9s7ilc","slide":5,"name":"bar-value","text":"62%","textPreview":"62%","textChars":3,"textLines":1,"bbox":[812,529,78,32]}
+{"kind":"textbox","id":"sh/i90ryd4r","slide":5,"name":"bar-label","text":"без опыта","textPreview":"без опыта","textChars":9,"textLines":1,"bbox":[777,566,144,42]}
+{"kind":"shape","id":"sh/5wra9s3i","slide":5,"name":"bar","bbox":[990,363.4,58,153.6]}
+{"kind":"textbox","id":"sh/kvit0nmx","slide":5,"name":"bar-value","text":"48%","textPreview":"48%","textChars":3,"textLines":1,"bbox":[982,529,78,32]}
+{"kind":"textbox","id":"sh/7ytsb2l8","slide":5,"name":"bar-label","text":"хотели бы проехать — Россия","textPreview":"хотели бы проехать — Россия","textChars":27,"textLines":1,"bbox":[947,566,144,42]}
+{"kind":"shape","id":"sh/6x0b2x43","slide":5,"name":"bar","bbox":[1120,417.8,58,99.2]}
+{"kind":"textbox","id":"sh/t0bads3e","slide":5,"name":"bar-value","text":"31%","textPreview":"31%","textChars":3,"textLines":1,"bbox":[1112,529,78,32]}
+{"kind":"textbox","id":"sh/sz2t4nmt","slide":5,"name":"bar-label","text":"пилотные регионы","textPreview":"пилотные регионы","textChars":16,"textLines":1,"bbox":[1077,566,144,42]}
+{"kind":"textbox","id":"sh/n2pszyl4","slide":5,"name":"method","text":"96% / 62% — отношение к автономным технологиям, не только к роботакси.","textPreview":"96% / 62% — отношение к автономным технологиям, не только к роботакси.","textChars":70,"textLines":1,"bbox":[72,520,450,54]}
+{"kind":"textbox","id":"sh/m1grqt4j","slide":5,"name":"source","text":"ВЦИОМ «Курс на автономное будущее»: поле — июнь 2025;\nпубликация 04.08.2025; выборки 1629 и 502","textPreview":"ВЦИОМ «Курс на автономное будущее»: поле — июнь 2025; | публикация 04.08.2025; выборки 1629 и 502","textChars":95,"textLines":2,"bbox":[72,654,450,30]}
+{"kind":"textbox","id":"sh/qxove1o7","slide":5,"name":"page-fix","text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[1160,672,46,24]}
+{"kind":"notes","id":"nt/fazl9s","slide":5,"text":"[Sources]\n- ВЦИОМ, «Курс на автономное будущее», 04.08.2025; поле июнь 2025; выборки 1629 и 502. 96% относится к автономным автомобилям / роботам-доставщикам, не только к роботакси."}
+{"kind":"slide","id":"sl/t1nogd","slide":6,"title":"ВНУТРЕННЯЯ ЗАЩИТА · ТРИ СТАДИИ","textShapes":17}
+{"kind":"textbox","id":"sh/f69kj2ho","slide":6,"name":"eyebrow","text":"ВНУТРЕННЯЯ ЗАЩИТА · ТРИ СТАДИИ","textPreview":"ВНУТРЕННЯЯ ЗАЩИТА · ТРИ СТАДИИ","textChars":30,"textLines":1,"bbox":[72,40,720,18]}
+{"kind":"shape","id":"sh/g7ilc7i9","slide":6,"name":"rule","bbox":[72,73,42,4]}
+{"kind":"textbox","id":"sh/h8r2lsze","slide":6,"name":"title","text":"Три месяца — три разные задачи","textPreview":"Три месяца — три разные задачи","textChars":30,"textLines":1,"bbox":[72,100,820,98]}
+{"kind":"shape","id":"sh/29k3ex0z","slide":6,"name":"rule","bbox":[72,258,278,8]}
+{"kind":"textbox","id":"sh/3atkn2hk","slide":6,"name":"ph-num-0","text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[72,292,55,28]}
+{"kind":"textbox","id":"sh/4b2lg7i5","slide":6,"name":"ph-month-0","text":"СЕНТЯБРЬ","textPreview":"СЕНТЯБРЬ","textChars":8,"textLines":1,"bbox":[146,292,190,22]}
+{"kind":"textbox","id":"sh/pwbmpczq","slide":6,"name":"ph-title-0","text":"Новизна","textPreview":"Новизна","textChars":7,"textLines":1,"bbox":[72,334,300,42]}
+{"kind":"textbox","id":"sh/idgj2d0v","slide":6,"name":"ph-desc-0","text":"Приглашение попробовать","textPreview":"Приглашение попробовать","textChars":23,"textLines":1,"bbox":[72,392,290,48]}
+{"kind":"shape","id":"sh/jepkbihg","slide":6,"name":"rule","bbox":[442,258,278,8]}
+{"kind":"textbox","id":"sh/v6xs3i18","slide":6,"name":"ph-num-1","text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[442,292,55,28]}
+{"kind":"textbox","id":"sh/a54bud0n","slide":6,"name":"ph-month-1","text":"ОКТЯБРЬ","textPreview":"ОКТЯБРЬ","textChars":7,"textLines":1,"bbox":[516,292,190,22]}
+{"kind":"textbox","id":"sh/x8fa5sjy","slide":6,"name":"ph-title-1","text":"Открытость","textPreview":"Открытость","textChars":10,"textLines":1,"bbox":[442,334,300,42]}
+{"kind":"textbox","id":"sh/w76twnit","slide":6,"name":"ph-desc-1","text":"Доверие через честность","textPreview":"Доверие через честность","textChars":23,"textLines":1,"bbox":[442,392,290,48]}
+{"kind":"shape","id":"sh/n2dszy1w","slide":6,"name":"rule","bbox":[812,258,278,8]}
+{"kind":"textbox","id":"sh/mh4rqt0b","slide":6,"name":"ph-num-2","text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[812,292,55,28]}
+{"kind":"textbox","id":"sh/94va18j2","slide":6,"name":"ph-month-2","text":"НОЯБРЬ","textPreview":"НОЯБРЬ","textChars":6,"textLines":1,"bbox":[886,292,190,22]}
+{"kind":"textbox","id":"sh/83m9s3ih","slide":6,"name":"ph-title-2","text":"Лояльность","textPreview":"Лояльность","textChars":10,"textLines":1,"bbox":[812,334,300,42]}
+{"kind":"textbox","id":"sh/zetsvy10","slide":6,"name":"ph-desc-2","text":"Когорта ранних пользователей","textPreview":"Когорта ранних пользователей","textChars":28,"textLines":1,"bbox":[812,392,290,48]}
+{"kind":"textbox","id":"sh/ydkrmtkf","slide":6,"name":"stage-claim","text":"К финалу наращиваем не охват — плотность опыта.","textPreview":"К финалу наращиваем не охват — плотность опыта.","textChars":47,"textLines":1,"bbox":[72,540,760,40]}
+{"kind":"textbox","id":"sh/29kbyt47","slide":6,"name":"source","text":"Стратегия пилота 2026","textPreview":"Стратегия пилота 2026","textChars":21,"textLines":1,"bbox":[72,678,1060,18]}
+{"kind":"textbox","id":"sh/3ats7yls","slide":6,"name":"page","text":"06","textPreview":"06","textChars":2,"textLines":1,"bbox":[1160,672,46,24]}
+{"kind":"notes","id":"nt/t1nogd","slide":6,"text":"[Sources]\n- Стратегия пилота 2026."}
+{"kind":"slide","id":"sl/6ad648","slide":7,"title":"СТАДИЯ 1 · СЕНТЯБРЬ","textShapes":11}
+{"kind":"shape","id":"sh/7e90b25w","slide":7,"name":"red-structure","bbox":[540,0,155,720]}
+{"kind":"shape","id":"sh/tgridsn2","slide":7,"name":"cover","bbox":[0,0,610,720]}
+{"kind":"textbox","id":"sh/uhkj6x47","slide":7,"name":"eyebrow","text":"СТАДИЯ 1 · СЕНТЯБРЬ","textPreview":"СТАДИЯ 1 · СЕНТЯБРЬ","textChars":19,"textLines":1,"bbox":[72,40,720,18]}
+{"kind":"shape","id":"sh/fit0f25s","slide":7,"name":"rule","bbox":[72,73,42,4]}
+{"kind":"textbox","id":"sh/g32187md","slide":7,"name":"title","text":"Приглашаем попробовать, не обещая того, чего пилот не даёт","textPreview":"Приглашаем попробовать, не обещая того, чего пилот не даёт","textChars":58,"textLines":1,"bbox":[72,100,500,98]}
+{"kind":"shape","id":"sh/h4bihcny","slide":7,"name":"dot","bbox":[72,259,9,9]}
+{"kind":"textbox","id":"sh/algzud43","slide":7,"name":"bullet-label","text":"Сервис существует и его можно попробовать","textPreview":"Сервис существует и его можно попробовать","textChars":41,"textLines":1,"bbox":[94,246,498,21]}
+{"kind":"textbox","id":"sh/vmp03i5o","slide":7,"name":"bullet-body","text":"Ядро сообщения — конкретный опыт, не «будущее». ","textPreview":"Ядро сообщения — конкретный опыт, не «будущее».","textChars":48,"textLines":1,"bbox":[94,273,498,44]}
+{"kind":"shape","id":"sh/ze58jqpg","slide":7,"name":"dot","bbox":[72,373,9,9]}
+{"kind":"textbox","id":"sh/edw7al8v","slide":7,"name":"bullet-label","text":"Не обещаем полную автономность","textPreview":"Не обещаем полную автономность","textChars":30,"textLines":1,"bbox":[94,360,498,21]}
+{"kind":"textbox","id":"sh/1gnql07m","slide":7,"name":"bullet-body","text":"Она заявлена на 2027 год.","textPreview":"Она заявлена на 2027 год.","textChars":25,"textLines":1,"bbox":[94,387,498,44]}
+{"kind":"shape","id":"sh/0fepcvq1","slide":7,"name":"dot","bbox":[72,487,9,9]}
+{"kind":"textbox","id":"sh/ral8fq9k","slide":7,"name":"bullet-label","text":"Не обещаем быструю подачу","textPreview":"Не обещаем быструю подачу","textChars":25,"textLines":1,"bbox":[94,474,498,21]}
+{"kind":"textbox","id":"sh/qpc76l8z","slide":7,"name":"bullet-body","text":"У пилота она выше обычной.","textPreview":"У пилота она выше обычной.","textChars":26,"textLines":1,"bbox":[94,501,498,44]}
+{"kind":"textbox","id":"sh/dcnqhg7a","slide":7,"name":"open-mechanic","text":"ПОДТВЕРДИТЬ · промо-код 300 ₽ или первые минуты бесплатно","textPreview":"ПОДТВЕРДИТЬ · промо-код 300 ₽ или первые минуты бесплатно","textChars":57,"textLines":1,"bbox":[72,596,530,24]}
+{"kind":"textbox","id":"sh/cbup8vqp","slide":7,"name":"source","text":"Стратегия пилота 2026 · профиль проекта","textPreview":"Стратегия пилота 2026 · профиль проекта","textChars":39,"textLines":1,"bbox":[72,678,1060,18]}
+{"kind":"textbox","id":"sh/3mlob698","slide":7,"name":"page","text":"07","textPreview":"07","textChars":2,"textLines":1,"bbox":[1160,672,46,24]}
+{"kind":"image","id":"im/18bih4ja","slide":7,"name":"","alt":"Real approved robotaxi: September stage","bbox":[570,145,690,388]}
+{"kind":"notes","id":"nt/6ad648","slide":7,"text":"[Sources]\n- Стратегия пилота 2026; профиль проекта.\n- Visual: Реальное фото утверждённого автомобиля из brand/автомобиль/реальные-фото"}
+{"kind":"slide","id":"sl/60s2hb","slide":8,"title":"СТАДИЯ 2 · ОКТЯБРЬ","textShapes":10}
+{"kind":"shape","id":"sh/u58bypw3","slide":8,"name":"cream-panel","bbox":[0,0,760,720]}
+{"kind":"shape","id":"sh/v6hs7uxo","slide":8,"name":"red-divider","bbox":[710,0,88,720]}
+{"kind":"textbox","id":"sh/4vat4ze5","slide":8,"name":"eyebrow","text":"СТАДИЯ 2 · ОКТЯБРЬ","textPreview":"СТАДИЯ 2 · ОКТЯБРЬ","textChars":18,"textLines":1,"bbox":[72,40,720,18]}
+{"kind":"shape","id":"sh/5wjud4fq","slide":8,"name":"rule","bbox":[72,73,42,4]}
+{"kind":"textbox","id":"sh/i9sb2pwf","slide":8,"name":"title","text":"Открытость про ограничения превращается в доверие","textPreview":"Открытость про ограничения превращается в доверие","textChars":49,"textLines":1,"bbox":[72,100,580,98]}
+{"kind":"shape","id":"sh/3u1cbux0","slide":8,"name":"dot","bbox":[72,259,9,9]}
+{"kind":"textbox","id":"sh/szat8jeh","slide":8,"name":"bullet-label","text":"Экран в поездке объясняет роль испытателя","textPreview":"Экран в поездке объясняет роль испытателя","textChars":41,"textLines":1,"bbox":[94,246,538,21]}
+{"kind":"textbox","id":"sh/d0juhov2","slide":8,"name":"bullet-body","text":"Кто он и зачем находится в салоне.","textPreview":"Кто он и зачем находится в салоне.","textChars":34,"textLines":1,"bbox":[94,273,538,44]}
+{"kind":"shape","id":"sh/9076dofa","slide":8,"name":"dot","bbox":[72,376,9,9]}
+{"kind":"textbox","id":"sh/8zypkjep","slide":8,"name":"bullet-label","text":"Долгая подача — это сообщение, не молчание","textPreview":"Долгая подача — это сообщение, не молчание","textChars":42,"textLines":1,"bbox":[94,363,538,21]}
+{"kind":"textbox","id":"sh/nypobexk","slide":8,"name":"bullet-body","text":"Человек должен узнать о ней до разочарования.","textPreview":"Человек должен узнать о ней до разочарования.","textChars":45,"textLines":1,"bbox":[94,390,538,44]}
+{"kind":"shape","id":"sh/mxg7itwz","slide":8,"name":"dot","bbox":[72,493,9,9]}
+{"kind":"textbox","id":"sh/x476h8fm","slide":8,"name":"bullet-label","text":"Инфлюенсер показывает вау и ограничения","textPreview":"Инфлюенсер показывает вау и ограничения","textChars":39,"textLines":1,"bbox":[94,480,538,21]}
+{"kind":"textbox","id":"sh/w3ypo3e1","slide":8,"name":"bullet-body","text":"Опыт звучит правдоподобно.","textPreview":"Опыт звучит правдоподобно.","textChars":26,"textLines":1,"bbox":[94,507,538,44]}
+{"kind":"textbox","id":"sh/v2pofyxg","slide":8,"name":"source","text":"Стратегия пилота 2026: «Открытость» и «Коммуникация внутри роботакси»","textPreview":"Стратегия пилота 2026: «Открытость» и «Коммуникация внутри роботакси»","textChars":69,"textLines":1,"bbox":[72,678,1060,18]}
+{"kind":"textbox","id":"sh/a1g7mtwv","slide":8,"name":"page","text":"08","textPreview":"08","textChars":2,"textLines":1,"bbox":[1160,672,46,24]}
+{"kind":"image","id":"im/sjmhwjmd","slide":8,"name":"","alt":"Real approved robotaxi: product proof","bbox":[805,120,400,465]}
+{"kind":"notes","id":"nt/60s2hb","slide":8,"text":"[Sources]\n- Стратегия пилота 2026, разделы «Открытость» и «Коммуникация внутри роботакси».\n- Visual: Реальное фото утверждённого автомобиля из brand/автомобиль/реальные-фото"}
+{"kind":"slide","id":"sl/cmsqbm","slide":9,"title":"СТАДИЯ 3 · НОЯБРЬ","textShapes":12}
+{"kind":"textbox","id":"sh/14je5cj2","slide":9,"name":"eyebrow","text":"СТАДИЯ 3 · НОЯБРЬ","textPreview":"СТАДИЯ 3 · НОЯБРЬ","textChars":17,"textLines":1,"bbox":[72,40,720,18]}
+{"kind":"shape","id":"sh/ehsfaxkr","slide":9,"name":"rule","bbox":[72,73,42,4]}
+{"kind":"textbox","id":"sh/fi1w321c","slide":9,"name":"title","text":"В ноябре растим когорту, а не охват","textPreview":"В ноябре растим когорту, а не охват","textChars":35,"textLines":1,"bbox":[72,100,840,98]}
+{"kind":"textbox","id":"sh/o7axgr2t","slide":9,"name":"ride-n-0","text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[72,255,54,28]}
+{"kind":"textbox","id":"sh/p83y9cje","slide":9,"name":"ride-name-0","text":"ПЕРВАЯ ПОЕЗДКА","textPreview":"ПЕРВАЯ ПОЕЗДКА","textChars":14,"textLines":1,"bbox":[150,249,250,30]}
+{"kind":"shape","id":"sh/25sfehkn","slide":9,"name":"rule","bbox":[430,265,780,11]}
+{"kind":"textbox","id":"sh/n61g7m18","slide":9,"name":"ride-n-1","text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[72,346,54,28]}
+{"kind":"textbox","id":"sh/4bqx4n29","slide":9,"name":"ride-name-1","text":"ВТОРАЯ ПОЕЗДКА","textPreview":"ВТОРАЯ ПОЕЗДКА","textChars":14,"textLines":1,"bbox":[150,340,250,30]}
+{"kind":"shape","id":"sh/5czedsju","slide":9,"name":"rule","bbox":[430,356,570,11]}
+{"kind":"textbox","id":"sh/9gna5c7e","slide":9,"name":"ride-n-2","text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[72,437,54,28]}
+{"kind":"textbox","id":"sh/8fetw769","slide":9,"name":"ride-name-2","text":"ТРЕТЬЯ ПОЕЗДКА","textPreview":"ТРЕТЬЯ ПОЕЗДКА","textChars":14,"textLines":1,"bbox":[150,431,250,30]}
+{"kind":"shape","id":"sh/7e5s32po","slide":9,"name":"rule","bbox":[430,447,360,11]}
+{"kind":"textbox","id":"sh/mdwbuxo3","slide":9,"name":"november-conclusion","text":"Сто машин не обслужат массовый спрос.\nБюджет на городской охват в ноябре работает против пилота.","textPreview":"Сто машин не обслужат массовый спрос. | Бюджет на городской охват в ноябре работает против пилота.","textChars":96,"textLines":2,"bbox":[72,560,760,58]}
+{"kind":"textbox","id":"sh/hk7a9c7q","slide":9,"name":"nda","text":"ЦЕЛЕВЫЕ CSAT / NPS\nЗАКРЫТО ПО ПРОФИЛЮ","textPreview":"ЦЕЛЕВЫЕ CSAT / NPS | ЗАКРЫТО ПО ПРОФИЛЮ","textChars":37,"textLines":2,"bbox":[972,390,200,56]}
+{"kind":"textbox","id":"sh/wjyt0765","slide":9,"name":"source","text":"Стратегия пилота 2026 · [ЗАКРЫТО: целевые метрики]","textPreview":"Стратегия пилота 2026 · [ЗАКРЫТО: целевые метрики]","textChars":50,"textLines":1,"bbox":[72,678,1060,18]}
+{"kind":"textbox","id":"sh/vi5s72pk","slide":9,"name":"page","text":"09","textPreview":"09","textChars":2,"textLines":1,"bbox":[1160,672,46,24]}
+{"kind":"notes","id":"nt/cmsqbm","slide":9,"text":"[Sources]\n- Стратегия пилота 2026; целевые метрики удержания закрыты по NDA."}
+{"kind":"slide","id":"sl/by3l47","slide":10,"title":"ВНУТРЕННЯЯ ЗАЩИТА · КАНАЛЫ","textShapes":17}
+{"kind":"shape","id":"sh/feh87ahs","slide":10,"name":"side-black","bbox":[0,0,360,720]}
+{"kind":"textbox","id":"sh/0fq9gfid","slide":10,"name":"eyebrow","text":"ВНУТРЕННЯЯ ЗАЩИТА · КАНАЛЫ","textPreview":"ВНУТРЕННЯЯ ЗАЩИТА · КАНАЛЫ","textChars":26,"textLines":1,"bbox":[72,40,720,18]}
+{"kind":"shape","id":"sh/1gzq9kzy","slide":10,"name":"rule","bbox":[72,73,42,4]}
+{"kind":"textbox","id":"sh/2h8ri50j","slide":10,"name":"title","text":"Точки контакта работают только вместе с районом","textPreview":"Точки контакта работают только вместе с районом","textChars":47,"textLines":1,"bbox":[72,100,250,98]}
+{"kind":"textbox","id":"sh/nih8bah4","slide":10,"name":"side-claim","text":"Не городской охват.\nПрисутствие там,\nгде можно ехать.","textPreview":"Не городской охват. | Присутствие там, | где можно ехать.","textChars":53,"textLines":3,"bbox":[72,420,225,90]}
+{"kind":"textbox","id":"sh/oja9kfi9","slide":10,"name":"small-label","text":"Цифровые","textPreview":"Цифровые","textChars":8,"textLines":1,"bbox":[430,180,165,18]}
+{"kind":"textbox","id":"sh/pkjqdkzu","slide":10,"name":"channel-0","text":"Go · РСЯ · UrbanAds · СММ · инфлюенсеры","textPreview":"Go · РСЯ · UrbanAds · СММ · инфлюенсеры","textChars":39,"textLines":1,"bbox":[610,178,375,42]}
+{"kind":"textbox","id":"sh/ilo76l0z","slide":10,"name":"goal-0","text":"узнать и понять","textPreview":"узнать и понять","textChars":15,"textLines":1,"bbox":[1015,178,185,42]}
+{"kind":"shape","id":"sh/3mx8zqhk","slide":10,"name":"rule","bbox":[430,246,770,1]}
+{"kind":"textbox","id":"sh/7m9kvapg","slide":10,"name":"small-label","text":"Физические","textPreview":"Физические","textChars":10,"textLines":1,"bbox":[430,285,165,18]}
+{"kind":"textbox","id":"sh/ml0jm5ob","slide":10,"name":"channel-1","text":"демо · парковка · наружная реклама · кинотеатры","textPreview":"демо · парковка · наружная реклама · кинотеатры","textChars":47,"textLines":1,"bbox":[610,283,375,42]}
+{"kind":"textbox","id":"sh/9or2xk7m","slide":10,"name":"goal-1","text":"увидеть и попробовать","textPreview":"увидеть и попробовать","textChars":21,"textLines":1,"bbox":[1015,283,185,42]}
+{"kind":"shape","id":"sh/8ni1of61","slide":10,"name":"rule","bbox":[430,351,770,1]}
+{"kind":"textbox","id":"sh/zy9krapk","slide":10,"name":"small-label","text":"Внутри поездки","textPreview":"Внутри поездки","textChars":14,"textLines":1,"bbox":[430,390,165,18]}
+{"kind":"textbox","id":"sh/yxgji58z","slide":10,"name":"channel-2","text":"пассажирская панель · короткий опрос","textPreview":"пассажирская панель · короткий опрос","textChars":36,"textLines":1,"bbox":[610,388,375,42]}
+{"kind":"textbox","id":"sh/l0r2t07q","slide":10,"name":"goal-2","text":"переосмыслить опыт","textPreview":"переосмыслить опыт","textChars":18,"textLines":1,"bbox":[1015,388,185,42]}
+{"kind":"shape","id":"sh/kzi1kfq5","slide":10,"name":"rule","bbox":[430,456,770,1]}
+{"kind":"textbox","id":"sh/bupknqpo","slide":10,"name":"small-label","text":"Амбассадоры","textPreview":"Амбассадоры","textChars":11,"textLines":1,"bbox":[430,495,165,18]}
+{"kind":"textbox","id":"sh/qtgjel83","slide":10,"name":"channel-3","text":"сотрудники раздают приглашения","textPreview":"сотрудники раздают приглашения","textChars":30,"textLines":1,"bbox":[610,493,375,42]}
+{"kind":"textbox","id":"sh/epw3qlsv","slide":10,"name":"goal-3","text":"дать повод к первой поездке","textPreview":"дать повод к первой поездке","textChars":27,"textLines":1,"bbox":[1015,493,185,42]}
+{"kind":"shape","id":"sh/fq5kzq9g","slide":10,"name":"rule","bbox":[430,561,770,1]}
+{"kind":"textbox","id":"sh/grylsva1","slide":10,"name":"source","text":"Стратегия пилота 2026, раздел «Маркетинг план — точки контакта»","textPreview":"Стратегия пилота 2026, раздел «Маркетинг план — точки контакта»","textChars":63,"textLines":1,"bbox":[72,678,1060,18]}
+{"kind":"textbox","id":"sh/1s7210r6","slide":10,"name":"page","text":"10","textPreview":"10","textChars":2,"textLines":1,"bbox":[1160,672,46,24]}
+{"kind":"notes","id":"nt/by3l47","slide":10,"text":"[Sources]\n- Стратегия пилота 2026, «Маркетинг план — точки контакта»."}
+{"kind":"slide","id":"sl/dh1hfb","slide":11,"title":"ВНУТРЕННЯЯ ЗАЩИТА · РЕШЕНИЕ №1","textShapes":11}
+{"kind":"shape","id":"sh/ahozy18n","slide":11,"name":"top-black","bbox":[0,0,690,192]}
+{"kind":"shape","id":"sh/bix076ps","slide":11,"name":"decision-panel","bbox":[690,0,590,720]}
+{"kind":"textbox","id":"sh/of6hwbqh","slide":11,"name":"eyebrow","text":"ВНУТРЕННЯЯ ЗАЩИТА · РЕШЕНИЕ №1","textPreview":"ВНУТРЕННЯЯ ЗАЩИТА · РЕШЕНИЕ №1","textChars":30,"textLines":1,"bbox":[72,40,720,18]}
+{"kind":"shape","id":"sh/9gfy5w72","slide":11,"name":"rule","bbox":[72,73,42,4]}
+{"kind":"textbox","id":"sh/mdozu18b","slide":11,"name":"title","text":"Рекламу покупаем только там, где имеем право возить","textPreview":"Рекламу покупаем только там, где имеем право возить","textChars":51,"textLines":1,"bbox":[72,100,510,98]}
+{"kind":"textbox","id":"sh/nexg36pw","slide":11,"name":"small-label","text":"ПЛАН","textPreview":"ПЛАН","textChars":4,"textLines":1,"bbox":[735,246,170,18]}
+{"kind":"textbox","id":"sh/0bmhsrq5","slide":11,"name":"plan-areas","text":"Бабушкинская\nМедведково","textPreview":"Бабушкинская | Медведково","textChars":23,"textLines":2,"bbox":[735,276,260,68]}
+{"kind":"textbox","id":"sh/1cfy1w7q","slide":11,"name":"plan-region","text":"СВАО","textPreview":"СВАО","textChars":4,"textLines":1,"bbox":[735,358,150,22]}
+{"kind":"shape","id":"sh/p4jidcfa","slide":11,"name":"rule","bbox":[735,403,350,5]}
+{"kind":"textbox","id":"sh/oja147ep","slide":11,"name":"small-label","text":"ПАССАЖИРСКАЯ ЗОНА ПП №309","textPreview":"ПАССАЖИРСКАЯ ЗОНА ПП №309","textChars":25,"textLines":1,"bbox":[735,430,330,18]}
+{"kind":"textbox","id":"sh/3i10b2xk","slide":11,"name":"law-areas","text":"Ясенево\nСколково","textPreview":"Ясенево | Сколково","textChars":16,"textLines":2,"bbox":[735,460,280,68]}
+{"kind":"textbox","id":"sh/2hsj2xwz","slide":11,"name":"law-note","text":"закрытый список улиц","textPreview":"закрытый список улиц","textChars":20,"textLines":1,"bbox":[735,540,250,20]}
+{"kind":"textbox","id":"sh/1gji9sfe","slide":11,"name":"source","text":"ПП РФ №309 · ПП РФ №2495: 6 месяцев опыта до перевозки пассажиров","textPreview":"ПП РФ №309 · ПП РФ №2495: 6 месяцев опыта до перевозки пассажиров","textChars":65,"textLines":1,"bbox":[72,678,1060,18]}
+{"kind":"textbox","id":"sh/gfq107et","slide":11,"name":"page","text":"11","textPreview":"11","textChars":2,"textLines":1,"bbox":[1160,672,46,24]}
+{"kind":"textbox","id":"sh/feh072x8","slide":11,"name":"page-fix","text":"11","textPreview":"11","textChars":2,"textLines":1,"bbox":[1160,672,46,24]}
+{"kind":"image","id":"im/sba5wn2h","slide":11,"name":"","alt":"Real approved robotaxi: side motion","bbox":[0,144,690,388]}
+{"kind":"notes","id":"nt/dh1hfb","slide":11,"text":"[Sources]\n- ПП РФ №309, действующая редакция; ПП РФ №2495, п. 23. Обе карточки статуса CONFIRMED.\n- Visual: GPT Image, новое фоновое изображение"}
+{"kind":"slide","id":"sl/yfn6jv","slide":12,"title":"ВНУТРЕННЯЯ ЗАЩИТА · КРЕАТИВНЫЙ ДЕВАЙС","textShapes":5}
+{"kind":"shape","id":"sh/svid0bup","slide":12,"name":"top","bbox":[0,0,1280,112]}
+{"kind":"textbox","id":"sh/tgre9gba","slide":12,"name":"kicker","text":"ВНУТРЕННЯЯ ЗАЩИТА · КРЕАТИВНЫЙ ДЕВАЙС","textPreview":"ВНУТРЕННЯЯ ЗАЩИТА · КРЕАТИВНЫЙ ДЕВАЙС","textChars":37,"textLines":1,"bbox":[72,30,500,18]}
+{"kind":"textbox","id":"sh/ipgvu1cn","slide":12,"name":"headline","text":"Сплит-скрин объясняет технологию, а не украшает","textPreview":"Сплит-скрин объясняет технологию, а не украшает","textChars":47,"textLines":1,"bbox":[72,60,1000,36]}
+{"kind":"shape","id":"sh/jqpw36d8","slide":12,"name":"bottom","bbox":[0,638,1280,82]}
+{"kind":"textbox","id":"sh/kridwbut","slide":12,"name":"caption","text":"Физический мир слева · то же пространство в представлении системы справа · один приём для баннеров, видео, наружки и слайдов","textPreview":"Физический мир слева · то же пространство в представлении системы справа · один приём для баннеров, видео, наружки и слайдов","textChars":124,"textLines":1,"bbox":[72,654,1080,20]}
+{"kind":"textbox","id":"sh/5sre5gve","slide":12,"name":"source","text":"Стратегия пилота 2026, раздел «Креативный девайс»","textPreview":"Стратегия пилота 2026, раздел «Креативный девайс»","textChars":49,"textLines":1,"bbox":[72,678,1060,18]}
+{"kind":"textbox","id":"sh/algvq1cr","slide":12,"name":"page","text":"12","textPreview":"12","textChars":2,"textLines":1,"bbox":[1160,672,46,24]}
+{"kind":"image","id":"im/i507ah0n","slide":12,"name":"","alt":"Physical world and lidar point-cloud split screen","bbox":[0,112,1280,526]}
+{"kind":"notes","id":"nt/yfn6jv","slide":12,"text":"[Sources]\n- Стратегия пилота 2026, раздел «Креативный девайс».\n- Visual: GPT Image, утверждённый сплит-скрин"}
+{"kind":"slide","id":"sl/6ngmr3","slide":13,"title":"ВНУТРЕННЯЯ ЗАЩИТА · CJM","textShapes":31}
+{"kind":"textbox","id":"sh/3m9cny5w","slide":13,"name":"eyebrow","text":"ВНУТРЕННЯЯ ЗАЩИТА · CJM","textPreview":"ВНУТРЕННЯЯ ЗАЩИТА · CJM","textChars":23,"textLines":1,"bbox":[72,40,720,18]}
+{"kind":"shape","id":"sh/4nidgj6h","slide":13,"name":"rule","bbox":[72,73,42,4]}
+{"kind":"textbox","id":"sh/5orupon2","slide":13,"name":"title","text":"Меряем путь до первой поездки, а не показы","textPreview":"Меряем путь до первой поездки, а не показы","textChars":42,"textLines":1,"bbox":[72,100,820,98]}
+{"kind":"shape","id":"sh/uxgba9of","slide":13,"name":"cjm-head-0","bbox":[280,172,288,42]}
+{"kind":"textbox","id":"sh/vypcje50","slide":13,"name":"cjm-title-0","text":"УЗНАЛ","textPreview":"УЗНАЛ","textChars":5,"textLines":1,"bbox":[295,184,262,18]}
+{"kind":"shape","id":"sh/gzydcj6l","slide":13,"name":"cjm-head-1","bbox":[572,172,288,42]}
+{"kind":"textbox","id":"sh/h07ulonq","slide":13,"name":"cjm-title-1","text":"ПЕРВАЯ ПОЕЗДКА","textPreview":"ПЕРВАЯ ПОЕЗДКА","textChars":14,"textLines":1,"bbox":[587,184,262,18]}
+{"kind":"shape","id":"sh/et0vmdoj","slide":13,"name":"cjm-head-2","bbox":[864,172,288,42]}
+{"kind":"textbox","id":"sh/futcvi54","slide":13,"name":"cjm-title-2","text":"ВОЗВРАТ","textPreview":"ВОЗВРАТ","textChars":7,"textLines":1,"bbox":[879,184,262,18]}
+{"kind":"textbox","id":"sh/3axgryto","slide":13,"name":"small-label","text":"ДЕЙСТВИЯ","textPreview":"ДЕЙСТВИЯ","textChars":8,"textLines":1,"bbox":[72,242,170,18]}
+{"kind":"shape","id":"sh/i9ofyts3","slide":13,"name":"rule","bbox":[280,280,870,1]}
+{"kind":"textbox","id":"sh/5cfyt8bu","slide":13,"name":"cell-0-0","text":"видит · читает · ищет","textPreview":"видит · читает · ищет","textChars":21,"textLines":1,"bbox":[295,236,264,32]}
+{"kind":"textbox","id":"sh/4b6x03a9","slide":13,"name":"cell-0-1","text":"выбирает · ждёт · едет","textPreview":"выбирает · ждёт · едет","textChars":22,"textLines":1,"bbox":[587,236,264,32]}
+{"kind":"textbox","id":"sh/ryxgvitk","slide":13,"name":"cell-0-2","text":"оценивает · делится · возвращается","textPreview":"оценивает · делится · возвращается","textChars":34,"textLines":1,"bbox":[879,236,264,32]}
+{"kind":"textbox","id":"sh/qxof2dsz","slide":13,"name":"small-label","text":"ТОЧКИ КОНТАКТА","textPreview":"ТОЧКИ КОНТАКТА","textChars":14,"textLines":1,"bbox":[72,299,170,18]}
+{"kind":"shape","id":"sh/d0zyxsbq","slide":13,"name":"rule","bbox":[280,337,870,1]}
+{"kind":"textbox","id":"sh/szqx4na5","slide":13,"name":"cell-1-0","text":"Go · РСЯ · наружка","textPreview":"Go · РСЯ · наружка","textChars":18,"textLines":1,"bbox":[295,293,264,32]}
+{"kind":"textbox","id":"sh/z2hgzitw","slide":13,"name":"cell-1-1","text":"Go · демо · водитель-испытатель","textPreview":"Go · демо · водитель-испытатель","textChars":31,"textLines":1,"bbox":[587,293,264,32]}
+{"kind":"textbox","id":"sh/e18f6dsb","slide":13,"name":"cell-1-2","text":"опрос · SMM · сообщение в Go","textPreview":"опрос · SMM · сообщение в Go","textChars":28,"textLines":1,"bbox":[879,293,264,32]}
+{"kind":"textbox","id":"sh/a9crelgv","slide":13,"name":"small-label","text":"ЦЕЛЬ / ОЖИДАНИЕ","textPreview":"ЦЕЛЬ / ОЖИДАНИЕ","textChars":15,"textLines":1,"bbox":[72,356,170,18]}
+{"kind":"shape","id":"sh/valsnqh0","slide":13,"name":"rule","bbox":[280,394,870,1]}
+{"kind":"textbox","id":"sh/wbu9gvyl","slide":13,"name":"cell-2-0","text":"понять: это безопасно?","textPreview":"понять: это безопасно?","textChars":22,"textLines":1,"bbox":[295,350,264,32]}
+{"kind":"textbox","id":"sh/xcnap0z6","slide":13,"name":"cell-2-1","text":"как это работает?","textPreview":"как это работает?","textChars":17,"textLines":1,"bbox":[587,350,264,32]}
+{"kind":"textbox","id":"sh/m5cra1gj","slide":13,"name":"cell-2-2","text":"стоит ли повторять?","textPreview":"стоит ли повторять?","textChars":19,"textLines":1,"bbox":[879,350,264,32]}
+{"kind":"textbox","id":"sh/n6lsj6h4","slide":13,"name":"small-label","text":"ЭМОЦИИ","textPreview":"ЭМОЦИИ","textChars":6,"textLines":1,"bbox":[72,413,170,18]}
+{"kind":"shape","id":"sh/87u9cbyp","slide":13,"name":"rule","bbox":[280,451,870,1]}
+{"kind":"textbox","id":"sh/983algza","slide":13,"name":"cell-3-0","text":"интерес + тревога","textPreview":"интерес + тревога","textChars":17,"textLines":1,"bbox":[295,407,264,32]}
+{"kind":"textbox","id":"sh/61wrm5g3","slide":13,"name":"cell-3-1","text":"осторожное ожидание","textPreview":"осторожное ожидание","textChars":19,"textLines":1,"bbox":[587,407,264,32]}
+{"kind":"textbox","id":"sh/725svax8","slide":13,"name":"cell-3-2","text":"доверие / сомнение","textPreview":"доверие / сомнение","textChars":18,"textLines":1,"bbox":[879,407,264,32]}
+{"kind":"textbox","id":"sh/hwrul4jq","slide":13,"name":"small-label","text":"ВАЖНОСТЬ","textPreview":"ВАЖНОСТЬ","textChars":8,"textLines":1,"bbox":[72,470,170,18]}
+{"kind":"shape","id":"sh/gvidczi5","slide":13,"name":"rule","bbox":[280,508,870,1]}
+{"kind":"textbox","id":"sh/fupcju1k","slide":13,"name":"cell-4-0","text":"высокая","textPreview":"высокая","textChars":7,"textLines":1,"bbox":[295,464,264,32]}
+{"kind":"textbox","id":"sh/utgvap0z","slide":13,"name":"cell-4-1","text":"критическая","textPreview":"критическая","textChars":11,"textLines":1,"bbox":[587,464,264,32]}
+{"kind":"textbox","id":"sh/ts7uhkje","slide":13,"name":"cell-4-2","text":"высокая","textPreview":"высокая","textChars":7,"textLines":1,"bbox":[879,464,264,32]}
+{"kind":"textbox","id":"sh/s7yt8zit","slide":13,"name":"small-label","text":"ОПЫТ И СОБЫТИЕ","textPreview":"ОПЫТ И СОБЫТИЕ","textChars":14,"textLines":1,"bbox":[72,527,170,18]}
+{"kind":"shape","id":"sh/76pcfu18","slide":13,"name":"rule","bbox":[280,565,870,1]}
+{"kind":"textbox","id":"sh/65gb6p03","slide":13,"name":"cell-5-0","text":"просмотр объяснения","textPreview":"просмотр объяснения","textChars":19,"textLines":1,"bbox":[295,521,264,32]}
+{"kind":"textbox","id":"sh/dobutozy","slide":13,"name":"cell-5-1","text":"первая поездка","textPreview":"первая поездка","textChars":14,"textLines":1,"bbox":[587,521,264,32]}
+{"kind":"textbox","id":"sh/cn2dkjid","slide":13,"name":"cell-5-2","text":"вторая поездка","textPreview":"вторая поездка","textChars":14,"textLines":1,"bbox":[879,521,264,32]}
+{"kind":"textbox","id":"sh/kv6t4zeh","slide":13,"name":"source","text":"Стратегия пилота 2026 · CJM собран по фактуре защиты; базовые значения ждём от Go","textPreview":"Стратегия пилота 2026 · CJM собран по фактуре защиты; базовые значения ждём от Go","textChars":81,"textLines":1,"bbox":[72,678,1060,18]}
+{"kind":"textbox","id":"sh/lwfux4v2","slide":13,"name":"page","text":"13","textPreview":"13","textChars":2,"textLines":1,"bbox":[1160,672,46,24]}
+{"kind":"notes","id":"nt/6ngmr3","slide":13,"text":"[Sources]\n- Стратегия пилота 2026; CJM — рабочая модель без базовых значений. Нужны Go: районы/когорты, средний чек, скидки, скорость набора репертуара, каналы прошлого запуска."}
+{"kind":"slide","id":"sl/dgvk95","slide":14,"title":"ВНУТРЕННЯЯ ЗАЩИТА · ПРАВКИ В КОММУНИКАЦИИ","textShapes":14}
+{"kind":"shape","id":"sh/65wrqhs3","slide":14,"name":"ivory-cut","bbox":[0,0,510,720]}
+{"kind":"shape","id":"sh/t8nqlcru","slide":14,"name":"red-cut","bbox":[465,0,86,720]}
+{"kind":"textbox","id":"sh/s7e9s7a9","slide":14,"name":"eyebrow","text":"ВНУТРЕННЯЯ ЗАЩИТА · ПРАВКИ В КОММУНИКАЦИИ","textPreview":"ВНУТРЕННЯЯ ЗАЩИТА · ПРАВКИ В КОММУНИКАЦИИ","textChars":41,"textLines":1,"bbox":[72,40,720,18]}
+{"kind":"shape","id":"sh/jil8f29s","slide":14,"name":"rule","bbox":[72,73,42,4]}
+{"kind":"textbox","id":"sh/ihc7mxs7","slide":14,"name":"title","text":"До продакшена нужно заменить три формулировки","textPreview":"До продакшена нужно заменить три формулировки","textChars":45,"textLines":1,"bbox":[72,100,400,98]}
+{"kind":"textbox","id":"sh/543qhcri","slide":14,"name":"small-label","text":"БЫЛО","textPreview":"БЫЛО","textChars":4,"textLines":1,"bbox":[578,205,80,18]}
+{"kind":"textbox","id":"sh/kjupo7ad","slide":14,"name":"old-0","text":"«Будущее уже здесь»","textPreview":"«Будущее уже здесь»","textChars":19,"textLines":1,"bbox":[578,229,570,30]}
+{"kind":"shape","id":"sh/3ep8r69w","slide":14,"name":"rule","bbox":[578,270,55,4]}
+{"kind":"textbox","id":"sh/2dgri1sb","slide":14,"name":"new-0","text":"Объясняем технологию спокойно: хайп повышает тревожность.","textPreview":"Объясняем технологию спокойно: хайп повышает тревожность.","textChars":57,"textLines":1,"bbox":[650,280,505,44]}
+{"kind":"textbox","id":"sh/k7elcfe5","slide":14,"name":"small-label","text":"БЫЛО","textPreview":"БЫЛО","textChars":4,"textLines":1,"bbox":[578,347,80,18]}
+{"kind":"textbox","id":"sh/l8n25kvq","slide":14,"name":"old-1","text":"«Только 100 машин, попробуй первым»","textPreview":"«Только 100 машин, попробуй первым»","textChars":35,"textLines":1,"bbox":[578,371,570,30]}
+{"kind":"shape","id":"sh/y5c3a5wz","slide":14,"name":"rule","bbox":[578,412,55,4]}
+{"kind":"textbox","id":"sh/z6lk3adk","slide":14,"name":"new-1","text":"Убираем дефицит и давление: сначала даём понятный вход.","textPreview":"Убираем дефицит и давление: сначала даём понятный вход.","textChars":55,"textLines":1,"bbox":[650,422,505,44]}
+{"kind":"textbox","id":"sh/cjul8fe9","slide":14,"name":"small-label","text":"БЫЛО","textPreview":"БЫЛО","textChars":4,"textLines":1,"bbox":[578,489,80,18]}
+{"kind":"textbox","id":"sh/xk321kve","slide":14,"name":"old-2","text":"Ролик с застрявшими роверами","textPreview":"Ролик с застрявшими роверами","textChars":28,"textLines":1,"bbox":[578,513,570,30]}
+{"kind":"shape","id":"sh/ahc365w3","slide":14,"name":"rule","bbox":[578,554,55,4]}
+{"kind":"textbox","id":"sh/bilkzado","slide":14,"name":"new-2","text":"Тестируем до продакшена: он бьёт в страх технических сбоев.","textPreview":"Тестируем до продакшена: он бьёт в страх технических сбоев.","textChars":59,"textLines":1,"bbox":[650,564,505,44]}
+{"kind":"textbox","id":"sh/ofal4vex","slide":14,"name":"source","text":"Тональные документы: «стоп-слова» · knowledge/barriers/","textPreview":"Тональные документы: «стоп-слова» · knowledge/barriers/","textChars":55,"textLines":1,"bbox":[72,678,1060,18]}
+{"kind":"textbox","id":"sh/pg32x0vi","slide":14,"name":"page","text":"14","textPreview":"14","textChars":2,"textLines":1,"bbox":[1160,672,46,24]}
+{"kind":"textbox","id":"sh/pcvi1wn6","slide":14,"name":"page-fix","text":"14","textPreview":"14","textChars":2,"textLines":1,"bbox":[1160,672,46,24]}
+{"kind":"notes","id":"nt/dgvk95","slide":14,"text":"[Sources]\n- references/стоп-слова.md; knowledge/barriers/. Третий пункт — тест до продакшена, не предрешённая замена."}
+{"kind":"slide","id":"sl/qr0moo","slide":15,"title":"ВНУТРЕННЯЯ ЗАЩИТА · РЕШЕНИЯ","textShapes":16}
+{"kind":"textbox","id":"sh/wbuls7qh","slide":15,"name":"eyebrow","text":"ВНУТРЕННЯЯ ЗАЩИТА · РЕШЕНИЯ","textPreview":"ВНУТРЕННЯЯ ЗАЩИТА · РЕШЕНИЯ","textChars":27,"textLines":1,"bbox":[72,40,720,18]}
+{"kind":"shape","id":"sh/balkz29w","slide":15,"name":"rule","bbox":[72,73,42,4]}
+{"kind":"textbox","id":"sh/a9c3qx8b","slide":15,"name":"title","text":"Сегодня нужно закрыть четыре развилки","textPreview":"Сегодня нужно закрыть четыре развилки","textChars":37,"textLines":1,"bbox":[72,100,820,98]}
+{"kind":"textbox","id":"sh/9832xsr6","slide":15,"name":"dnum-0","text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[72,225,54,24]}
+{"kind":"textbox","id":"sh/o7ulonql","slide":15,"name":"dt-0","text":"Режим и зоны","textPreview":"Режим и зоны","textChars":12,"textLines":1,"bbox":[165,221,260,30]}
+{"kind":"textbox","id":"sh/n61kvi90","slide":15,"name":"dd-0","text":"По какому режиму идёт пилот; где реклама имеет смысл","textPreview":"По какому режиму идёт пилот; где реклама имеет смысл","textChars":52,"textLines":1,"bbox":[500,223,570,38]}
+{"kind":"shape","id":"sh/mls3md8f","slide":15,"name":"rule","bbox":[72,277,1050,1]}
+{"kind":"textbox","id":"sh/t4nm9w7a","slide":15,"name":"dnum-1","text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[72,309,54,24]}
+{"kind":"textbox","id":"sh/83el0rqp","slide":15,"name":"dt-1","text":"Механика входа","textPreview":"Механика входа","textChars":14,"textLines":1,"bbox":[165,305,260,30]}
+{"kind":"textbox","id":"sh/mhgv6tcj","slide":15,"name":"dd-1","text":"Промо-код 300 ₽ или первые минуты бесплатно","textPreview":"Промо-код 300 ₽ или первые минуты бесплатно","textChars":43,"textLines":1,"bbox":[500,307,570,38]}
+{"kind":"shape","id":"sh/7ipcfyto","slide":15,"name":"rule","bbox":[72,361,1050,1]}
+{"kind":"textbox","id":"sh/8jyd83u9","slide":15,"name":"dnum-2","text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[72,393,54,24]}
+{"kind":"textbox","id":"sh/9k7eh8bu","slide":15,"name":"dt-2","text":"Шесть месяцев","textPreview":"Шесть месяцев","textChars":13,"textLines":1,"bbox":[165,389,260,30]}
+{"kind":"textbox","id":"sh/ytwv2tc7","slide":15,"name":"dd-2","text":"С какой даты идёт отсчёт опыта эксплуатации","textPreview":"С какой даты идёт отсчёт опыта эксплуатации","textChars":43,"textLines":1,"bbox":[500,391,570,38]}
+{"kind":"shape","id":"sh/zu5cbets","slide":15,"name":"rule","bbox":[72,445,1050,1]}
+{"kind":"textbox","id":"sh/kfyd4jud","slide":15,"name":"dnum-3","text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[72,477,54,24]}
+{"kind":"textbox","id":"sh/lg7udoby","slide":15,"name":"dt-3","text":"Тариф","textPreview":"Тариф","textChars":5,"textLines":1,"bbox":[165,473,260,30]}
+{"kind":"textbox","id":"sh/ip0vedcb","slide":15,"name":"dd-3","text":"Один тариф или два","textPreview":"Один тариф или два","textChars":18,"textLines":1,"bbox":[500,475,570,38]}
+{"kind":"shape","id":"sh/jq9wnitw","slide":15,"name":"rule","bbox":[72,529,1050,1]}
+{"kind":"textbox","id":"sh/fu1sfa9o","slide":15,"name":"source","text":"Профиль проекта · стратегия пилота 2026","textPreview":"Профиль проекта · стратегия пилота 2026","textChars":39,"textLines":1,"bbox":[72,678,1060,18]}
+{"kind":"textbox","id":"sh/etsr65s3","slide":15,"name":"page","text":"15","textPreview":"15","textChars":2,"textLines":1,"bbox":[1160,672,46,24]}
+{"kind":"notes","id":"nt/qr0moo","slide":15,"text":"[Sources]\n- Профиль проекта; стратегия пилота 2026."}
+{"kind":"slide","id":"sl/dr7rda","slide":16,"title":"ВНУТРЕННЯЯ ЗАЩИТА · ФИНАЛ","textShapes":10}
+{"kind":"shape","id":"sh/2x0ret4b","slide":16,"name":"red-structure","bbox":[760,0,160,720]}
+{"kind":"shape","id":"sh/4zi9g3mh","slide":16,"name":"final-overlay","bbox":[0,0,1280,720]}
+{"kind":"textbox","id":"sh/r2t8rils","slide":16,"name":"eyebrow","text":"ВНУТРЕННЯЯ ЗАЩИТА · ФИНАЛ","textPreview":"ВНУТРЕННЯЯ ЗАЩИТА · ФИНАЛ","textChars":25,"textLines":1,"bbox":[72,40,720,18]}
+{"kind":"shape","id":"sh/q10rid47","slide":16,"name":"rule","bbox":[72,73,42,4]}
+{"kind":"textbox","id":"sh/d4bqts3y","slide":16,"name":"title","text":"К 15 августа нужны решения и данные, а не ещё один раунд идей","textPreview":"К 15 августа нужны решения и данные, а не ещё один раунд идей","textChars":61,"textLines":1,"bbox":[72,100,920,98]}
+{"kind":"shape","id":"sh/c329knmd","slide":16,"name":"rule","bbox":[72,300,285,6]}
+{"kind":"textbox","id":"sh/z6t8vil4","slide":16,"name":"small-label","text":"ГОТОВО","textPreview":"ГОТОВО","textChars":6,"textLines":1,"bbox":[72,325,280,18]}
+{"kind":"textbox","id":"sh/e5krmd4j","slide":16,"name":"end-0","text":"Проверяемые факты\nВизуальная система\nПервые пачки материалов","textPreview":"Проверяемые факты | Визуальная система | Первые пачки материалов","textChars":60,"textLines":3,"bbox":[72,360,300,108]}
+{"kind":"shape","id":"sh/gjudcbmt","slide":16,"name":"rule","bbox":[442,300,285,6]}
+{"kind":"textbox","id":"sh/hk3e5gne","slide":16,"name":"small-label","text":"В РАБОТЕ","textPreview":"В РАБОТЕ","textChars":8,"textLines":1,"bbox":[442,325,280,18]}
+{"kind":"textbox","id":"sh/uhcva14n","slide":16,"name":"end-1","text":"Стратегия под три стадии\nМакеты под площадки\nМатериалы для скептиков","textPreview":"Стратегия под три стадии | Макеты под площадки | Материалы для скептиков","textChars":68,"textLines":3,"bbox":[442,360,300,108]}
+{"kind":"shape","id":"sh/vilw3658","slide":16,"name":"rule","bbox":[812,300,285,6]}
+{"kind":"textbox","id":"sh/4nedgvmp","slide":16,"name":"small-label","text":"НУЖНО ОТ КОМАНДЫ","textPreview":"НУЖНО ОТ КОМАНДЫ","textChars":16,"textLines":1,"bbox":[812,325,280,18]}
+{"kind":"textbox","id":"sh/pone9gna","slide":16,"name":"end-2","text":"4 решения\nДанные Go по районам и когортам\nИсходники дизайнеров","textPreview":"4 решения | Данные Go по районам и когортам | Исходники дизайнеров","textChars":62,"textLines":3,"bbox":[812,360,300,108]}
+{"kind":"textbox","id":"sh/2lwvel4z","slide":16,"name":"source","text":"Журнал работ проекта","textPreview":"Журнал работ проекта","textChars":20,"textLines":1,"bbox":[72,678,1060,18]}
+{"kind":"textbox","id":"sh/3m5w7q54","slide":16,"name":"page","text":"16","textPreview":"16","textChars":2,"textLines":1,"bbox":[1160,672,46,24]}
+{"kind":"image","id":"im/4nm547at","slide":16,"name":"","alt":"Real approved robotaxi: final background","bbox":[530,155,720,405]}
+{"kind":"notes","id":"nt/dr7rda","slide":16,"text":"[Sources]\n- Журнал работ проекта.\n- Visual: Реальное фото утверждённого автомобиля из brand/автомобиль/реальные-фото"}

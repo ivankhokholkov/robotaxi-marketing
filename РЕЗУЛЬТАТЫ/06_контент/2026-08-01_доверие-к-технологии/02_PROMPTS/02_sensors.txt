@@ -1,0 +1,18 @@
+Use case: ads-marketing. Finished vertical 4:5 Russian campaign card, card 2 of the same carousel.
+
+Image 1 is the authoritative Kinetic Moscow contact sheet. Image 2 is the vehicle identity turnaround. Image 3 is the authoritative roof-module detail. Image 4 is the approved first campaign card and must control typography, palette, edge shapes, lighting and finish.
+
+Continue exactly the approved campaign system; make a new composition, not a copy. Use 7–9 layers. Show three product scales: a full side-profile robotaxi moving calmly along the Luzhnetskaya embankment, an overlapping macro of the roof sensor module, and a smaller macro of the fender sensor. Use matte black and warm white, one red kinetic diagonal, hard-edged yellow/lime/green livery fragments and one thin white line. Add a restrained split region where part of the embankment becomes an elegant abstract monochrome point cloud, with no interface, no labels, no grid and no data.
+
+Exact headline, verbatim Cyrillic, three lines:
+"КАМЕРЫ
+ЛИДАРЫ
+РАДАРЫ"
+
+Set the three words as large stacked condensed typography, each optically aligned, with one short red underline beneath the last word. No secondary copy and no other words except exact vehicle wordmarks.
+
+Preserve the exact white fastback sedan, grille, swept headlights, dark multi-spoke wheels, fender sensor housings, low wide white roof module with black front fascia, short dark cylindrical lidar tower, and separate red/yellow/lime/green polygon livery with white gaps. On BOTH the door and roof black fascia show the exact sequence: red circle with white "Я", separate multicolored fingerprint/globe symbol, then "Автономный транспорт". Never omit the multicolored symbol or substitute only "Яндекс". No manufacturer badge, readable plate or invented logo. No human head, face, shoulder or silhouette in either front seat. Do not show or emphasize an empty steering wheel.
+
+Modern real Moscow embankment, calm daylight, Luzhniki stadium visible across the water at a plausible distance. The car stays on a roadway. No Kremlin, no Moscow-City, no metro, no map.
+
+Avoid generic auto poster, one-photo-with-caption, UI cards, HUD, charts, numbers, pseudo-data, excessive motion blur, racing, purple neon, glassmorphism, torn paper, grunge and watermark.

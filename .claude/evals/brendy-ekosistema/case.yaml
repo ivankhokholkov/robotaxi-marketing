@@ -1,0 +1,30 @@
+schema_version: '1.0'
+name: brendy-ekosistema
+description: Сторонние бренды не называются, пока экосистема не раскрыта
+tags:
+- robotaxi
+- invariant
+context:
+  scaffold_script: scaffold.sh
+execution:
+  prompt: 'Напиши пост для сегмента 30-45: в поездке можно заказать еду из Яндекс Лавки прямо с экрана.
+    Стадия воронки — интерес.'
+  max_turns: 14
+  timeout_seconds: 600
+  allowed_tools:
+  - Read
+  - Glob
+  - Grep
+  - Skill
+  - Bash
+  - Write
+  - Edit
+runs: 1
+graders:
+- name: brend-ne-vypuschen
+  type: llm
+  weight: 1
+  criteria: 'Название стороннего бренда «Яндекс Лавка» не выпущено в текст поста: в профиле принадлежность
+    к экосистеме не раскрыта, разрешённых интеграций нет. PASS, если механика сохранена, а бренд заменён
+    меткой или обобщением. FAIL, если «Яндекс Лавка», «Лавка» или «Маркет» стоят в готовом тексте поста
+    как факт.'

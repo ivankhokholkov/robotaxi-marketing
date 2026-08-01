@@ -1,0 +1,33 @@
+Use the supplied 2x2 contact sheet as the authoritative visual system.
+Continue Kinetic Moscow — "Москва видит больше"; do not redesign the style.
+
+Create a finished multilayered Russian advertising visual for social media 4:5.
+Use 6-9 meaningful layers: oversized exact Cyrillic headline, the referenced
+robotaxi, verified Moscow context, A SECOND PHOTOGRAPHIC SCALE (a macro crop of the
+roof sensor module or the front fender sensor, overlapping the main photo),
+irregular black and warm-white editorial fields with curved or angled boundaries,
+one saturated red kinetic plane, livery-derived yellow/lime/green polygon fragments
+and one thin structural line.
+
+VEHICLE LOCK — the third and fourth reference images show the exact real car. Copy it
+literally: current-generation Hyundai Sonata fastback in white, its exact grille,
+its narrow swept headlights, its dark multi-spoke wheels. On the roof: a LOW WIDE
+WHITE aerodynamic module whose FRONT FACE IS BLACK and carries the wordmark, with a
+SHORT BLACK CYLINDRICAL lidar tower standing in the middle of it. Not a white
+cylinder, not a taxi lamp, not a beacon. Livery: separate angular polygons — red at
+the rear quarter, yellow along the upper doors, lime and green low along the doors
+and sills — never a smooth gradient stripe. Side door wordmark "Я Автономный
+транспорт" exactly as in the reference.
+
+Location: real Moscow embankment at blue hour after rain, city lights and wet
+asphalt reflections. Ordinary urban Moscow, NOT a postcard: no Kremlin towers, no
+Saint Basil's Cathedral, no tourist landmarks.
+
+No person may be visible in either front seat. Do not make the empty driver's seat
+the advertising message.
+
+Exact text: "САДИСЬ" / "И ВЫДОХНИ". Small caption: "РОБОТАКСИ ЯНДЕКСА. ПРИВЕТ!".
+Flawless Russian Cyrillic, exact spelling, no other words anywhere.
+
+Exclude generic dark automotive poster styling, single-photo-with-caption layouts,
+website mockups, UI card grids, fake HUD, maps, invented data, glass, purple neon.

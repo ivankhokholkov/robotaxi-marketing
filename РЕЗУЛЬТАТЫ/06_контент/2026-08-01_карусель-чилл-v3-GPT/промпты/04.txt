@@ -1,0 +1,22 @@
+Use the supplied 2x2 contact sheet as the authoritative visual system. Continue Kinetic Moscow — the campaign «Москва видит больше»; do not redesign the style. Create a NEW composition inside the same system, not a literal copy of any one card.
+
+Create a finished multilayered Russian advertising visual, tall vertical social format (it will be cropped to 4:5 afterwards, so keep the very top and the very bottom of the frame free of anything essential).
+Use 6–9 meaningful layers: an oversized exact Cyrillic headline that works as the architecture of the frame, the referenced robotaxi, real Moscow context, a second photographic scale or sensor detail, irregular black and warm-white editorial fields with curved or decisively angled boundaries, one saturated red kinetic plane, livery-derived yellow/lime/green polygon fragments and one thin structural rule used exactly once.
+
+Treat the second image — the nine-panel vehicle turnaround — as a strict product lock. Keep the exact white Hyundai Sonata fastback sedan with its grille, headlights, chrome window surround and five-spoke wheels; the compact low WHITE roof module whose BLACK front fascia carries the wordmark, reading left to right: the red Я badge, then the words «Автономный транспорт» in white; the short dark lidar tower on top of it; the small sensor housings on the front fenders; and the door wordmark, reading left to right: the red Я badge, then the small multicolour circle, then the words «Автономный транспорт» in black.
+
+LIVERY, this is the detail most often got wrong: the colours sit on the white body as MANY SMALL SEPARATE hard-edged chevron polygons of varying size with clear white gaps between them, like scattered angular confetti climbing from the sills at the front towards the rear quarter — dark green and lime low along the doors and sills, yellow above and behind them, saturated red across the rear quarter and boot lid. It is never three large blended wedges, never a smooth gradient, never a continuous rainbow band, never a soft airbrushed fade.
+
+PEOPLE: both front seats must be visibly empty — no human head, shoulder or silhouette anywhere behind the windscreen or behind the front side windows, and no reflection that reads as a person. The empty driver's seat is never the subject of the picture. Every Cyrillic word on the car is spelled exactly as in the reference; no other lettering appears on the bodywork.
+
+SCENE: the view through the rain-speckled side window of the moving robotaxi at blue hour — a modern Moscow street of brick-and-glass architecture sliding past in gentle motion blur, warm ground-floor windows, street lamps, wet asphalt, a thin turquoise reflection on the glass. Shot from inside the cabin, a soft dark edge of the window frame at the bottom of the photograph. No people, no screens, no shop signs.
+
+COMPOSITION: the window photograph fills the upper two thirds behind an irregular angled lower edge; a warm-white editorial field carries the headline in heavy black letters across the lower left; a saturated red kinetic plane enters from the right edge and runs to the bottom; in the lower right corner sits a second scale — a close crop of the white car's front door showing the exact «Автономный транспорт» wordmark with the red Я badge and the lime and yellow livery chevrons; scattered yellow and green polygons along the boundary; one thin white rule; the caption is a small line at the very bottom left.
+
+Exact text, flawless Russian Cyrillic, heavy condensed grotesque, all caps: "МОЖНО ПРОСТО" / "СМОТРЕТЬ В ОКНО". One small caption line, all caps, set much smaller: "ДОРОГА БЕЗ СУЕТЫ". Spelling must be exact. No other words anywhere in the image.
+
+Framing safety: every letter sits well inside the frame — at least 7% of the image height stays empty above the top of the headline and below the caption line. Nothing is cropped or bleeding off the top or the bottom edge.
+
+Mood: calm, premium, unhurried — a moment to exhale in the city, not speed and not urgency.
+
+Exclude generic dark automotive poster styling, website mockups, UI card grids, fake HUD, maps, metro symbols, coordinates, invented data, torn paper, glass, purple neon, street signage, shop signs, readable licence plates and inconsistent vehicle identity.

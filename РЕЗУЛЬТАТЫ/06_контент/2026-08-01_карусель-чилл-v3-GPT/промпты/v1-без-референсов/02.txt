@@ -1,0 +1,17 @@
+Create a complete multilayered Russian mobility campaign image, not a website screenshot and not a photograph with text placed on top.
+
+Design language: oversized condensed Cyrillic as architecture, irregular black and warm-white editorial fields, decisive diagonal boundaries, one saturated red kinetic plane, livery-derived yellow/lime/green fragments, multiple photographic scales and controlled overlaps.
+
+Vehicle: a white fastback robotaxi sedan (Hyundai Sonata proportions) in white with a compact white roof sensor pod holding a short dark cylindrical lidar, plus fender sensor housings, and an exact geometric livery of separate red, yellow, lime and green polygons along the lower body sides. Never a crossover, hatchback or generic concept car. Keep the doors free of any lettering. No person visible in either front seat.
+
+Location: Luzhnetskaya embankment in Moscow at blue hour, the river, a lit bridge and dark trees behind.
+
+Composition, inverted relative to a top-heavy poster: the photograph occupies the upper half — the car in exact side profile moving calmly, natural panning blur on the roadway and wheels while the body stays perfectly sharp. A large warm-white typography field occupies the lower half, separated from the photograph by a decisive diagonal. One saturated red kinetic ribbon runs horizontally along the boundary. Detached lime and yellow livery polygons near the left edge. The small caption sits at the very bottom on a black strip.
+
+Text exactly, in flawless Russian Cyrillic, condensed grotesque, all caps: "ЕДЕМ" / "РОВНО". Small caption line at the bottom, all caps: "БЕЗ РЕЗКИХ МАНЁВРОВ". Spelling must be exact, including the letter Ё. No other text anywhere in the image.
+
+Framing safety: keep every letter well inside the frame. At least 9% of the image height above the top of the headline and at least 9% of the image height below the caption line must stay empty background. No letter may touch or bleed off the top or the bottom edge.
+
+Mood: calm, premium, unhurried — steady motion, not speed.
+
+Avoid fake UI, fake data, maps, navigation pins, sci-fi HUD, glassmorphism, purple neon, grunge, giant lidar towers, shop signage, street signs, readable license plates, and any extra lettering or logos.

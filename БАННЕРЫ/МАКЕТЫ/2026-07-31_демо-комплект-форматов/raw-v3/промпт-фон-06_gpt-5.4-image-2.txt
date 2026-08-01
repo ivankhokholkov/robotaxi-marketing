@@ -1,0 +1,45 @@
+Advertising background plate for a Moscow robotaxi campaign. Typography will be
+composited separately in code, so the image itself must contain NO TEXT AT ALL.
+
+Native tall vertical composition. Blue hour just after rain in a modern Moscow
+residential district (ZILART), wet asphalt with long light reflections.
+
+Structure by height:
+
+UPPER PART, roughly the top half — a matte near-black editorial field, flat and
+uniform, with a faint matte paper texture and nothing else in it: no
+architecture, no objects, no detail. This is reserved negative space for
+typography. One saturated red kinetic plane cuts diagonally through it from the
+top right corner as the only structural gesture.
+
+The boundary between the dark field and the photograph below is ONE CLEAN
+DIAGONAL EDGE running down to the left. Never a horizontal line.
+
+LOWER PART, roughly the bottom half — the photographic act: a rear
+three-quarter view of a white autonomous taxi driving away to the right, large
+in frame. It is a Hyundai Sonata style FASTBACK SEDAN: long bonnet, low
+fast-sloping rear roofline, a proper boot deck, a slim full-width red tail-light
+strip, large multi-spoke alloy wheels, low sedan stance. On the roof a low white
+sensor shell with a black band and a short black lidar drum on top. The livery
+is a Yandex style pattern of angular arrow shapes: sharp red arrows high on the
+rear quarter panel, yellow arrows in the middle of the doors, lime and green
+arrows lower. White body everywhere else. Not a Polestar, not a Tesla, not a
+crossover, not a hatchback.
+
+Behind it, real modern residential blocks with warm window lights against a cool
+blue-grey evening sky. A restrained turquoise glow along the edge of the
+windscreen glass only — a thin line of light, not paint, not a light bar. The
+body reads as cool grey-white in evening light, never blown-out white. A few
+small livery-coloured polygons sit along the very bottom edge as controlled
+markers.
+
+Photographic, editorial quality, 35–50mm equivalent, natural perspective, soft
+directional light, cool-neutral white balance with a faint teal cast.
+
+STRICTLY EXCLUDE: any text, letters, words, numerals, captions, signage,
+watermarks or logos of any kind; any user interface, app screen, map overlay,
+navigation pin, HUD, gauge, crosshair or pseudo-data; QR codes; metro symbols;
+recognisable faces; an empty driver's seat or any framing that reads as
+"nobody is driving"; purple or violet neon; glassmorphism; torn paper; grunge;
+vintage cars; roof cargo boxes; glowing roof bars; centred symmetrical hero
+posters; oversaturated plastic CGI.

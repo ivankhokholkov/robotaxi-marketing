@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="250" viewBox="0 0 300 250">
+  <defs>
+    <pattern id="grid-300-250" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#FFFFFF" stroke-opacity=".055" stroke-width="1"/></pattern>
+    <linearGradient id="accent" x1="0" x2="1"><stop stop-color="#FF3B30"/><stop offset=".55" stop-color="#FFD60A"/><stop offset="1" stop-color="#50E06E"/></linearGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="12" stdDeviation="18" flood-opacity=".35"/></filter>
+  </defs>
+  <rect width="300" height="250" fill="#101214"/>
+  <rect width="300" height="250" fill="url(#grid-300-250)"/>
+  <rect x="16" y="16" width="268" height="218" rx="15" fill="none" stroke="#56D7FF" stroke-width="3" stroke-dasharray="12 10"/>
+  <g stroke="#56D7FF" stroke-opacity=".20" stroke-width="1"><line x1="83" y1="16" x2="83" y2="234"/><line x1="150" y1="16" x2="150" y2="234"/><line x1="217" y1="16" x2="217" y2="234"/></g>
+  <rect x="26.72" y="55.24" width="160.79999999999998" height="59.0625" rx="10" fill="#191D21" stroke="#FFFFFF" stroke-opacity=".10"/>
+  <text x="34.76" y="74.92750000000001" fill="#F7F3EA" font-family="Arial, sans-serif" font-size="18.75" font-weight="800">МОСКВА ВИДИТ</text><text x="34.76" y="93.67750000000001" fill="#F7F3EA" font-family="Arial, sans-serif" font-size="18.75" font-weight="800">БОЛЬШЕ</text>
+  <rect x="34.76" y="97.99000000000001" width="67.53599999999999" height="3" rx="4" fill="#FF3B30"/>
+  <g filter="url(#shadow)">
+    <path d="M126 170.49 C141.6 140.46, 225.84 135, 269.52 160.11599999999999 L282 174.312 L272.64 189.6 L138.48 189.6 Z" fill="#F4F4F2"/>
+    <path d="M211.8 141.552 h28.08 l7.800000000000001 8.19 h-43.68000000000001z" fill="#111417"/>
+    <rect x="196.2" y="178.13400000000001" width="70.2" height="5" rx="6" fill="url(#accent)"/>
+    <circle cx="160.32" cy="189.6" r="9.282" fill="#171A1D" stroke="#71777D" stroke-width="3"/>
+    <circle cx="253.92" cy="189.6" r="9.282" fill="#171A1D" stroke="#71777D" stroke-width="3"/>
+  </g>
+  <path d="M29.4 203.48 C91.04 172.96, 182.16 220.92, 267.91999999999996 183.86" fill="none" stroke="#56D7FF" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="267.91999999999996" cy="183.86" r="4" fill="#FF3B30"/>
+  <text x="16" y="12.9375" fill="#56D7FF" font-family="Arial, sans-serif" font-size="8.75" font-weight="700">SAFE AREA 268×218</text>
+  <text x="16" y="245.1875" fill="#F7F3EA" font-family="Arial, sans-serif" font-size="8.75" font-weight="700">РСЯ 300×250 · 300×250 · 3–4 слоя</text>
+</svg>

@@ -1,0 +1,25 @@
+INSTRUCTION: replace every value inside double braces before generation. If any double braces remain, stop and do not run the prompt.
+
+Use the supplied campaign contact sheet as the authoritative visual system.
+Continue {{VISUAL_DIRECTION}} for the campaign {{CAMPAIGN_NAME}}; do not redesign the style.
+
+Create a finished multilayered Russian advertising visual for {{CHANNEL_AND_FORMAT}}.
+The native generation aspect ratio is {{GENERATION_RATIO}} and the final output is {{FINAL_PIXEL_SIZE}}. Keep all essential text and product details inside {{SAFE_AREA_RULE}}.
+
+Use 5-9 meaningful layers with distinct functions: exact Cyrillic headline, the referenced robotaxi, verified Moscow context, product depth, structural geometry and one controlled accent. Follow these style-specific layer rules exactly: {{STYLE_LAYER_RULES}}.
+
+VEHICLE LOCK: copy the supplied real vehicle references literally. Preserve the white fastback sedan body, exact grille, narrow swept headlights, dark multi-spoke wheels, low wide white roof sensor module with a BLACK front fascia, a SHORT DARK cylindrical lidar tower, fender sensor housings and exact livery placement. The livery is made of MANY SEPARATE hard-edged red, yellow, lime and green polygons with visible white gaps; never a smooth gradient, continuous rainbow band or three large blended wedges. On BOTH the door and the roof-module black fascia preserve the exact three-part identity sequence from left to right: red circle with white Cyrillic "Я", a separate small multicolored fingerprint/globe symbol, then the words "Автономный транспорт". Never omit the multicolored symbol, never replace the sequence with only "Яндекс", and never merge the two icons. Real photos override the generated turnaround if they differ.
+
+WINDOWS AND PEOPLE: no human head, face, shoulder or silhouette may be visible in either front seat. A subtle rear-seat passenger is allowed only if specified in the scene. Use natural glass reflections, a dark but realistic interior or a rear-three-quarter angle. Do not make the empty driver's seat the advertising message.
+
+LOCATION: {{VERIFIED_MOSCOW_LOCATION}} at {{TIME_AND_WEATHER}}. The vehicle must stand or move only in a geographically plausible road context. No generic Kremlin postcard, no invented road layout and no readable street signage.
+
+COMPOSITION: {{EXACT_SPATIAL_DESCRIPTION_OF_HEADLINE_CAR_SECOND_SCALE_AND_COLOR_FIELDS}}.
+
+Exact headline: "{{EXACT_HEADLINE}}".
+Exact secondary line: "{{EXACT_SECONDARY_LINE_OR_NONE}}".
+Flawless Russian Cyrillic, exact spelling and punctuation. No other words anywhere in the image except the exact vehicle wordmarks visible in the supplied reference.
+
+Mood: {{MOOD}}. Technology is expressed through precision, grid, masking, typography, product photography and controlled light, not decorative pseudo-data.
+
+Exclude single-photo-with-caption layouts, fake HUD, maps, metro symbols, coordinates, navigation pins, invented figures, random cars, readable licence plates and watermarks. Style-specific anti-drift: {{STYLE_ANTI_DRIFT}}.

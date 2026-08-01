@@ -1,0 +1,26 @@
+Use the supplied 2x2 contact sheet as the authoritative visual system.
+Continue Kinetic Moscow — "Москва видит больше"; do not redesign the style.
+
+Create a finished multilayered Russian advertising visual for social media 4:5.
+Use 6-9 meaningful layers: oversized exact Cyrillic headline, the referenced
+robotaxi, verified Moscow context, a second photographic scale or sensor detail,
+irregular black and warm-white editorial fields, one saturated red kinetic plane,
+livery-derived yellow/lime/green fragments and one thin structural line.
+
+Preserve the exact vehicle from the supplied turnaround sheet: white fastback sedan,
+low white roof sensor module with black front fascia and short cylindrical lidar,
+fender sensor housings, and the livery made of separate red/yellow/lime/green
+angular polygons. Keep the side door wordmark "Я Автономный транспорт" and the roof
+module wordmark exactly as in the reference. Never a crossover or concept car.
+
+Location: Moskvoretskaya embankment beside Zaryadye at blue hour after rain.
+
+No person may be visible in either front seat. Do not make the empty driver's seat
+the advertising message.
+
+Exact text: "САДИСЬ" / "И ВЫДОХНИ". Small caption: "РОБОТАКСИ ЯНДЕКСА. ПРИВЕТ!".
+Flawless Russian Cyrillic, exact spelling, no other words anywhere.
+
+Exclude generic dark automotive poster styling, website mockups, UI card grids,
+fake HUD, maps, coordinates, invented data, torn paper, glass, purple neon and
+inconsistent vehicle identity.

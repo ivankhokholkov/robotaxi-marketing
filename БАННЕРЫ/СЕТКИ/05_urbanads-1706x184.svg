@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1706" height="184" viewBox="0 0 1706 184">
+  <defs>
+    <pattern id="grid-1706-184" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#FFFFFF" stroke-opacity=".055" stroke-width="1"/></pattern>
+    <linearGradient id="accent" x1="0" x2="1"><stop stop-color="#FF3B30"/><stop offset=".55" stop-color="#FFD60A"/><stop offset="1" stop-color="#50E06E"/></linearGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="12" stdDeviation="18" flood-opacity=".35"/></filter>
+  </defs>
+  <rect width="1706" height="184" fill="#101214"/>
+  <rect width="1706" height="184" fill="url(#grid-1706-184)"/>
+  <rect x="71" y="0" width="1564" height="184" rx="11.04" fill="none" stroke="#56D7FF" stroke-width="3" stroke-dasharray="12 10"/>
+  <g stroke="#56D7FF" stroke-opacity=".20" stroke-width="1"><line x1="201.33333333333334" y1="0" x2="201.33333333333334" y2="184"/><line x1="331.6666666666667" y1="0" x2="331.6666666666667" y2="184"/><line x1="462" y1="0" x2="462" y2="184"/><line x1="592.3333333333334" y1="0" x2="592.3333333333334" y2="184"/><line x1="722.6666666666666" y1="0" x2="722.6666666666666" y2="184"/><line x1="853" y1="0" x2="853" y2="184"/><line x1="983.3333333333334" y1="0" x2="983.3333333333334" y2="184"/><line x1="1113.6666666666667" y1="0" x2="1113.6666666666667" y2="184"/><line x1="1244" y1="0" x2="1244" y2="184"/><line x1="1374.3333333333333" y1="0" x2="1374.3333333333333" y2="184"/><line x1="1504.6666666666667" y1="0" x2="1504.6666666666667" y2="184"/></g>
+  <rect x="133.56" y="33.12" width="735.0799999999999" height="29.669999999999998" rx="7.36" fill="#191D21" stroke="#FFFFFF" stroke-opacity=".10"/>
+  <text x="170.314" y="47.61" fill="#F7F3EA" font-family="Arial, sans-serif" font-size="13.799999999999999" font-weight="800">РОБОТАКСИ В МОСКВЕ</text>
+  <rect x="170.314" y="50.78399999999999" width="308.73359999999997" height="3" rx="4" fill="#FF3B30"/>
+  <g filter="url(#shadow)">
+    <path d="M1023.5999999999999 108.19200000000001 C1081.6039999999998 75.808, 1394.8256 69.92, 1557.2368000000001 97.0048 L1603.6399999999999 112.31360000000001 L1568.8375999999998 128.8 L1070.0031999999999 128.8 Z" fill="#F4F4F2"/>
+    <path d="M1342.6219999999998 76.9856 h104.4072 l29.002000000000006 8.832 h-162.41120000000004z" fill="#111417"/>
+    <rect x="1284.618" y="116.43520000000001" width="261.01800000000003" height="5" rx="6" fill="url(#accent)"/>
+    <circle cx="1151.2087999999999" cy="128.8" r="10.0096" fill="#171A1D" stroke="#71777D" stroke-width="3"/>
+    <circle cx="1499.2328" cy="128.8" r="10.0096" fill="#171A1D" stroke="#71777D" stroke-width="3"/>
+  </g>
+  <path d="M149.2 158.24 C508.92 132.48, 1040.6799999999998 172.95999999999998, 1541.1599999999999 141.68" fill="none" stroke="#56D7FF" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="1541.1599999999999" cy="141.68" r="4" fill="#FF3B30"/>
+  <text x="71" y="12" fill="#56D7FF" font-family="Arial, sans-serif" font-size="8" font-weight="700">SAFE AREA 1564×184</text>
+  <text x="71" y="179.6" fill="#F7F3EA" font-family="Arial, sans-serif" font-size="8" font-weight="700">UrbanAds stretch · 1706×184 · 3–4 слоя</text>
+</svg>

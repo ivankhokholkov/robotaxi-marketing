@@ -1,0 +1,15 @@
+Create a complete multilayered Russian mobility campaign image, not a website screenshot and not a photograph with text placed on top.
+
+Design language: oversized condensed Cyrillic as architecture, irregular black and warm-white editorial fields, decisive diagonal boundaries, one saturated red kinetic plane, livery-derived yellow/lime/green fragments, multiple photographic scales and controlled overlaps.
+
+Scene: the view through the rain-speckled side window of a moving car at blue hour; the car's own body is not visible. A modern Moscow street of brick-and-glass residential architecture slides past in gentle motion blur — warm ground-floor windows, street lamps, wet asphalt, a thin turquoise reflection on the glass. Shot from inside the cabin, only a soft dark edge of the window frame at the very bottom of the photograph. No people, no screens, no interior clutter.
+
+Composition: the photograph occupies the upper two thirds; a warm-white typography field carrying the black headline occupies the lower left, cut from the photograph by a decisive diagonal; a saturated red blade enters from the right edge; small detached yellow and green livery polygons.
+
+Text exactly, in flawless Russian Cyrillic, condensed grotesque, all caps: "МОЖНО ПРОСТО" / "СМОТРЕТЬ В ОКНО". Small caption line at the bottom, all caps: "ДОРОГА БЕЗ СУЕТЫ". Spelling must be exact. No other text anywhere in the image.
+
+Framing safety: keep every letter well inside the frame. At least 9% of the image height above the top of the photograph and at least 9% of the image height below the caption line must stay empty background. No letter may touch or bleed off the top or the bottom edge.
+
+Mood: calm, premium, unhurried — a moment to exhale in the city, not speed.
+
+Avoid fake UI, fake data, maps, navigation pins, sci-fi HUD, glassmorphism, purple neon, grunge, shop signage, street signs, billboards, and any extra lettering or logos.

@@ -1,0 +1,32 @@
+schema_version: '1.0'
+name: marshrut-auditoriya
+description: Запрос обычными словами уходит в нужный навык
+tags:
+- robotaxi
+- invariant
+context:
+  scaffold_script: scaffold.sh
+execution:
+  prompt: Кому мы это продаём?
+  max_turns: 8
+  timeout_seconds: 600
+  allowed_tools:
+  - Read
+  - Glob
+  - Grep
+  - Skill
+  - Bash
+runs: 1
+graders:
+- name: podnyat-navyk-audience
+  type: tool_used
+  tool: Skill
+  input_match: audience
+  min: 1
+  weight: 1
+- name: dva-segmenta
+  type: llm
+  weight: 1
+  criteria: 'Ответ описывает два фокусных сегмента заказчика: 18–29 с фокусом на комфорт и 30–45 с фокусом
+    на эффективность. PASS только если названы оба сегмента и их фокус. Общий рассказ про аудиторию такси
+    без этих двух сегментов — FAIL.'

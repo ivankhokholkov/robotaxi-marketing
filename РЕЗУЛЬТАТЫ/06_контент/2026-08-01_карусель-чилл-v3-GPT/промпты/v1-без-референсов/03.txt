@@ -1,0 +1,15 @@
+Create a complete multilayered Russian mobility campaign image, not a website screenshot and not a photograph with text placed on top.
+
+Design language: oversized condensed Cyrillic as architecture, irregular black and warm-white editorial fields, decisive diagonal boundaries, one saturated red kinetic accent, livery-derived yellow/lime/green fragments, multiple photographic scales and controlled overlaps.
+
+Scene: the interior of a quiet premium car cabin at night, seen from the rear passenger seat. A soft blue-green turquoise LED strip runs along the door trim and the cabin perimeter, giving a calm ambient glow. Dark grey textile and leather, clean minimal surfaces, one empty rear seat, a side window with warm out-of-focus Moscow street lights sliding past, shallow depth of field. No steering wheel, no dashboard, no screens, no controls, no people, no exterior view of the car body.
+
+Composition: the photograph fills the right and lower part of the frame; a large black editorial field carrying the warm-white headline cuts in from the upper left along a decisive diagonal; one small saturated red polygon and one thin lime line as accents.
+
+Text exactly, in flawless Russian Cyrillic, condensed grotesque, all caps, warm-white letters on the black field: "СВОЙ СВЕТ" / "СВОЯ МУЗЫКА". Small caption line at the bottom, all caps: "ТЫ РЕШАЕШЬ, КАК ТЕБЕ ЕХАТЬ". Spelling must be exact. No other text anywhere in the image.
+
+Framing safety: keep every letter well inside the frame. At least 9% of the image height above the top of the headline and at least 9% of the image height below the caption line must stay empty background. No letter may touch or bleed off the top or the bottom edge.
+
+Mood: calm, premium, unhurried — a moment to exhale in the city, not speed.
+
+Avoid fake UI, fake data, maps, navigation pins, sci-fi HUD, glassmorphism, purple neon, grunge, dashboard graphics, and any extra lettering or logos.

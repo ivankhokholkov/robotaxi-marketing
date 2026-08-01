@@ -1,0 +1,9 @@
+{
+  "useMarkdownLinks": false,
+  "newLinkFormat": "shortest",
+  "attachmentFolderPath": "БАННЕРЫ/brand",
+  "alwaysUpdateLinks": true,
+  "showFrontmatter": true,
+  "defaultViewMode": "preview",
+  "strictLineBreaks": false
+}

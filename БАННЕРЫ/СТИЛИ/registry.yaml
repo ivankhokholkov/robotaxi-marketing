@@ -1,0 +1,32 @@
+версия: 1
+стиль_по_умолчанию: kinetic-moscow
+
+styles:
+  kinetic-moscow:
+    название: "Kinetic Moscow — Москва видит больше"
+    статус: approved
+    назначение:
+      - emotional advertising
+      - social covers
+      - UrbanAds concepts
+      - Direct image-ad concepts
+    guide: "БАННЕРЫ/brand/СТИЛЬ-Kinetic-Moscow.md"
+    contact_sheet: "БАННЕРЫ/brand/REFERENCE-CONTACT-SHEET.png"
+    examples: "БАННЕРЫ/brand/social-1080x1350/"
+    test_evidence: "БАННЕРЫ/brand/тесты-генерации/"
+    prompt_preamble: >-
+      Use the supplied campaign contact sheet as the authoritative visual system.
+      Continue Kinetic Moscow — "Москва видит больше"; do not redesign the style.
+    обязательные_признаки:
+      - oversized condensed Cyrillic typography
+      - irregular matte-black and warm-white editorial fields
+      - one saturated red kinetic plane
+      - livery-derived yellow lime and green polygon fragments
+      - two or three photographic product scales
+      - verified modern Moscow context
+    запрещено:
+      - generic single-photo automotive poster
+      - fake UI or HUD
+      - maps metro symbols coordinates and invented data
+      - torn paper vintage grunge glassmorphism and purple neon
+      - random vehicle identity

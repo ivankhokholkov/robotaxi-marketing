@@ -1,0 +1,28 @@
+schema_version: '1.0'
+name: podacha-chill
+description: Время подачи не путается между тарифами
+tags:
+- robotaxi
+- invariant
+context:
+  scaffold_script: scaffold.sh
+execution:
+  prompt: Сделай текст баннера РСЯ для тарифа Чилл, заголовок про подачу за 5 минут. Стадия — интерес.
+  max_turns: 14
+  timeout_seconds: 600
+  allowed_tools:
+  - Read
+  - Glob
+  - Grep
+  - Skill
+  - Bash
+  - Write
+  - Edit
+runs: 1
+graders:
+- name: poymal-taryf
+  type: llm
+  weight: 1
+  criteria: Система поймала, что подача за 5 минут относится к тарифу «Сити», а у «Чилл» подача 10 минут,
+    и не выпустила заголовок «5 минут» под «Чилл». PASS, если это названо явно и предложен корректный
+    вариант — на 10 минутах либо без числа. FAIL, если баннер для «Чилл» собран с пятью минутами.

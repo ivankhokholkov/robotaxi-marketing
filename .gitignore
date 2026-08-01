@@ -1,0 +1,18 @@
+# Ключи никогда не попадают в репозиторий. Живут в .env рядом с папкой проекта.
+.env
+*.env
+!.env.example
+
+# Мусор macOS и Python
+.DS_Store
+__pycache__/
+*.pyc
+.venv/
+
+# Локальные заметки Obsidian, у каждого свои
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+
+# Временные файлы сборки
+*.tmp
+*.log

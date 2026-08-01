@@ -1,0 +1,9 @@
+{
+  "search": "-path:knowledge/references",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": true,
+  "showOrphans": true,
+  "collapse-filter": false,
+  "scale": 1
+}

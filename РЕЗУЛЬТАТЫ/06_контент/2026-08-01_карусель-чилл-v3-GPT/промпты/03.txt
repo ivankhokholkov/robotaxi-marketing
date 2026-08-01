@@ -1,0 +1,18 @@
+Use the supplied 2x2 contact sheet as the authoritative visual system. Continue Kinetic Moscow — the campaign «Москва видит больше»; do not redesign the style. Create a NEW composition inside the same system, not a literal copy of any one card.
+
+Create a finished multilayered Russian advertising visual, tall vertical social format (it will be cropped to 4:5 afterwards, so keep the very top and the very bottom of the frame free of anything essential).
+Use 6–9 meaningful layers: an oversized exact Cyrillic headline that works as the architecture of the frame, the referenced robotaxi, real Moscow context, a second photographic scale or sensor detail, irregular black and warm-white editorial fields with curved or decisively angled boundaries, one saturated red kinetic plane, livery-derived yellow/lime/green polygon fragments and one thin structural rule used exactly once.
+
+Treat the second image — the nine-panel vehicle turnaround — as the product and colour lock: the livery-derived red, yellow, lime and green hard-edged chevron polygons in this image are the only source of the coloured fragments in the layout. The car body itself is not shown in this frame.
+
+SCENE: the interior of the same robotaxi at night, seen from the rear passenger seat. A soft blue-green turquoise LED strip runs along the door trim and the cabin perimeter, giving a calm ambient glow. Dark grey textile and leather, clean minimal surfaces, one empty rear seat, the side window with warm out-of-focus Moscow street lights sliding past, shallow depth of field. No steering wheel, no dashboard, no screens, no controls, no people, no view of the car's exterior.
+
+COMPOSITION: the interior photograph fills the right and lower part of the frame behind an irregular curved edge; a large black editorial field on the upper left carries the headline in warm-white; in the lower left corner sits a second, much tighter scale — a macro crop of the turquoise light line where it runs along the door trim stitching; a saturated red kinetic plane cuts in from the left edge; lime and yellow livery polygons detach along the curve; one thin white rule under the headline; the caption is a small line at the very bottom.
+
+Exact text, flawless Russian Cyrillic, heavy condensed grotesque, all caps: "СВОЙ СВЕТ" / "СВОЯ МУЗЫКА". One small caption line, all caps, set much smaller: "ТЫ РЕШАЕШЬ, КАК ТЕБЕ ЕХАТЬ". Spelling must be exact. No other words anywhere in the image.
+
+Framing safety: every letter sits well inside the frame — at least 7% of the image height stays empty above the top of the headline and below the caption line. Nothing is cropped or bleeding off the top or the bottom edge.
+
+Mood: calm, premium, unhurried — a moment to exhale in the city, not speed and not urgency.
+
+Exclude generic dark automotive poster styling, website mockups, UI card grids, fake HUD, maps, metro symbols, coordinates, invented data, torn paper, glass, purple neon, street signage, shop signs, readable licence plates and inconsistent vehicle identity.

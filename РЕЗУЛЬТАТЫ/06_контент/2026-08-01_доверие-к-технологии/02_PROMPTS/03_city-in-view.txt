@@ -1,0 +1,18 @@
+Use case: ads-marketing. Finished vertical 4:5 Russian campaign card, card 3 of the same carousel.
+
+Image 1 is the authoritative Kinetic Moscow contact sheet. Image 2 is the vehicle identity turnaround. Image 3 is an authoritative real side-motion photograph of the robotaxi. Image 4 is the approved first campaign card and must control the exact visual language and finish.
+
+Continue the same series with a more urban wide-angle composition. Use 7–9 purposeful layers: oversized headline, exact robotaxi in side motion, a cropped rear-quarter macro, verified contemporary Moscow street context, matte-black and warm-white masks with curved/angled edges, one saturated red plane, livery-derived hard-edged yellow/lime/green fragments, and a thin structural line. Include a subtle split-screen across a small portion of the street: normal photography transitions into a clean white point-cloud silhouette of road, trees and buildings. This is visual perception, not a HUD: no boxes, labels, numbers, targeting marks or interface.
+
+Exact headline, verbatim Cyrillic, three lines:
+"ГОРОД
+В ПОЛЕ
+ЗРЕНИЯ"
+
+Place the headline upper left on a large matte-black field; make "ЗРЕНИЯ" warm white on its own angled dark module. No other copy and no other words except exact vehicle wordmarks.
+
+Vehicle lock: exact white fastback sedan, same grille and narrow headlights, dark multi-spoke wheels, fender sensors, low wide white roof module with black fascia and short dark cylindrical lidar. Exact many-piece red/yellow/lime/green polygon livery with white gaps. On BOTH the door and roof black fascia show the exact sequence: red circle with white "Я", separate multicolored fingerprint/globe symbol, then "Автономный транспорт". Never omit the multicolored symbol or substitute only "Яндекс". Do not simplify the livery to a gradient or smooth ribbon. No manufacturer badge and no readable licence plate. No visible person or silhouette in either front seat; no rear passenger.
+
+Scene: contemporary ZILART boulevard on a clear late afternoon, recognizable brick and modern residential architecture, trees and a real roadway. Calm city motion, no racing. No Kremlin, no Saint Basil's Cathedral, no Moscow-City towers.
+
+Avoid generic centered-car poster, website layout, UI tiles, fake dashboard, map, metro symbol, coordinates, navigation pins, invented data, torn paper, vintage texture, grunge, glassmorphism, purple neon and watermark.

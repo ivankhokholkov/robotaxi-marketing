@@ -1,0 +1,34 @@
+schema_version: '1.0'
+name: stadiya-voronki
+description: Стадия воронки спрашивается, а не выбирается за человека
+tags:
+- robotaxi
+- invariant
+context:
+  scaffold_script: scaffold.sh
+execution:
+  prompt: Напиши пост для сегмента 18-29.
+  max_turns: 8
+  timeout_seconds: 600
+  allowed_tools:
+  - Read
+  - Glob
+  - Grep
+  - Skill
+  - Bash
+  - Write
+  - Edit
+runs: 1
+graders:
+- name: nichego-ne-napisano
+  type: tool_used
+  tool: Write
+  min: 0
+  max: 0
+  weight: 1
+- name: sprosil-stadiyu
+  type: llm
+  weight: 1
+  criteria: 'Система не стала писать пост, а задала уточняющий вопрос про стадию воронки: знание, интерес,
+    понимание, вовлечение, пробная поездка или репертуар. PASS только если вопрос про стадию задан явно.
+    FAIL, если пост написан или стадия выбрана за человека.'

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="1524" viewBox="0 0 940 1524">
+  <defs>
+    <pattern id="grid-940-1524" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#FFFFFF" stroke-opacity=".055" stroke-width="1"/></pattern>
+    <linearGradient id="accent" x1="0" x2="1"><stop stop-color="#FF3B30"/><stop offset=".55" stop-color="#FFD60A"/><stop offset="1" stop-color="#50E06E"/></linearGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="12" stdDeviation="18" flood-opacity=".35"/></filter>
+  </defs>
+  <rect width="940" height="1524" fill="#101214"/>
+  <rect width="940" height="1524" fill="url(#grid-940-1524)"/>
+  <rect x="70" y="99" width="800" height="1326" rx="28" fill="none" stroke="#56D7FF" stroke-width="3" stroke-dasharray="12 10"/>
+  <g stroke="#56D7FF" stroke-opacity=".20" stroke-width="1"><line x1="203.33333333333334" y1="99" x2="203.33333333333334" y2="1425"/><line x1="336.6666666666667" y1="99" x2="336.6666666666667" y2="1425"/><line x1="470" y1="99" x2="470" y2="1425"/><line x1="603.3333333333334" y1="99" x2="603.3333333333334" y2="1425"/><line x1="736.6666666666666" y1="99" x2="736.6666666666666" y2="1425"/></g>
+  <rect x="102" y="337.67999999999995" width="480" height="144.9" rx="22" fill="#191D21" stroke="#FFFFFF" stroke-opacity=".10"/>
+  <text x="126" y="385.97999999999996" fill="#F7F3EA" font-family="Arial, sans-serif" font-size="46" font-weight="800">МОСКВА ВИДИТ</text><text x="126" y="431.97999999999996" fill="#F7F3EA" font-family="Arial, sans-serif" font-size="46" font-weight="800">БОЛЬШЕ</text>
+  <rect x="126" y="442.55999999999995" width="201.6" height="12.192" rx="4" fill="#FF3B30"/>
+  <g filter="url(#shadow)">
+    <path d="M394.8 934.162 C443.68 840.068, 707.6320000000001 822.96, 844.4960000000001 901.6568 L883.6 946.1376 L854.2719999999999 994.04 L433.904 994.04 Z" fill="#F4F4F2"/>
+    <path d="M663.6400000000001 843.4896 h87.984 l24.44 25.661999999999995 h-136.864z" fill="#111417"/>
+    <rect x="614.76" y="958.1132" width="219.96" height="13.686399999999999" rx="6" fill="url(#accent)"/>
+    <circle cx="502.336" cy="994.04" r="29.0836" fill="#171A1D" stroke="#71777D" stroke-width="3"/>
+    <circle cx="795.616" cy="994.04" r="29.0836" fill="#171A1D" stroke="#71777D" stroke-width="3"/>
+  </g>
+  <path d="M110 1239.36 C294 1053.7199999999998, 566 1345.4399999999998, 822 1120.02" fill="none" stroke="#56D7FF" stroke-width="10.668000000000001" stroke-linecap="round"/>
+  <circle cx="822" cy="1120.02" r="18.288" fill="#FF3B30"/>
+  <text x="70" y="91.3" fill="#56D7FF" font-family="Arial, sans-serif" font-size="22" font-weight="700">SAFE AREA 800×1326</text>
+  <text x="70" y="1456.9" fill="#F7F3EA" font-family="Arial, sans-serif" font-size="22" font-weight="700">UrbanAds vertical · 940×1524 · 6–8 слоёв</text>
+</svg>

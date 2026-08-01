@@ -1,0 +1,27 @@
+Use case: ads-marketing.
+Asset type: finished vertical 4:5 Russian campaign card, first anchor of a four-card social carousel.
+
+Input images and roles:
+Image 1 is the authoritative Kinetic Moscow visual-system contact sheet. Continue its design language; do not redesign it.
+Image 2 is the vehicle identity turnaround. Copy the exact vehicle identity.
+Image 3 is the authoritative real side-view vehicle photograph. Real body proportions override generated discrepancies.
+Image 4 is the authoritative roof sensor module and wordmark detail.
+
+Create a complete art-directed multilayered composition, not a photograph with text on top. Use 7–9 meaningful layers: oversized condensed Cyrillic headline; the exact robotaxi; a plausible Moscow road approach near the VDNKh Main Entrance arch; a second photographic scale showing a roof-sensor macro; irregular matte-black and warm-white editorial fields; one saturated red kinetic plane; several yellow, lime and green hard-edged fragments derived from the car livery; and one thin white structural line. Use clean masks, controlled overlaps and generous optical alignment. No torn paper or texture.
+
+VEHICLE LOCK: preserve the white fastback sedan body, narrow swept headlights, exact grille shape, dark multi-spoke wheels, fender sensor housing, and the low wide white roof module with BLACK front fascia plus a SHORT DARK cylindrical lidar tower. The livery consists of MANY SEPARATE red, yellow, lime and green angular polygons with white gaps. Never turn it into a gradient stripe or three blended wedges. On BOTH the door and roof-module black fascia preserve the complete three-part mark in this exact order: red circle with white Cyrillic "Я", separate small multicolored fingerprint/globe symbol, then "Автономный транспорт". Never omit the multicolored symbol and never replace the sequence with only "Яндекс". Do not invent or show any car-manufacturer badge. No readable licence plate.
+
+WINDOWS AND PEOPLE: no human head, face, shoulder or silhouette visible in either front seat. Use natural reflections and a dark realistic interior. No rear passenger in this card. Do not emphasize an empty driver's seat.
+
+SCENE: blue-hour Moscow, wet asphalt with restrained reflections. The VDNKh Main Entrance arch is visible in the middle background beyond a real roadway, not as a pedestrian plaza and not as a fantasy reconstruction. The robotaxi is in calm three-quarter front motion on the road. No Kremlin, no Saint Basil's Cathedral, no Moscow-City towers.
+
+COMPOSITION: upper-left matte-black field carries the headline in three strong stacked blocks. The car occupies the middle and lower-right and overlaps the warm-white typography field. A red diagonal plane links the arch to the car. A sensor-module macro crop occupies a narrow right-side vertical strip. Keep the frame sophisticated, editorial and high-end, with both quiet negative space and small precision details.
+
+Exact headline, verbatim Cyrillic, four lines:
+"ДОВЕРИЕ
+НАЧИНАЕТСЯ
+С ПОНИМАНИЯ"
+
+Spell exactly. No other words anywhere except the exact vehicle wordmarks visible in the supplied references. No small captions.
+
+Avoid: generic automotive poster, one centered car, UI cards, dashboard, HUD, interface, maps, metro symbols, coordinates, navigation pins, invented numbers, racing, excessive motion blur, orange or purple neon, glassmorphism, vintage, grunge, torn paper, watermarks.

@@ -1,0 +1,21 @@
+Use the supplied 2x2 contact sheet as the authoritative visual system.
+Continue Kinetic Moscow — "Москва видит больше"; do not redesign the style. Create a NEW composition inside the same system, not a literal copy of any one card.
+
+Create a finished multilayered Russian advertising visual for social media, tall vertical format (it will be cropped to 4:5 afterwards, so keep the very top and the very bottom free of anything essential).
+Use 6-9 meaningful layers: oversized exact Cyrillic headline, the referenced robotaxi, verified Moscow context, A SECOND PHOTOGRAPHIC SCALE (a macro crop of the roof sensor module, OVERLAPPING the main photo), irregular black and warm-white editorial fields with curved or angled boundaries, one saturated red kinetic plane, livery-derived yellow/lime/green polygon fragments and one thin structural line.
+
+VEHICLE LOCK — the reference images show the exact real car. Copy it literally: current-generation Hyundai Sonata fastback in white, its exact grille, its narrow swept headlights, its dark multi-spoke wheels. On the roof: a LOW WIDE WHITE aerodynamic module whose FRONT FACE IS BLACK and carries the wordmark «Я Автономный транспорт» in white, with a SHORT BLACK CYLINDRICAL lidar tower standing in the middle of it. Not a white cylinder, not a taxi lamp, not a beacon, not a blue glass drum. Livery: separate angular polygons — red at the rear quarter, yellow along the upper doors, lime and green low along the doors and sills — never a smooth gradient stripe. Side door wordmark «Я Автономный транспорт» exactly as in the reference.
+
+WINDOWS AND PEOPLE: all side windows and the windscreen are dark and reflective, mirroring the embankment and the evening sky. The cabin interior is not readable, and NO human head, face, shoulder or silhouette appears anywhere in or near the car. Both front seats are empty, and the empty driver's seat is never the subject of the picture.
+
+Location: an ordinary Moscow embankment at blue hour after rain — the river, the granite embankment wall, dark trees and ordinary city lights, wet asphalt reflections. Ordinary urban Moscow, NOT a postcard: no Kremlin towers, no Saint Basil's Cathedral, no tourist landmarks.
+
+COMPOSITION: the main photograph fills the upper part — the car seen from a low REAR THREE-QUARTER angle, moving calmly away from the camera along the wet embankment, so the cabin faces away and no window shows an interior; natural panning blur on the roadway while the body stays sharp; the tail lights and the red rear-quarter livery lead the eye. A macro crop of the roof sensor module overlaps the photograph in the upper right as a second scale. A saturated red kinetic plane runs diagonally under the photograph with lime, yellow and green livery polygons detaching from it; a large warm-white editorial field with an irregular angled top edge fills the lower part and carries the headline in heavy black letters; a short red rule sits under the headline and the caption is a small line at the very bottom.
+
+Exact text: "ЕДЕМ" / "РОВНО". Small caption line, set much smaller: "БЕЗ РЕЗКИХ МАНЁВРОВ". Flawless Russian Cyrillic, exact spelling including the letter Ё, no other words anywhere in the image.
+
+Framing safety: every letter sits well inside the frame — at least 7% of the image height stays empty above the top of the headline and below the caption line. Nothing is cropped or bleeding off the top or the bottom edge.
+
+Mood: calm, premium, unhurried — steady motion, not speed.
+
+Exclude generic dark automotive poster styling, single-photo-with-caption layouts, website mockups, UI card grids, fake HUD, maps, invented data, glass, purple neon, street signage and readable licence plates.

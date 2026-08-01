@@ -1,0 +1,17 @@
+Create a complete multilayered Russian mobility campaign image, not a website screenshot and not a photograph with text placed on top.
+
+Design language: oversized condensed Cyrillic as architecture, irregular black and warm-white editorial fields, decisive diagonal boundaries, one saturated red kinetic plane, livery-derived yellow/lime/green fragments, multiple photographic scales and controlled overlaps.
+
+Vehicle: a white fastback robotaxi sedan (Hyundai Sonata proportions) in white with a compact white roof sensor pod holding a short dark cylindrical lidar, plus fender sensor housings, and an exact geometric livery of separate red, yellow, lime and green polygons along the lower body sides. Never a crossover, hatchback or generic concept car. Keep the doors free of any lettering. No person visible in either front seat.
+
+Location: Moskvoretskaya embankment beside Zaryadye park at blue hour after rain, glass canopy and city lights behind, wet asphalt reflections.
+
+Composition: calm front three-quarter vehicle in the lower half; a large warm-white typography field occupying the upper part, separated from the photograph by a decisive diagonal; one saturated red plane cutting in from the right edge.
+
+Text exactly, in flawless Russian Cyrillic, condensed grotesque, all caps: "САДИСЬ" / "И ВЫДОХНИ". Small caption line at the bottom, all caps: "РОБОТАКСИ ЯНДЕКСА. ПРИВЕТ!". Spelling must be exact. No other text anywhere in the image.
+
+Framing safety: keep every letter well inside the frame. At least 9% of the image height above the top of the headline and at least 9% of the image height below the caption line must stay empty background. No letter may touch or bleed off the top or the bottom edge.
+
+Mood: calm, premium, unhurried — a moment to exhale in the city, not speed.
+
+Avoid fake UI, fake data, maps, navigation pins, sci-fi HUD, glassmorphism, purple neon, grunge, giant lidar towers, shop signage, street signs, readable license plates, and any extra lettering or logos.

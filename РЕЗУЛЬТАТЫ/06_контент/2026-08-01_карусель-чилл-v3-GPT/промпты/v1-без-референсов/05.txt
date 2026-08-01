@@ -1,0 +1,17 @@
+Create a complete multilayered Russian mobility campaign image, not a website screenshot and not a photograph with text placed on top.
+
+Design language: oversized condensed Cyrillic as architecture, irregular black and warm-white editorial fields, decisive diagonal boundaries, one saturated red kinetic plane, livery-derived yellow/lime/green fragments, multiple photographic scales and controlled overlaps.
+
+Vehicle: a white fastback robotaxi sedan (Hyundai Sonata proportions) in white with a compact white roof sensor pod holding a short dark cylindrical lidar, plus fender sensor housings, and an exact geometric livery of separate red, yellow, lime and green polygons along the lower body sides. Never a crossover, hatchback or generic concept car. Keep the doors free of any lettering. No person visible in either front seat.
+
+Location: a wide open Moscow embankment road at blue hour after rain, the Moscow-City towers small and far away on the horizon, warm city lights reflected in the wet asphalt. No shopfronts, no signage, no people, no other cars near the camera.
+
+Composition: a large black editorial field carrying the warm-white headline occupies the upper part of the frame, cut from the photograph by a decisive diagonal running down to the left; the car waits calmly at the kerb in the lower third, small in the frame, seen from a low front-side three-quarter angle across the road; a saturated red plane enters from the lower right; detached lime and yellow livery polygons along the diagonal.
+
+Text exactly, in flawless Russian Cyrillic, condensed grotesque, all caps, warm-white letters on the black field: "ПРОКАТИСЬ" / "КОГДА ЗАХОЧЕШЬ". Small caption line at the bottom, all caps: "МОСКВА. РОБОТАКСИ ЯНДЕКСА". Spelling must be exact. No other text anywhere in the image.
+
+Framing safety: keep every letter well inside the frame. At least 9% of the image height above the top of the headline and at least 9% of the image height below the caption line must stay empty background. No letter may touch or bleed off the top or the bottom edge.
+
+Mood: calm, premium, unhurried — an open invitation, not urgency.
+
+Avoid fake UI, fake data, maps, navigation pins, sci-fi HUD, glassmorphism, purple neon, grunge, giant lidar towers, shop signage, street signs, readable license plates, and any extra lettering or logos.

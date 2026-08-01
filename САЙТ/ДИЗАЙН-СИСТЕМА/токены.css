@@ -1,0 +1,275 @@
+/* Токены дизайн-системы, снятые с копии autonomy.yandex.ru 31.07.2026.
+   Значения не подобраны на глаз — вынуты из CSS сайта и вычисленных стилей.
+
+   ГЛАВНОЕ: 1rem = 1px при ширине окна 1440. Размеры пишутся в rem и численно
+   равны пикселям макета. Не смешивать с px.
+
+   Пути к шрифтам даны относительно корня копии (КЛОН-роботакси/).
+   Для своей страницы подключать этот файл и держать шрифты рядом. */
+
+html {
+  height: 100%;
+  font-size: .069vw;        /* при 1440 → 1rem = 1px */
+  scroll-behavior: smooth;
+}
+
+@media (max-width: 767px) {
+  html { font-size: .267vw } /* при 375 → 1rem = 1px */
+}
+
+:root {
+  /* ── Шрифты ─────────────────────────────────────────────────────────────
+     YSText — весь текст и заголовки секций.
+     YSTextCond — только плакатные прописные: обложка, крупные цифры. */
+  --font-family-text:           YSText, "Open Sans", "Helvetica Neue", arial, sans-serif;
+  --font-family-heading:        YSText, "Open Sans", "Helvetica Neue", arial, sans-serif;
+  --font-family-heading_accent: YSTextCond, "Open Sans", "Helvetica Neue", arial, sans-serif;
+
+  /* ── Костяк палитры ────────────────────────────────────────────────────── */
+  --color-black:      #1a1a1a;  /* текст и тёмные секции */
+  --color-gray:       #f4f4f6;  /* фон страницы и светлые секции */
+  --color-white:      #fff;     /* карточки, шапка, текст на тёмном */
+
+  --color-text:       var(--color-black);
+  --color-text-light: var(--color-white);
+  --color-bg-body:    var(--color-gray);
+  --color-link:       var(--color-text);
+  --color-link-hover: var(--color-dark-gray);
+
+  /* ── Серые ступени ─────────────────────────────────────────────────────── */
+  --color-black-a10:  #e6e6e6;
+  --color-black-a20:  #ccc;
+  --color-black-a30:  #b3b3b3;
+  --color-black-a50:  #7f7f7f;
+  --color-black-op05: rgba(0, 0, 0, .05);
+  --color-black-op95: rgba(26, 26, 26, .95);
+
+  --color-dark-gray:    #333335;
+  --color-dark-gray-2:  #2e2e2e;
+  --color-dark-gray-3:  #222427;
+  --color-mid-gray:     #4b4b4b;
+  --color-mid-gray-1:   #848484;
+  --color-gray-2:       #e1e2e5;
+  --color-gray-3:       #b2b2b2;
+  --color-gray-4:       #dcdcdf;
+  --color-gray-5:       #e9e9e9;
+  --color-checkbox-gray:#eaeaec;
+  --color-gray-op95:    rgba(244, 244, 246, .95);
+  --color-gray-op0:     rgba(244, 244, 246, 0);
+  --color-bg-body-op0:  rgba(244, 244, 246, 0);
+  --color-banner-black: #0d0f14;
+
+  /* ── Точечные акценты ──────────────────────────────────────────────────── */
+  --color-red:          #fc3f1d;
+  --color-brand-red:    red;
+  --color-yellow:       #ffda0c;
+  --color-dark-yellow:  #f3b807;
+  --color-green:        #ace800;
+  --color-green-1:      #9cd300;
+  --color-blue:         #374fe9;
+  --color-electro-blue: #566af5;
+  --color-banner-blue:  #202dac;
+  --color-cyan:         #4cccff;
+
+  /* Промо «1 млн заказов» — отдельная гамма, в продуктовых страницах не берём */
+  --color-orders-crayola:    #0dc3d0;
+  --color-orders-main-bg:    #ededed;
+  --color-orders-dark-green: #063a3d;
+  --color-orders-black:      #000;
+  --color-orders-blue:       #00adff;
+
+  /* ── Раскладка ─────────────────────────────────────────────────────────── */
+  --width-container: 1440rem;
+  --min-body-width:   320rem;
+
+  --padding-vertical-large:    100rem;  /* между секциями, крупный */
+  --padding-vertical:           75rem;  /* между секциями, обычный */
+  --padding-vertical-large-sm:  56rem;  /* то же на мобильном */
+  --padding-vertical-sm:        42rem;
+
+  --padding-side-large:   40rem;
+  --padding-side:         35rem;
+  --padding-side-medium:  30rem;
+  --padding-side-small:   10rem;
+  --padding-side-large-sm:  18rem;
+  --padding-side-medium-sm: 18rem;
+  --padding-side-sm:        15rem;
+
+  /* ── Кнопки: пилюля, радиус по высоте ──────────────────────────────────── */
+  --height-button-large:    76rem;
+  --height-button-large-sm: 76rem;
+  --height-button:          60rem;
+  --height-button-sm:       50rem;
+
+  /* ── Скругления ────────────────────────────────────────────────────────── */
+  --item-border-radius:            30rem;  /* карточка, плитка — основной */
+  --item-border-radius-sm:         10rem;
+  --item-border-radius-medium:     50rem;
+  --item-border-radius-large:      80rem;
+  --item-border-radius-large-sm:   30rem;
+  --item-border-radius-sm_parallax:20rem;
+
+  --layout-border-radius:          50rem;
+  --layout-border-radius-sm:       30rem;
+  --layout-border-radius-small:    30rem;
+  --layout-border-radius-small-sm: 20rem;
+
+  --product-border-radius:          30rem;
+  --product-border-radius-sm:       20rem;
+  --product-border-radius-large:    80rem;
+  --product-border-radius-large-sm: 50rem;
+
+  --blog-post-border-radius:       30rem;
+  --blog-post-border-radius-small: 20rem;
+
+  --orders-layout-border-radius:    60rem;
+  --orders-layout-border-radius-sm: 20rem;
+
+  /* ── Движение ──────────────────────────────────────────────────────────── */
+  --easing-hover: cubic-bezier(0.22, 0.85, 0.59, 0.97);
+}
+
+/* ── Шрифты. Пути от корня копии ─────────────────────────────────────────── */
+
+@font-face {
+  font-family: YSText;
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+  src: url("/assets/yastatic.net/s3/promohr/static/promo-autonomy/13/_next/static/media/YSText-Light-Web.38cc8d65.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: YSText;
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  src: url("/assets/yastatic.net/s3/promohr/static/promo-autonomy/13/_next/static/media/YSText-Regular-Web.20940a66.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: YSText;
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+  src: url("/assets/yastatic.net/s3/promohr/static/promo-autonomy/13/_next/static/media/YSText-Medium-Web.dea83426.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: YSText;
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+  src: url("/assets/yastatic.net/s3/promohr/static/promo-autonomy/13/_next/static/media/YSText-Bold-Web.49f8767e.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: YSTextCond;
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+  src: url("/assets/yastatic.net/s3/promohr/static/promo-autonomy/13/_next/static/media/YSTextCond-Medium.2b103a00.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: YSTextCond;
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+  src: url("/assets/yastatic.net/s3/promohr/static/promo-autonomy/13/_next/static/media/YSTextCond-Heavy.5ebdf08d.woff2") format("woff2");
+}
+
+/* ── База страницы ───────────────────────────────────────────────────────── */
+
+body {
+  min-width: var(--min-body-width);
+  margin: 0;
+  background: var(--color-bg-body);
+  color: var(--color-text);
+  font-family: var(--font-family-text);
+  font-size: 18rem;
+  font-weight: 400;
+  line-height: 24rem;
+}
+
+/* ── Ступени кегля ───────────────────────────────────────────────────────── */
+
+/* Плакат обложки: единственное место узкого начертания в прописных. */
+.т-плакат {
+  font-family: var(--font-family-heading_accent);
+  font-size: 102rem;
+  font-weight: 800;
+  line-height: .8;
+  letter-spacing: -.02em;
+  text-transform: uppercase;
+}
+
+.т-заголовок  { font-family: var(--font-family-heading); font-size: 56rem; font-weight: 500; line-height: 1.04 }
+.т-подзаголовок { font-family: var(--font-family-heading); font-size: 38rem; font-weight: 500; line-height: 1.1 }
+.т-крупный    { font-size: 24rem; font-weight: 400; line-height: 32rem }
+.т-текст      { font-size: 18rem; font-weight: 400; line-height: 24rem }
+.т-подпись    { font-size: 14rem; font-weight: 400; line-height: 20rem }
+
+/* ── Контейнер и секции ──────────────────────────────────────────────────── */
+
+.контейнер {
+  max-width: var(--width-container);
+  margin-inline: auto;
+  padding-inline: var(--padding-side);
+}
+
+@media (max-width: 767px) {
+  .контейнер { padding-inline: var(--padding-side-sm) }
+}
+
+.секция          { padding-block: var(--padding-vertical) }
+.секция--крупная { padding-block: var(--padding-vertical-large) }
+.секция--тёмная  { background: var(--color-black); color: var(--color-text-light) }
+.секция--светлая { background: var(--color-gray);  color: var(--color-text) }
+
+@media (max-width: 767px) {
+  .секция          { padding-block: var(--padding-vertical-sm) }
+  .секция--крупная { padding-block: var(--padding-vertical-large-sm) }
+}
+
+/* ── Кнопка-пилюля ───────────────────────────────────────────────────────── */
+
+.кнопка {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: var(--height-button);
+  padding-inline: var(--padding-side);
+  border: none;
+  border-radius: calc(var(--height-button) / 2);
+  background: var(--color-black);
+  color: var(--color-white);
+  font-family: var(--font-family-text);
+  font-size: 21rem;
+  font-weight: 500;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background .25s var(--easing-hover);
+}
+
+.кнопка:hover  { background: var(--color-dark-gray) }
+.кнопка--белая { background: var(--color-white); color: var(--color-black) }
+
+@media (max-width: 767px) {
+  .кнопка { height: var(--height-button-sm); border-radius: calc(var(--height-button-sm) / 2) }
+}
+
+/* ── Карточка ────────────────────────────────────────────────────────────── */
+
+.карточка {
+  border-radius: var(--item-border-radius);
+  background: var(--color-white);
+  overflow: hidden;
+}
+
+.карточка--тёмная  { background: var(--color-black); color: var(--color-text-light) }
+.карточка--крупная { border-radius: var(--item-border-radius-large) }
+
+@media (max-width: 767px) {
+  .карточка--крупная { border-radius: var(--item-border-radius-large-sm) }
+}

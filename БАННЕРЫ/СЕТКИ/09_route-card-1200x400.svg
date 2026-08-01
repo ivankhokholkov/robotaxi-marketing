@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400">
+  <defs>
+    <pattern id="grid-1200-400" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#FFFFFF" stroke-opacity=".055" stroke-width="1"/></pattern>
+    <linearGradient id="accent" x1="0" x2="1"><stop stop-color="#FF3B30"/><stop offset=".55" stop-color="#FFD60A"/><stop offset="1" stop-color="#50E06E"/></linearGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="12" stdDeviation="18" flood-opacity=".35"/></filter>
+  </defs>
+  <rect width="1200" height="400" fill="#101214"/>
+  <rect width="1200" height="400" fill="url(#grid-1200-400)"/>
+  <rect x="48" y="32" width="1104" height="336" rx="24" fill="none" stroke="#56D7FF" stroke-width="3" stroke-dasharray="12 10"/>
+  <g stroke="#56D7FF" stroke-opacity=".20" stroke-width="1"><line x1="186" y1="32" x2="186" y2="368"/><line x1="324" y1="32" x2="324" y2="368"/><line x1="462" y1="32" x2="462" y2="368"/><line x1="600" y1="32" x2="600" y2="368"/><line x1="738" y1="32" x2="738" y2="368"/><line x1="876" y1="32" x2="876" y2="368"/><line x1="1014" y1="32" x2="1014" y2="368"/></g>
+  <rect x="92.16" y="92.47999999999999" width="662.4" height="94.5" rx="16" fill="#191D21" stroke="#FFFFFF" stroke-opacity=".10"/>
+  <text x="125.28" y="123.97999999999999" fill="#F7F3EA" font-family="Arial, sans-serif" font-size="30" font-weight="800">МОСКВА ВИДИТ</text><text x="125.28" y="153.98" fill="#F7F3EA" font-family="Arial, sans-serif" font-size="30" font-weight="800">БОЛЬШЕ</text>
+  <rect x="125.28" y="160.88" width="278.20799999999997" height="3.2" rx="4" fill="#FF3B30"/>
+  <g filter="url(#shadow)">
+    <path d="M504 299.2 C566.4 228.8, 903.36 216, 1078.08 274.88 L1128 308.15999999999997 L1090.56 344 L553.92 344 Z" fill="#F4F4F2"/>
+    <path d="M847.2 231.36 h112.32 l31.200000000000003 19.2 h-174.72000000000003z" fill="#111417"/>
+    <rect x="784.8" y="317.12" width="280.8" height="10.24" rx="6" fill="url(#accent)"/>
+    <circle cx="641.28" cy="344" r="21.76" fill="#171A1D" stroke="#71777D" stroke-width="3"/>
+    <circle cx="1015.68" cy="344" r="21.76" fill="#171A1D" stroke="#71777D" stroke-width="3"/>
+  </g>
+  <path d="M103.2 320.96 C357.12 273.91999999999996, 732.48 347.84, 1085.76 290.72" fill="none" stroke="#56D7FF" stroke-width="2.8000000000000003" stroke-linecap="round"/>
+  <circle cx="1085.76" cy="290.72" r="4.8" fill="#FF3B30"/>
+  <text x="48" y="27.1" fill="#56D7FF" font-family="Arial, sans-serif" font-size="14.000000000000002" font-weight="700">SAFE AREA 1104×336</text>
+  <text x="48" y="388.3" fill="#F7F3EA" font-family="Arial, sans-serif" font-size="14.000000000000002" font-weight="700">Geo card banner · 1200×400 · 4–5 слоёв</text>
+</svg>

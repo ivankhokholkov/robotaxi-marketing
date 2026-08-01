@@ -1,0 +1,47 @@
+Use case: ads-marketing. Advertising background plate only — typography is
+composited separately in code. Continue the approved "Kinetic Moscow" visual
+system faithfully.
+
+THE CAR: use the supplied reference sheet as the exact source. It is a modern
+white FASTBACK SEDAN — long bonnet, low fast-sloping rear roofline, a boot deck
+with a small lip, a slim full-width red tail-light strip across the rear, large
+multi-spoke alloy wheels. On the roof, a low white shell with a black band and a
+short black lidar drum standing on it. Livery: sharp red angular arrows high on
+the rear quarter panel, yellow arrows in the middle of the doors, lime and green
+arrows low. White body everywhere else. Match the reference sheet — do not
+substitute a Polestar, a Tesla, a crossover or any other model.
+
+Native tall vertical composition. Blue hour just after rain in the ZILART
+district of Moscow, wet asphalt with long reflections.
+
+Structure by height:
+
+UPPER PART, roughly the top half — a matte near-black editorial field, flat and
+uniform, faint matte texture, nothing in it: no architecture, no objects, no
+detail. Reserved negative space. One saturated red kinetic plane cuts
+diagonally through it from the top right corner as the only structural gesture.
+
+The boundary between the dark field and the photograph is ONE CLEAN DIAGONAL
+EDGE running down to the left. Never a horizontal line.
+
+LOWER PART, roughly the bottom half — the photographic act. REAR THREE-QUARTER
+view of the car driving away from the camera to the right, large in frame, the
+rear quarter panel with the red and yellow livery clearly visible, the roof of
+the car crossing the diagonal edge so it overlaps both layers. Behind it, real
+modern ZILART residential blocks with warm window lights against a cool
+blue-grey evening sky. A restrained turquoise glow along the edge of the glass
+only — a thin line of light, not paint, not a light bar. The body reads as cool
+grey-white in evening light, never blown-out white. A few small livery-coloured
+polygons sit along the very bottom edge as controlled markers.
+
+Photographic, editorial quality, 35–50mm equivalent, natural perspective, soft
+directional light, cool-neutral white balance with a faint teal cast.
+
+STRICTLY EXCLUDE: any text, letters, words, numerals, captions, signage,
+watermarks or logos of any kind — the roof band and the doors stay blank; any
+user interface, app screen, map overlay, navigation pin, HUD, gauge, crosshair
+or pseudo-data; QR codes; metro symbols; recognisable faces; an empty driver's
+seat or any framing that reads as "nobody is driving"; purple or violet neon;
+glassmorphism; torn paper; grunge; vintage or classic cars; roof cargo boxes;
+random vehicle models; crossovers; glowing roof bars; centred symmetrical hero
+posters; oversaturated plastic CGI.

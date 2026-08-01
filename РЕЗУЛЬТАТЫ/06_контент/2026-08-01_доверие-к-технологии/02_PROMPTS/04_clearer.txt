@@ -1,0 +1,18 @@
+Use case: ads-marketing. Finished vertical 4:5 Russian campaign card, final card 4 of the same carousel.
+
+Image 1 is the authoritative Kinetic Moscow contact sheet. Image 2 is the vehicle identity turnaround. Image 3 is an authoritative real side-motion photograph of the robotaxi. Image 4 is the approved first campaign card and must lock typography, palette, vehicle treatment and finishing.
+
+Create a confident closing composition in the exact same campaign system. Use 7–9 layers: huge condensed Cyrillic headline; the exact robotaxi in calm rear-three-quarter motion; a narrow overlapping macro of the roof sensor; the VDNKh Main Entrance arch in the distant background to close the visual loop with card 1; matte-black and warm-white editorial fields; one saturated red rising plane; several hard-edged yellow/lime/green fragments; and one thin white line. The composition should feel resolved and optimistic, adult and technological, not childish or futuristic.
+
+Exact headline, verbatim Cyrillic, three lines:
+"ТЕХНОЛОГИЯ
+СТАНОВИТСЯ
+ПОНЯТНЕЕ"
+
+Keep all letters fully readable. Place "ПОНЯТНЕЕ" on a separate warm-white angled field with black letters and one short red underline. No secondary copy and no other words except exact vehicle wordmarks.
+
+Vehicle lock: exact white fastback sedan; same body proportions, rear lights, wheels, fender sensors, low wide white roof module with BLACK front fascia and short dark cylindrical lidar; exact separate red/yellow/lime/green angular livery pieces with white gaps. On BOTH the door and roof black fascia show the exact sequence: red circle with white "Я", separate multicolored fingerprint/globe symbol, then "Автономный транспорт". Never omit the multicolored symbol or substitute only "Яндекс". No manufacturer badge, no readable plate. No visible human in either front seat and no emphasis on an empty driver's seat.
+
+Scene: clean blue-hour roadway approach near VDNKh after light rain, restrained reflections, architecture plausible and secondary. No Kremlin, Saint Basil's Cathedral or Moscow-City.
+
+Avoid generic auto poster, one centered car, UI, HUD, maps, metro, data, numbers, sci-fi scan rings, racing, excessive blur, purple neon, orange glow, glassmorphism, torn paper, grunge, vintage texture and watermark.

@@ -1,0 +1,396 @@
+/* Базовые компоненты. Собраны только из токенов tokens.css.
+   Захардкоженных цветов и размеров тут нет — если понадобилось значение,
+   которого нет, оно заводится в tokens.css, а не по месту.
+
+   Порядок разделов: основа → текст → метка → кнопка → карточка и ряд →
+   список → аккордеон → полоса действия → обложка → доступность.
+
+   Классы по-русски: так же названы блоки в ЛЕНДИНГ/БЛОКИ/. */
+
+/* ── Основа ─────────────────────────────────────────────────────────────── */
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-text);
+  font-size: var(--text-body);
+  line-height: var(--line-base);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+img, svg, video { display: block; max-width: 100%; height: auto; }
+
+::selection { background: var(--color-accent); color: var(--color-on-accent); }
+
+/* Блок — секция страницы. Воздух между блоками задаётся здесь, а не в блоке. */
+.блок {
+  padding: var(--space-24) var(--page-pad);
+  max-width: var(--page-max);
+  margin-inline: auto;
+}
+
+.блок + .блок { padding-top: var(--space-16); }
+
+/* ── Текст ──────────────────────────────────────────────────────────────── */
+
+h1, h2, h3 {
+  font-family: var(--font-display);
+  font-weight: var(--weight-bold);
+  line-height: var(--line-tight);
+  letter-spacing: var(--tracking-tight);
+  margin: 0 0 var(--space-6);
+  max-width: var(--measure);
+  text-wrap: balance;
+}
+
+h1 { font-size: var(--text-hero); }
+h2 { font-size: var(--text-title); }
+h3 { font-size: var(--text-lead); letter-spacing: normal; margin-bottom: var(--space-3); }
+
+p { margin: 0 0 var(--space-4); max-width: var(--measure); }
+
+.лид {
+  font-size: var(--text-lead);
+  color: var(--color-text-dim);
+  line-height: 1.45;
+}
+
+.сноска {
+  font-size: var(--text-small);
+  color: var(--color-text-dim);
+  margin-top: var(--space-8);
+}
+
+/* Блочная сноска в существующих блоках — тот же вид. */
+.блок__сноска { font-size: var(--text-small); color: var(--color-text-dim); margin-top: var(--space-8); }
+
+/* Цифры: моноширинные знаки, чтобы столбцы не прыгали при пересборке. */
+.цифра { font-variant-numeric: tabular-nums; font-feature-settings: "tnum" 1; }
+
+/* ── Метка ──────────────────────────────────────────────────────────────── */
+
+.метка {
+  display: inline-block;
+  padding: var(--space-1) var(--space-3);
+  border: 1px solid var(--color-line-strong);
+  border-radius: var(--radius-round);
+  font-size: var(--text-small);
+  line-height: 1.3;
+  color: var(--color-text-dim);
+}
+
+/* Акцентная метка — подсветка, а не заливка баннера. */
+.метка--акцент { border-color: var(--color-accent); color: var(--color-accent); }
+
+/* Неподтверждённое значение видно и на странице, и заказчику. */
+.метка--черновик { border-style: dashed; }
+
+/* На узком экране метка внутри карточки перестаёт помещаться в строку.
+   Пилюля с текстом в две строки выглядит сломанной: скругление 999px
+   рассчитано на одну строку. Ниже 480 px метка становится прямоугольной
+   со скруглением 8 px и получает вертикальный воздух. */
+@media (max-width: 480px) {
+  .метка {
+    border-radius: var(--radius-s);
+    padding: var(--space-2) var(--space-3);
+  }
+}
+
+/* ── Кнопка ─────────────────────────────────────────────────────────────── */
+
+.кнопка {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 48px;               /* кликабельная зона от 44×44 */
+  padding: var(--space-3) var(--space-8);
+  border: 1px solid var(--color-line-strong);
+  border-radius: var(--radius-card);
+  background: transparent;
+  color: var(--color-text);
+  font: inherit;
+  font-weight: var(--weight-medium);
+  text-decoration: none;
+  cursor: pointer;
+  transition: background var(--motion-fast) var(--motion-ease),
+              border-color var(--motion-fast) var(--motion-ease),
+              color var(--motion-fast) var(--motion-ease);
+}
+
+.кнопка:hover { border-color: var(--color-accent); color: var(--color-accent); }
+
+/* Главное действие на экране — одно. Второй акцентной кнопки в блоке не бывает. */
+.кнопка--акцент {
+  background: var(--color-accent);
+  border-color: var(--color-accent);
+  color: var(--color-on-accent);
+  box-shadow: var(--shadow-glow);
+}
+
+.кнопка--акцент:hover {
+  background: var(--color-accent-hi);
+  border-color: var(--color-accent-hi);
+  color: var(--color-on-accent);
+}
+
+.кнопка--тихая { border-color: transparent; color: var(--color-text-dim); padding-inline: var(--space-4); }
+.кнопка--тихая:hover { color: var(--color-accent); border-color: var(--color-line); }
+
+/* Ряд действий: на 360 px кнопки становятся в столбец. */
+.действия { display: flex; flex-wrap: wrap; gap: var(--space-3); margin-top: var(--space-8); }
+
+/* ── Карточка и ряд ─────────────────────────────────────────────────────── */
+
+.ряд {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr));
+  gap: var(--space-6);
+}
+
+.карточка,
+.тариф {                            /* .тариф — карточка тарифного блока */
+  background: var(--color-surface);
+  border: 1px solid var(--color-line);
+  border-radius: var(--radius-card);
+  padding: var(--space-8);
+  box-shadow: var(--shadow-soft);
+  transition: border-color var(--motion-fast) var(--motion-ease),
+              box-shadow var(--motion-fast) var(--motion-ease);
+}
+
+/* Наведение = мягкий блик по краю. Это подсветка капсулы, а не подсвеченная плашка. */
+.карточка:hover,
+.тариф:hover { border-color: var(--color-accent); box-shadow: var(--shadow-glow); }
+
+.тариф__для { color: var(--color-text-dim); font-size: var(--text-small); margin-bottom: var(--space-6); }
+
+/* ── Список ─────────────────────────────────────────────────────────────── */
+
+.карточка ul,
+.тариф ul,
+.список {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: var(--space-3);
+}
+
+.карточка li,
+.тариф li,
+.список li {
+  position: relative;
+  padding-left: var(--space-6);
+  max-width: var(--measure);
+}
+
+/* Маркер — короткое бирюзовое тире, не иконка-кружок и не эмодзи. */
+.карточка li::before,
+.тариф li::before,
+.список li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.72em;
+  width: 12px;
+  height: 1px;
+  background: var(--color-accent);
+}
+
+/* ── Аккордеон ──────────────────────────────────────────────────────────── */
+
+.вопрос {
+  border-bottom: 1px solid var(--color-line);
+}
+
+.вопрос > summary {
+  list-style: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-4);
+  min-height: 56px;                /* палец попадает без прицеливания */
+  padding: var(--space-4) 0;
+  font-family: var(--font-display);
+  font-size: var(--text-lead);
+  font-weight: var(--weight-medium);
+  color: var(--color-text);
+  transition: color var(--motion-fast) var(--motion-ease);
+}
+
+.вопрос > summary::-webkit-details-marker { display: none; }
+.вопрос > summary:hover { color: var(--color-accent); }
+
+/* Состояние показано формой, а не только цветом: галочка поворачивается. */
+.вопрос > summary::after {
+  content: "";
+  flex: none;
+  width: 10px;
+  height: 10px;
+  border-right: 2px solid var(--color-accent);
+  border-bottom: 2px solid var(--color-accent);
+  transform: rotate(45deg) translate(-2px, -2px);
+  transition: transform var(--motion-fast) var(--motion-ease);
+}
+
+.вопрос[open] > summary::after { transform: rotate(-135deg) translate(-2px, -2px); }
+
+.вопрос > :not(summary) { margin-bottom: var(--space-6); color: var(--color-text-dim); }
+
+/* ── Полоса действия ────────────────────────────────────────────────────── */
+
+.полоса {
+  background: var(--color-surface);
+  border: 1px solid var(--color-line);
+  border-radius: var(--radius-card);
+  padding: var(--space-12);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-8);
+  /* Свечение изнутри края — тот же приём, что подсветка по периметру салона. */
+  box-shadow: inset 0 1px 0 var(--color-glow), var(--shadow-soft);
+}
+
+.полоса h2 { margin-bottom: var(--space-2); }
+.полоса .действия { margin-top: 0; }
+
+/* ── Обложка ────────────────────────────────────────────────────────────── */
+
+.обложка {
+  position: relative;
+  min-height: 100svh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;       /* текст внизу, не по центру симметрично */
+  gap: var(--space-6);
+  padding: var(--space-24) var(--page-pad) var(--space-16);
+  max-width: none;
+  overflow: hidden;
+}
+
+/* Подсветка лобового стекла в режиме ожидания — единственный внешний признак
+   бренда по документу заказчика. Здесь она же и есть источник света на экране. */
+.обложка::before {
+  content: "";
+  position: absolute;
+  inset: auto -20% -40% -20%;
+  height: 70%;
+  background: radial-gradient(60% 60% at 50% 100%, var(--color-glow), transparent 70%);
+  pointer-events: none;
+}
+
+.обложка > * { position: relative; max-width: var(--page-max); width: 100%; margin-inline: auto; }
+
+.обложка__текст { max-width: var(--measure); }
+
+/* Завеса — только если под обложку подложено фото или видео. */
+.обложка--фото::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, var(--color-veil), transparent 75%);
+  pointer-events: none;
+}
+
+/* ── Плейсхолдер и слот ─────────────────────────────────────────────────── */
+
+/* Плейсхолдер обязан выглядеть чужеродно, иначе его примут за готовый текст.
+   Жёлтой подложки не заводим: второй акцентный цвет ломает дизайн-систему.
+   Чужеродность даёт моноширинный шрифт, пунктир и квадратные скобки в тексте —
+   тот же приём, что у .метка--черновик. Классы умрут вместе с последним
+   плейсхолдером, когда заказчик пришлёт материалы. */
+
+.плейсхолдер {
+  display: block;
+  border: 1px dashed var(--color-line-strong);
+  border-radius: var(--radius-s);
+  padding: var(--space-3) var(--space-4);
+  font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  font-size: var(--text-small);
+  line-height: 1.4;
+  color: var(--color-text-dim);
+  max-width: var(--measure);
+}
+
+/* Слот — место под материал, который придёт извне: фото, видео, карта, моушен.
+   Соотношение задаётся атрибутом data-соотношение, чтобы вёрстка не прыгала,
+   когда материал встанет на место заглушки. */
+
+.слот {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: var(--space-3);
+  padding: var(--space-6);
+  border: 1px dashed var(--color-line-strong);
+  border-radius: var(--radius-card);
+  background: var(--color-surface);
+  overflow: hidden;
+}
+
+.слот[data-соотношение="16:9"] { aspect-ratio: 16 / 9; }
+.слот[data-соотношение="4:3"]  { aspect-ratio: 4 / 3; }
+.слот[data-соотношение="1:1"]  { aspect-ratio: 1 / 1; }
+
+/* На узком экране жёсткое соотношение вырождается в полосу высотой в палец. */
+@media (max-width: 640px) {
+  .слот[data-соотношение] { aspect-ratio: auto; min-height: 220px; }
+}
+
+.слот__подпись {
+  font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  font-size: var(--text-small);
+  line-height: 1.4;
+  color: var(--color-text-dim);
+  margin: 0;
+  max-width: 46ch;
+}
+
+/* Бейдж «это временно». Видно на экране, а не только в исходнике. */
+.слот__бейдж {
+  position: absolute;
+  top: var(--space-3);
+  left: var(--space-3);
+  z-index: 2;
+  padding: var(--space-1) var(--space-3);
+  border: 1px dashed var(--color-line-strong);
+  border-radius: var(--radius-round);
+  background: var(--color-bg);
+  font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  font-size: var(--text-small);
+  line-height: 1.3;
+  color: var(--color-text-dim);
+}
+
+/* ── Доступность ────────────────────────────────────────────────────────── */
+
+/* Обводка фокуса не снимается никогда. */
+:focus-visible {
+  outline: 2px solid var(--color-accent-hi);
+  outline-offset: 3px;
+  border-radius: var(--radius-s);
+}
+
+a { color: var(--color-accent); text-underline-offset: 3px; }
+
+/* Ссылка внутри текста опознаётся не только цветом. */
+p a, li a { text-decoration: underline; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    transition-duration: 1ms !important;
+    animation-duration: 1ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+  }
+}
