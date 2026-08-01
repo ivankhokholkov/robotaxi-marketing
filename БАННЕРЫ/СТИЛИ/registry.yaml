@@ -10,8 +10,8 @@ styles:
       - product explainers
       - FAQ and trust content
     guide: "БАННЕРЫ/СТИЛИ/editorial-explainer.md"
-    contact_sheet: ""
-    examples: ""
+    contact_sheet: "РЕЗУЛЬТАТЫ/06_контент/2026-08-01_как-роботакси-видит-город/КОНТАКТНЫЙ-ЛИСТ.png"
+    examples: "РЕЗУЛЬТАТЫ/06_контент/2026-08-01_как-роботакси-видит-город/04_FINAL/"
     prompt_preamble: >-
       Use the supplied Editorial Explainer references only for modular hierarchy
       and editorial rhythm. Create an original Robotaxi Moscow educational carousel;
