@@ -1,0 +1,392 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#1a1a1a">
+<title>Роботакси — состояние проекта на 1 августа</title>
+
+<!-- Стили сайта-референса, те же четыре файла, что подключает index.html.
+     Отсюда приезжают шрифты YSText и YSTextCond, палитра, шкала кеглей
+     и механика 1rem = 1px при ширине 1440. -->
+<link rel="stylesheet" href="/assets/yastatic.net/s3/promohr/static/promo-autonomy/13/_next/static/css/4d0e27e96b723770.css"/>
+<link rel="stylesheet" href="/assets/yastatic.net/s3/promohr/static/promo-autonomy/13/_next/static/css/da4a5de3dbed89af.css"/>
+<link rel="stylesheet" href="/assets/yastatic.net/s3/promohr/static/promo-autonomy/13/_next/static/css/2a998ee4a19e115d.css"/>
+<link rel="stylesheet" href="/assets/yastatic.net/s3/promohr/static/promo-autonomy/13/_next/static/css/4e35725e297e417c.css"/>
+<link rel="stylesheet" href="своё.css">
+
+<style>
+/* Правила дашборда поверх стилей копии. Того же порядка, что «своё.css»:
+   берём её переменные, её скругления, её шкалу. Ничего своего не выдумываем.
+   Все размеры в rem, 1rem = 1px при 1440 — как во всей системе. */
+
+.д-страница { background: var(--color-bg-body); padding-bottom: 100rem }
+
+/* ── Шапка страницы: паттерн внутренней обложки, без фото ────────────────── */
+.д-шапка {
+  background: var(--color-black);
+  color: var(--color-text-light);
+  border-bottom-left-radius: var(--layout-border-radius);
+  border-bottom-right-radius: var(--layout-border-radius);
+  padding-block: 140rem 90rem;
+}
+.д-дата {
+  display: inline-flex; align-items: center; gap: 10rem;
+  height: 40rem; padding-inline: 20rem;
+  border-radius: 20rem;
+  background: rgba(255,255,255,.12);
+  font-size: 16rem; font-weight: 500; margin-bottom: 30rem;
+}
+.д-дата::before {
+  content: ""; width: 8rem; height: 8rem; border-radius: 50%;
+  background: var(--color-green);
+}
+.д-лид {
+  max-width: 760rem; margin-top: 30rem;
+  font-size: 24rem; line-height: 32rem; color: var(--color-gray-3);
+}
+
+/* ── Секции ──────────────────────────────────────────────────────────────── */
+.д-секция { padding-block: var(--padding-vertical) }
+.д-секция--первая { padding-top: var(--padding-vertical-large) }
+.д-над {
+  font-size: 14rem; line-height: 20rem; font-weight: 500;
+  letter-spacing: .06em; text-transform: uppercase;
+  color: var(--color-mid-gray-1); margin-bottom: 16rem;
+}
+.д-подзаг {
+  max-width: 760rem; margin-top: 24rem;
+  font-size: 21rem; line-height: 30rem; color: var(--color-mid-gray);
+}
+
+/* ── Сетки и карточки ────────────────────────────────────────────────────── */
+.д-сетка { display: grid; gap: 20rem; margin-top: 50rem }
+.д-к2 { grid-template-columns: repeat(2, 1fr) }
+.д-к3 { grid-template-columns: repeat(3, 1fr) }
+.д-к4 { grid-template-columns: repeat(4, 1fr) }
+
+.д-карточка {
+  background: var(--color-white);
+  border-radius: var(--item-border-radius);
+  padding: 40rem;
+}
+.д-карточка--тёмная { background: var(--color-black); color: var(--color-text-light) }
+.д-карточка h3 { margin: 0 0 16rem; font-size: 24rem; line-height: 30rem; font-weight: 500 }
+.д-карточка p  { margin: 0; font-size: 18rem; line-height: 26rem; color: var(--color-mid-gray) }
+.д-карточка--тёмная p { color: var(--color-gray-3) }
+
+/* ── Плитка с числом. Узкое начертание — как на плакатных цифрах сайта ───── */
+.д-число {
+  font-family: var(--font-family-heading_accent);
+  font-size: 76rem; line-height: .9; font-weight: 800;
+  letter-spacing: -.02em; font-variant-numeric: tabular-nums;
+}
+.д-подпись { margin-top: 20rem; font-size: 16rem; line-height: 22rem; color: var(--color-mid-gray) }
+
+/* ── Цитата приёмочного критерия ─────────────────────────────────────────── */
+.д-цитата { border-left: 4rem solid var(--color-yellow); padding-left: 30rem; margin-top: 40rem }
+.д-цитата q {
+  display: block; font-size: 38rem; line-height: 46rem;
+  font-weight: 500; font-style: normal;
+}
+.д-цитата cite { display: block; margin-top: 20rem; font-size: 16rem; font-style: normal; color: var(--color-gray-3) }
+
+/* ── Шаг цикла ───────────────────────────────────────────────────────────── */
+.д-н {
+  display: inline-flex; align-items: center; justify-content: center;
+  width: 44rem; height: 44rem; border-radius: 50%;
+  background: var(--color-black); color: var(--color-white);
+  font-size: 20rem; font-weight: 700; margin-bottom: 24rem;
+}
+code {
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: .92em; background: var(--color-gray-5);
+  padding: 3rem 8rem; border-radius: var(--item-border-radius-sm);
+}
+
+/* ── Метка типа отказа ───────────────────────────────────────────────────── */
+.д-метка {
+  display: inline-block; margin-bottom: 20rem;
+  height: 32rem; line-height: 32rem; padding-inline: 16rem;
+  border-radius: 16rem; font-size: 14rem; font-weight: 500;
+  background: var(--color-gray-2); color: var(--color-black);
+}
+.д-метка--право { background: var(--color-red);   color: var(--color-white) }
+.д-метка--бренд { background: var(--color-yellow); color: var(--color-black) }
+.д-метка--факт  { background: var(--color-green);  color: var(--color-black) }
+.д-метка--nda   { background: var(--color-blue);   color: var(--color-white) }
+
+/* ── Списки статуса ──────────────────────────────────────────────────────── */
+.д-список { list-style: none; margin: 24rem 0 0; padding: 0 }
+.д-список li {
+  display: flex; gap: 14rem; align-items: flex-start;
+  padding-block: 16rem; border-bottom: 1rem solid var(--color-gray-2);
+  font-size: 17rem; line-height: 24rem;
+}
+.д-список li:last-child { border-bottom: 0 }
+.д-знак { flex: none; font-weight: 700; color: var(--color-green-1) }
+.д-список--ждём .д-знак { color: var(--color-mid-gray-1) }
+.д-тихо { color: var(--color-mid-gray-1) }
+
+/* ── Таблица дат ─────────────────────────────────────────────────────────── */
+.д-прокрутка {
+  margin-top: 50rem; overflow-x: auto;
+  background: var(--color-white); border-radius: var(--item-border-radius);
+}
+.д-прокрутка table { width: 100%; min-width: 720rem; border-collapse: collapse }
+.д-прокрутка th, .д-прокрутка td {
+  padding: 24rem 40rem; text-align: left; font-size: 17rem; line-height: 24rem;
+  border-bottom: 1rem solid var(--color-gray-2);
+}
+.д-прокрутка th { font-weight: 500; color: var(--color-mid-gray-1); white-space: nowrap }
+.д-прокрутка tbody tr:last-child td { border-bottom: 0 }
+.д-прокрутка td:first-child { white-space: nowrap; font-weight: 500 }
+
+.д-подвал { padding-top: 60rem; font-size: 16rem; line-height: 24rem; color: var(--color-mid-gray-1) }
+.д-подвал p + p { margin-top: 12rem }
+
+/* ── Мобильная раскладка ─────────────────────────────────────────────────── */
+@media (max-width: 767px) {
+  .д-шапка {
+    padding-block: 110rem 60rem;
+    border-bottom-left-radius: var(--layout-border-radius-sm);
+    border-bottom-right-radius: var(--layout-border-radius-sm);
+  }
+  .д-лид { font-size: 18rem; line-height: 26rem }
+  .д-секция { padding-block: var(--padding-vertical-sm) }
+  .д-секция--первая { padding-top: var(--padding-vertical-large-sm) }
+  .д-сетка { gap: 10rem; margin-top: 30rem }
+  .д-к2, .д-к3, .д-к4 { grid-template-columns: 1fr }
+  .д-карточка { padding: 24rem; border-radius: var(--item-border-radius-sm_parallax) }
+  .д-число { font-size: 56rem }
+  .д-цитата q { font-size: 24rem; line-height: 32rem }
+  .д-подзаг { font-size: 18rem; line-height: 26rem }
+}
+</style>
+</head>
+
+<body>
+<div class="Layout_layout__jFBDb д-страница">
+
+<header class="д-шапка">
+  <div class="Container_container__uSgia">
+    <span class="д-дата">Состояние проекта на 1 августа 2026</span>
+    <h1 class="Heading_heading__k3kZ_ Heading_heading_h1__qIjP6 Heading_headingWhite__oFQ40 Heading_headingNoMargin__zRPE4">Система маркетинга пилота</h1>
+    <p class="д-лид">Одна папка: правила бренда, проверенные факты со ссылками на
+      первоисточники, готовые материалы и инструменты, чтобы пересобрать их
+      самому — без разработчика.</p>
+  </div>
+</header>
+
+<main>
+
+<section class="д-секция д-секция--первая">
+  <div class="Container_container__uSgia">
+    <p class="д-над">Приёмочный критерий</p>
+    <h2 class="Heading_heading__k3kZ_ Heading_heading_h3__zLZq2 Heading_headingNoMargin__zRPE4">Система сдана не тогда, когда материалы готовы</h2>
+
+    <div class="д-карточка д-карточка--тёмная" style="margin-top:40rem">
+      <div class="д-цитата">
+        <q>Чтобы я мог менять вообще все кампании в моменте.</q>
+        <cite>Виктор, маркетинг-лид пилота. Встреча 29 июля</cite>
+      </div>
+    </div>
+
+    <p class="д-подзаг">Значит, проверяется не папка с файлами, а цикл: вы меняете
+      вводную и получаете пересобранный набор материалов сами.</p>
+
+    <div class="д-сетка д-к3">
+      <div class="д-карточка">
+        <span class="д-н">1</span>
+        <h3>Меняете вводную</h3>
+        <p>Цифра, цена, механика, тэглайн. Для страницы — файл
+          <code>данные.yaml</code>, руками. Для баннеров — фразой обычными словами.</p>
+      </div>
+      <div class="д-карточка">
+        <span class="д-н">2</span>
+        <h3>Одна команда</h3>
+        <p>Девять блоков страницы пересобираются из одного источника значений.
+          Для баннеров — «пересобери сет»: система сама найдёт макеты
+          на старом оффере.</p>
+      </div>
+      <div class="д-карточка">
+        <span class="д-н">3</span>
+        <h3>Отчёт, а не тишина</h3>
+        <p>Система называет, что осталось несогласованным и почему это нельзя
+          публиковать. Не «готово», а «готово, кроме вот этого».</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="д-секция">
+  <div class="Container_container__uSgia">
+    <p class="д-над">Что внутри</p>
+    <h2 class="Heading_heading__k3kZ_ Heading_heading_h3__zLZq2 Heading_headingNoMargin__zRPE4">Цифры, которые можно проверить</h2>
+    <div class="д-сетка д-к4">
+      <div class="д-карточка"><div class="д-число">70</div>
+        <div class="д-подпись">готовых материалов: аудитория, УТП, рынок, реклама, аналитика, контент</div></div>
+      <div class="д-карточка"><div class="д-число">49</div>
+        <div class="д-подпись">карточек фактов — у каждой ссылка на первоисточник и срок годности</div></div>
+      <div class="д-карточка"><div class="д-число">19</div>
+        <div class="д-подпись">навыков: от разбора аудитории до вычитки текста от следов ИИ</div></div>
+      <div class="д-карточка"><div class="д-число">5</div>
+        <div class="д-подпись">агентов: исследователь, автор, критик, аналитик, оркестратор</div></div>
+      <div class="д-карточка"><div class="д-число">9</div>
+        <div class="д-подпись">блоков лендинга, каждый правится отдельно</div></div>
+      <div class="д-карточка"><div class="д-число">193</div>
+        <div class="д-подпись">изображения: макеты, генерации, референсы, контактные листы</div></div>
+      <div class="д-карточка"><div class="д-число">7</div>
+        <div class="д-подпись">презентаций <code>.pptx</code> и столько же в PDF</div></div>
+      <div class="д-карточка"><div class="д-число">0</div>
+        <div class="д-подпись">просроченных фактов и битых ссылок из 260 документов</div></div>
+    </div>
+  </div>
+</section>
+
+<section class="д-секция">
+  <div class="Container_container__uSgia">
+    <p class="д-над">Как это работает</p>
+    <h2 class="Heading_heading__k3kZ_ Heading_heading_h3__zLZq2 Heading_headingNoMargin__zRPE4">Порядок жёсткий: факты → текст → проверка</h2>
+    <p class="д-подзаг">Текст, написанный до фактов, потом не дополняется цифрами —
+      он переписывается целиком, потому что цифра меняет саму мысль.</p>
+    <div class="д-сетка д-к3">
+      <div class="д-карточка">
+        <h3>Факты</h3>
+        <p>Исследователь приносит карточку: одно проверяемое утверждение, ссылка
+          на первоисточник, снимок страницы и дата, после которой факт надо
+          перепроверить.</p>
+      </div>
+      <div class="д-карточка">
+        <h3>Текст</h3>
+        <p>Автор пишет только по карточкам. В интернет он не ходит — инструментов
+          нет намеренно. Нет карточки — в тексте появляется метка, а не
+          правдоподобное число.</p>
+      </div>
+      <div class="д-карточка">
+        <h3>Проверка</h3>
+        <p>Критик читает готовое свежим взглядом и возвращает список находок.
+          Права править ему не выданы: критик, который правит сам, начинает
+          защищать свою правку.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="д-секция">
+  <div class="Container_container__uSgia">
+    <p class="д-над">Главное для защиты</p>
+    <h2 class="Heading_heading__k3kZ_ Heading_heading_h3__zLZq2 Heading_headingNoMargin__zRPE4">Чего система не выпустит, даже если попросить</h2>
+    <p class="д-подзаг">Отказ — не сбой. Он означает, что в материале появилось бы
+      утверждение, за которое отвечает рекламодатель.</p>
+    <div class="д-сетка д-к2">
+      <div class="д-карточка">
+        <span class="д-метка д-метка--право">Правовое</span>
+        <h3>«Без водителя»</h3>
+        <p>На пилоте в салоне находится испытатель — это ВАТС 1 категории.
+          Формулировка не выпускается ни прямо, ни синонимами: «за рулём никого»,
+          «едет сама», «пустой салон». Смысл сохраняется разрешёнными заменами.</p>
+      </div>
+      <div class="д-карточка">
+        <span class="д-метка д-метка--бренд">Требование заказчика</span>
+        <h3>Противопоставление такси с водителем</h3>
+        <p>Ни «человеческий фактор», ни «не придётся терпеть разговоры». Пишем,
+          что даёт сервис, а не чего лишён конкурент. Косвенное противопоставление
+          ловится отдельно — оно проскакивает чаще прямого.</p>
+      </div>
+      <div class="д-карточка">
+        <span class="д-метка д-метка--факт">Достоверность</span>
+        <h3>Цифра без источника</h3>
+        <p>Либо карточка со ссылкой, либо видимая метка <code>[ПРОВЕРИТЬ]</code>
+          прямо в тексте. Выдуманное число в опубликованном материале выглядит
+          ровно как факт.</p>
+      </div>
+      <div class="д-карточка">
+        <span class="д-метка д-метка--nda">NDA</span>
+        <h3>Закрытые данные</h3>
+        <p>Себестоимость поездки, целевые CSAT и NPS, эластичность скидок, данные
+          аналитики Go — уходят под плейсхолдер. Перед отправкой во внешние модели
+          материал обезличивается, иначе скрипт останавливается.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="д-секция">
+  <div class="Container_container__uSgia">
+    <p class="д-над">Честный срез</p>
+    <h2 class="Heading_heading__k3kZ_ Heading_heading_h3__zLZq2 Heading_headingNoMargin__zRPE4">Готово, в работе, ждём от вас</h2>
+    <div class="д-сетка д-к3">
+      <div class="д-карточка">
+        <h3>Готово</h3>
+        <ul class="д-список">
+          <li><span class="д-знак">✓</span><span>Аудитория 30–45 и УТП обоих сегментов на реальном профиле</span></li>
+          <li><span class="д-знак">✓</span><span>Дизастр-чек рынка и правовая рамка</span></li>
+          <li><span class="д-знак">✓</span><span>Реклама: сообщения, макеты, расписание, бюджет</span></li>
+          <li><span class="д-знак">✓</span><span>Схема замера воронки и события лендинга</span></li>
+          <li><span class="д-знак">✓</span><span>Лендинг на девяти блоках, пересобирается одной командой</span></li>
+          <li><span class="д-знак">✓</span><span>Реестр креативов: что живёт на площадках и на каком оффере</span></li>
+        </ul>
+      </div>
+      <div class="д-карточка">
+        <h3>В работе, к 10 августа</h3>
+        <ul class="д-список д-список--ждём">
+          <li><span class="д-знак">→</span><span>Отчёт по аудитории 18–29 <span class="д-тихо">— 3 августа</span></span></li>
+          <li><span class="д-знак">→</span><span>Заготовки 18–29 под новое обещание <span class="д-тихо">— 3 августа</span></span></li>
+          <li><span class="д-знак">→</span><span>Материалы стадии «Лояльность» <span class="д-тихо">— 5 августа</span></span></li>
+          <li><span class="д-знак">→</span><span>Сценарии видео под вашу съёмку <span class="д-тихо">— 7 августа</span></span></li>
+          <li><span class="д-знак">→</span><span>Визуалы стадии «Открытость» <span class="д-тихо">— 7 августа</span></span></li>
+        </ul>
+      </div>
+      <div class="д-карточка">
+        <h3>Ждём от вас</h3>
+        <ul class="д-список д-список--ждём">
+          <li><span class="д-знак">?</span><span><b>Режим ЭПР: ПП 309 или ПП 2495.</b> <span class="д-тихо">Блокирует географию: по ПП 309 пассажирская зона Москвы — Ясенево и Сколково, северо-востока там нет</span></span></li>
+          <li><span class="д-знак">?</span><span>Механика входа: 15 минут бесплатно или промо-код 300 ₽</span></li>
+          <li><span class="д-знак">?</span><span>Один тариф или два — «Чилл» и «Сити»</span></li>
+          <li><span class="д-знак">?</span><span>Что из интеграций уже работает: Лавка, Маркет, Алиса</span></li>
+          <li><span class="д-знак">?</span><span>Фото флота от дизайнеров и тексты лендинга</span></li>
+        </ul>
+      </div>
+    </div>
+    <p class="д-подзаг">Пока вопрос открыт, материал собирается и помечается —
+      публикация блокируется. Сейчас в профиле проекта восемь таких меток.</p>
+  </div>
+</section>
+
+<section class="д-секция">
+  <div class="Container_container__uSgia">
+    <p class="д-над">График</p>
+    <h2 class="Heading_heading__k3kZ_ Heading_heading_h3__zLZq2 Heading_headingNoMargin__zRPE4">До защиты 15 августа</h2>
+    <div class="д-прокрутка">
+      <table>
+        <thead><tr><th>Дата</th><th>Что показываем</th><th>Что нужно от вас</th></tr></thead>
+        <tbody>
+          <tr><td>1 августа</td><td>Система целиком: живая пересборка страницы и баннера под новую вводную</td><td class="д-тихо">ничего, это демо</td></tr>
+          <tr><td>3 августа</td><td>Аудитория 18–29, заготовки под новое обещание</td><td>ответ по ЭПР</td></tr>
+          <tr><td>5 августа</td><td>Контент-план до производимых единиц, стадия «Лояльность»</td><td>тексты и структура лендинга</td></tr>
+          <tr><td>7 августа</td><td>Сборка под вашу защиту, лендинг с вашими материалами</td><td>фото флота от дизайнеров</td></tr>
+          <tr><td>10 августа</td><td>Сдача системы</td><td class="д-тихо">—</td></tr>
+          <tr><td>15 августа</td><td class="д-тихо">Ваша защита go/no-go</td><td class="д-тихо">—</td></tr>
+          <tr><td>сентябрь</td><td class="д-тихо">Старт пилота, месяц «Новизна»</td><td class="д-тихо">—</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="д-подвал">
+      <p>Цифры взяты из папки, а не из памяти: материалы, карточки фактов, навыки
+        и агенты пересчитаны скриптом при сборке этой страницы.</p>
+      <p>Вид страницы — дизайн-система, снятая с autonomy.yandex.ru 31.07.2026:
+        те же шрифты YSText и YSTextCond, та же палитра и скругления, та же
+        механика <code>1rem = 1px</code> при ширине 1440.</p>
+      <p>Подробности — <code>СТАРТ.md</code>, <code>ПРИЁМКА-01-АВГУСТА.md</code>,
+        <code>ЧТО-НУЖНО-ОТ-ЗАКАЗЧИКА.md</code>.</p>
+    </div>
+  </div>
+</section>
+
+</main>
+</div>
+</body>
+</html>
